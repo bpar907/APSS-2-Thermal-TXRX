@@ -1,0 +1,6 @@
+TXRX_Chip_Operation - Symbol may have a units problem as it has been used with different units
+       Dimensionless - units used by the following objects:
+              Heat Load-TXRX Chip[CHIP]::3EA 
+       J/s - units used by the following objects:
+              Heat Load-TXRX Chip[CHIP]::3EA 
+
