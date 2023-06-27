@@ -1,8 +1,8 @@
-[ AutoCAD - Thu Jun 22 19:53:01 2023  ]----------------------------------------
+[ AutoCAD - Fri Jun 23 17:27:44 2023  ]----------------------------------------
 No duplicate nodes or insulation nodalization warnings found
 
 Calculating SINDA/FLUINT data
-Calculating Thermal Analyzer Input took 0.34 sec
+Calculating Thermal Analyzer Input took 0.28 sec
 
 Outputting SINDA/FLUINT data
 Outputting data for submodel BOT_BOX...
@@ -12,8 +12,8 @@ Outputting data for submodel HEADER...
 Outputting data for submodel SPACE...
 Outputting data for submodel STACK_PCB...
 Outputting data for submodel TOP_BOX...
-    Number of nodes:      81
-    Number of conductors: 89
+    Number of nodes:      82
+    Number of conductors: 140
     
 Total Nodal Mass = 103084006.870612 kg
 
@@ -21,21 +21,20 @@ Total Nodal Mass = 103084006.870612 kg
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Lower-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Not same amount of geometry inputs
-    New Model[37], Last Run[31]
+Restart: Int values not same: 5 .vs. 22
 Deleting old database named TXRX_Internal_Lower-RcOptics.rck
 Creating new database named TXRX_Internal_Lower-RcOptics.rck
 Fixed RadCAD
 Fixed license found.
 Setting number of threads to: 8
-Time to calculate radk = 0.94 sec
+Time to calculate radk = 0.89 sec
 Outputting SINDA/FLUINT radks to file C0A0.k...
-Total elapsed time for calculations and output = 1.42 sec
-    71 calculation nodes
-    506 radks were output, 570 radks were filtered out
+Total elapsed time for calculations and output = 1.47 sec
+    76 calculation nodes
+    709 radks were output, 767 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    27 nodes(38%) have Bij Inactive > .2
+    39 nodes(51%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
     No overlapping surfaces greater than 10.0% found in TXRX_Internal_Lower
@@ -44,21 +43,20 @@ Total elapsed time for calculations and output = 1.42 sec
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Upper-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Not same amount of geometry inputs
-    New Model[38], Last Run[32]
+Restart: Int values not same: 5 .vs. 22
 Deleting old database named TXRX_Internal_Upper-RcOptics.rck
 Creating new database named TXRX_Internal_Upper-RcOptics.rck
 Fixed RadCAD
 Fixed license found.
 Setting number of threads to: 8
-Time to calculate radk = 0.84 sec
+Time to calculate radk = 0.71 sec
 Outputting SINDA/FLUINT radks to file C0A1.k...
-Total elapsed time for calculations and output = 1.29 sec
-    72 calculation nodes
-    182 radks were output, 155 radks were filtered out
+Total elapsed time for calculations and output = 1.15 sec
+    77 calculation nodes
+    236 radks were output, 226 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    22 nodes(30%) have Bij Inactive > .2
+    23 nodes(29%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
     No overlapping surfaces greater than 10.0% found in TXRX_Internal_Upper
@@ -66,7 +64,27 @@ Total elapsed time for calculations and output = 1.29 sec
 *** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\case0.inp
 Successful completion of processor
 From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\messages_case0.log
-     LOOPCT =             100  The ASTAP execution time is:    1.05643659999987       seconds
-Time to run SINDA = 7.90 sec
+     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL BOT_BOX WERE OSCILLATING AS OF LOOPCT =    102
+     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
+     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
+     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
+     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL CHIP WERE OSCILLATING AS OF LOOPCT =    102
+     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
+     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
+     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
+     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL HEADER WERE OSCILLATING AS OF LOOPCT =    102
+     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
+     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
+     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
+     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL STACK_PCB WERE OSCILLATING AS OF LOOPCT =    102
+     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
+     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
+     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
+     LOOPCT =             105  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL TOP_BOX WERE OSCILLATING AS OF LOOPCT =    105
+     LOOPCT =             105                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
+     LOOPCT =             105                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
+     LOOPCT =             105                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
+     LOOPCT =             114  The ASTAP execution time is:   0.978922500000010       seconds
+Time to run SINDA = 18.41 sec
 
-Case Set Solved::Elapsed time = 11.85 sec
+Case Set Solved::Elapsed time = 22.94 sec

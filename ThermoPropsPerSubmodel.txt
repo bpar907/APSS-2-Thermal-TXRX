@@ -8,3 +8,4 @@ STACK_PCB
         PCB 4.6% Cu
 TOP_BOX
         Aluminum 6061-T6
+        PCB 4.6% Cu

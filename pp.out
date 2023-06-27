@@ -33,7 +33,7 @@
    INPUT               MLINE = 100000 $ Limits headers output                                           ROOT                            
    INPUT           TITLE TXRX.dwg - Case Set 0                                                          ROOT                            
    INPUT           C    SINDA Data generated with Thermal Desktop 6.2 Patch 36                          ROOT                            
-   INPUT           C    Generated on Thu Jun 22 19:53:01 2023                                           ROOT                            
+   INPUT           C    Generated on Fri Jun 23 17:27:45 2023                                           ROOT                            
    INPUT           C    From file: TXRX.dwg                                                             ROOT                            
    INPUT           C    Case Set: Case Set 0                                                            ROOT                            
    INPUT           C    TDUNITS,   Energy     = J                                                       ROOT                            
@@ -158,49 +158,39 @@ HEADER NODE DATA, TOP_BOX
  CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
 
    INPUT           HEADER NODE DATA, BOT_BOX                                                            BOT_BOX                         
-   INPUT                       1,    293.15,    2.945791E+08                                            BOT_BOX                         
-   INPUT                       2,    293.15,    2.945791E+08                                            BOT_BOX                         
-   INPUT                       3,    293.15,    2.184090E+08                                            BOT_BOX                         
-   INPUT                       4,    293.15,    3.610654E+09                                            BOT_BOX                         
-   INPUT                       5,    293.15,    1.876952E+08                                            BOT_BOX                         
+   INPUT                       3,    293.15,    2.127414E+08                                            BOT_BOX                         
    INPUT                       6,    293.15,    3.798349E+09                                            BOT_BOX                         
    INPUT                       7,    293.15,    3.829063E+09                                            BOT_BOX                         
-   INPUT                       8,    293.15,    2.900744E+08                                            BOT_BOX                         
-   INPUT                       9,    293.15,    3.375411E+08                                            BOT_BOX                         
-   INPUT                       10,    293.15,    1.160298E+08                                           BOT_BOX                         
-   INPUT                       11,    293.15,    2.478818E+08                                           BOT_BOX                         
-   INPUT                       12,    293.15,    8.754973E+08                                           BOT_BOX                         
-   INPUT                       13,    293.15,    1.160298E+08                                           BOT_BOX                         
-   INPUT                       14,    293.15,    2.315974E+08                                           BOT_BOX                         
-   INPUT                       15,    293.15,    2.618075E+08                                           BOT_BOX                         
-   INPUT                       16,    293.15,    5.010376E+08                                           BOT_BOX                         
-   INPUT                       17,    293.15,    5.010376E+08                                           BOT_BOX                         
-   INPUT                       18,    293.15,    2.184090E+08                                           BOT_BOX                         
-   INPUT                       19,    293.15,    3.610654E+09                                           BOT_BOX                         
-   INPUT                       20,    293.15,    5.010376E+08                                           BOT_BOX                         
-   INPUT                       21,    293.15,    5.010376E+08                                           BOT_BOX                         
-   INPUT                       22,    293.15,    1.876952E+08                                           BOT_BOX                         
-   INPUT                       23,    293.15,    1.876952E+08                                           BOT_BOX                         
-   INPUT                       24,    293.15,    2.184090E+08                                           BOT_BOX                         
+   INPUT                       11,    293.15,    2.892212E+08                                           BOT_BOX                         
+   INPUT                       12,    293.15,    2.786731E+08                                           BOT_BOX                         
+   INPUT                       13,    293.15,    6.166827E+08                                           BOT_BOX                         
+   INPUT                       14,    293.15,    3.093868E+08                                           BOT_BOX                         
+   INPUT                       15,    293.15,    6.166827E+08                                           BOT_BOX                         
+   INPUT                       16,    293.15,    3.318017E+08                                           BOT_BOX                         
+   INPUT                       17,    293.15,    5.789935E+07                                           BOT_BOX                         
+   INPUT                       18,    293.15,    6.545187E+07                                           BOT_BOX                         
+   INPUT                       22,    293.15,    5.107326E+08                                           BOT_BOX                         
+   INPUT                       23,    293.15,    5.533130E+08                                           BOT_BOX                         
+   INPUT                       24,    293.15,    3.668553E+09                                           BOT_BOX                         
+   INPUT                       25,    293.15,    3.676106E+09                                           BOT_BOX                         
+   INPUT                       26,    293.15,    2.051889E+08                                           BOT_BOX                         
+   INPUT                       27,    293.15,    6.545187E+07                                           BOT_BOX                         
+   INPUT                       28,    293.15,    5.789935E+07                                           BOT_BOX                         
    INPUT           HEADER NODE DATA, CHIP                                                               CHIP                            
    INPUT                       1,    293.15,    4.885067E+07                                            CHIP                            
    INPUT           HEADER NODE DATA, HEADER                                                             HEADER                          
-   INPUT                       1,    293.15,    1.798751E+09                                            HEADER                          
-   INPUT                       2,    293.15,    1.798751E+09                                            HEADER                          
-   INPUT                       3,    293.15,    1.798751E+09                                            HEADER                          
-   INPUT                       4,    293.15,    1.798751E+09                                            HEADER                          
+   INPUT                       1,    293.15,    5.396252E+09                                            HEADER                          
+   INPUT                       2,    293.15,    5.396252E+09                                            HEADER                          
+   INPUT                       3,    293.15,    5.396252E+09                                            HEADER                          
+   INPUT                       4,    293.15,    5.396252E+09                                            HEADER                          
    INPUT                       5,    293.15,    1.798751E+09                                            HEADER                          
    INPUT                       6,    293.15,    1.798751E+09                                            HEADER                          
    INPUT                       7,    293.15,    1.798751E+09                                            HEADER                          
    INPUT                       8,    293.15,    1.798751E+09                                            HEADER                          
-   INPUT                       9,    293.15,    3.597502E+09                                            HEADER                          
-   INPUT                       10,    293.15,    3.597502E+09                                           HEADER                          
    INPUT                       11,    293.15,    3.597502E+09                                           HEADER                          
    INPUT                       12,    293.15,    3.597502E+09                                           HEADER                          
    INPUT                       13,    293.15,    3.597502E+09                                           HEADER                          
    INPUT                       14,    293.15,    3.597502E+09                                           HEADER                          
-   INPUT                       15,    293.15,    3.597502E+09                                           HEADER                          
-   INPUT                       16,    293.15,    3.597502E+09                                           HEADER                          
    INPUT           HEADER NODE DATA, SPACE                                                              SPACE                           
    INPUT                       -1,    2.73,    -1.0                                                     SPACE                           
    INPUT           HEADER NODE DATA, STACK_PCB                                                          STACK_PCB                       
@@ -212,38 +202,49 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       6,    293.15,    3.040954E+09                                            STACK_PCB                       
    INPUT                       8,    293.15,    3.040954E+09                                            STACK_PCB                       
    INPUT                       9,    293.15,    1.520477E+09                                            STACK_PCB                       
-   INPUT                       10,    293.15,    3.070613E+08                                           STACK_PCB                       
    INPUT                       11,    293.15,    1.827538E+09                                           STACK_PCB                       
    INPUT                       12,    293.15,    3.040954E+09                                           STACK_PCB                       
    INPUT                       13,    293.15,    3.070613E+08                                           STACK_PCB                       
-   INPUT                       14,    293.15,    1.520477E+09                                           STACK_PCB                       
    INPUT                       15,    293.15,    3.070613E+08                                           STACK_PCB                       
    INPUT                       16,    293.15,    3.040954E+09                                           STACK_PCB                       
    INPUT           HEADER NODE DATA, TOP_BOX                                                            TOP_BOX                         
-   INPUT                       1,    293.15,    1.444262E+10                                            TOP_BOX                         
-   INPUT                       2,    293.15,    1.703528E+09                                            TOP_BOX                         
-   INPUT                       3,    293.15,    2.184090E+08                                            TOP_BOX                         
-   INPUT                       4,    293.15,    2.184090E+08                                            TOP_BOX                         
+   INPUT                       2,    293.15,    3.610654E+09                                            TOP_BOX                         
+   INPUT                       3,    293.15,    3.610654E+09                                            TOP_BOX                         
+   INPUT                       4,    293.15,    3.610654E+09                                            TOP_BOX                         
    INPUT                       5,    293.15,    1.876952E+08                                            TOP_BOX                         
    INPUT                       6,    293.15,    1.876952E+08                                            TOP_BOX                         
-   INPUT                       7,    293.15,    2.184090E+08                                            TOP_BOX                         
-   INPUT                       8,    293.15,    3.945012E+08                                            TOP_BOX                         
-   INPUT                       9,    293.15,    8.427980E+08                                            TOP_BOX                         
-   INPUT                       10,    293.15,    1.147640E+09                                           TOP_BOX                         
-   INPUT                       11,    293.15,    9.862530E+08                                           TOP_BOX                         
-   INPUT                       12,    293.15,    3.945012E+08                                           TOP_BOX                         
-   INPUT                       13,    293.15,    2.315974E+08                                           TOP_BOX                         
-   INPUT                       14,    293.15,    2.618075E+08                                           TOP_BOX                         
-   INPUT                       15,    293.15,    2.945791E+08                                           TOP_BOX                         
-   INPUT                       16,    293.15,    1.703528E+09                                           TOP_BOX                         
-   INPUT                       17,    293.15,    1.488345E+09                                           TOP_BOX                         
-   INPUT                       18,    293.15,    1.703528E+09                                           TOP_BOX                         
+   INPUT                       8,    293.15,    4.467146E+08                                            TOP_BOX                         
+   INPUT                       9,    293.15,    4.003027E+08                                            TOP_BOX                         
+   INPUT                       10,    293.15,    3.451885E+08                                           TOP_BOX                         
+   INPUT                       11,    293.15,    3.093248E+08                                           TOP_BOX                         
+   INPUT                       12,    293.15,    4.003027E+08                                           TOP_BOX                         
+   INPUT                       13,    293.15,    3.668553E+09                                           TOP_BOX                         
+   INPUT                       14,    293.15,    5.789935E+07                                           TOP_BOX                         
+   INPUT                       15,    293.15,    1.472895E+08                                           TOP_BOX                         
+   INPUT                       16,    293.15,    5.789935E+07                                           TOP_BOX                         
+   INPUT                       17,    293.15,    6.545187E+07                                           TOP_BOX                         
    INPUT                       19,    293.15,    2.184090E+08                                           TOP_BOX                         
-   INPUT                       20,    293.15,    2.945791E+08                                           TOP_BOX                         
-   INPUT                       21,    293.15,    1.703528E+09                                           TOP_BOX                         
-   INPUT                       22,    293.15,    1.488345E+09                                           TOP_BOX                         
-   INPUT                       23,    293.15,    1.876952E+08                                           TOP_BOX                         
-   INPUT                       24,    293.15,    1.876952E+08                                           TOP_BOX                         
+   INPUT                       20,    293.15,    1.472895E+08                                           TOP_BOX                         
+   INPUT                       21,    293.15,    1.472895E+08                                           TOP_BOX                         
+   INPUT                       22,    293.15,    1.472895E+08                                           TOP_BOX                         
+   INPUT                       23,    293.15,    1.595937E+09                                           TOP_BOX                         
+   INPUT                       24,    293.15,    2.065330E+09                                           TOP_BOX                         
+   INPUT                       25,    293.15,    1.098327E+09                                           TOP_BOX                         
+   INPUT                       26,    293.15,    1.421365E+09                                           TOP_BOX                         
+   INPUT                       27,    293.15,    1.357083E+09                                           TOP_BOX                         
+   INPUT                       28,    293.15,    1.780639E+09                                           TOP_BOX                         
+   INPUT                       29,    293.15,    4.989280E+08                                           TOP_BOX                         
+   INPUT                       30,    293.15,    3.093248E+08                                           TOP_BOX                         
+   INPUT                       31,    293.15,    6.545187E+07                                           TOP_BOX                         
+   INPUT                       32,    293.15,    6.039442E+08                                           TOP_BOX                         
+   INPUT                       33,    293.15,    6.545187E+07                                           TOP_BOX                         
+   INPUT                       34,    293.15,    5.789935E+07                                           TOP_BOX                         
+   INPUT                       35,    293.15,    6.545187E+07                                           TOP_BOX                         
+   INPUT                       36,    293.15,    1.595937E+09                                           TOP_BOX                         
+   INPUT                       37,    293.15,    3.585807E+09                                           TOP_BOX                         
+   INPUT                       38,    293.15,    1.876952E+08                                           TOP_BOX                         
+   INPUT                       39,    293.15,    1.876952E+08                                           TOP_BOX                         
+   INPUT                       40,    293.15,    2.184090E+08                                           TOP_BOX                         
    INPUT           HEADER NODE DATA,C0A0                                                                C0A0                            
    INPUT           HEADER NODE DATA,C0A1                                                                C0A1                            
 
@@ -255,73 +256,90 @@ HEADER NODE DATA, TOP_BOX
  CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
 
    INPUT           HEADER CONDUCTOR DATA, BOT_BOX                                                       BOT_BOX                         
-   INPUT                       1,    BOT_BOX.1,    BOT_BOX.2,    11.57094                               BOT_BOX                         
-   INPUT                       2,    BOT_BOX.3,    BOT_BOX.7,    28.85781                               BOT_BOX                         
-   INPUT                       3,    BOT_BOX.3,    BOT_BOX.24,    244.2182                              BOT_BOX                         
-   INPUT                       4,    BOT_BOX.4,    BOT_BOX.7,    99.38453                               BOT_BOX                         
-   INPUT                       5,    BOT_BOX.4,    BOT_BOX.19,    70.91246                              BOT_BOX                         
-   INPUT                       6,    BOT_BOX.5,    BOT_BOX.6,    209.875                                BOT_BOX                         
-   INPUT                       7,    BOT_BOX.5,    BOT_BOX.22,    33.58                                 BOT_BOX                         
-   INPUT                       8,    BOT_BOX.6,    BOT_BOX.7,    70.91246                               BOT_BOX                         
-   INPUT                       9,    BOT_BOX.6,    BOT_BOX.19,    99.38453                              BOT_BOX                         
-   INPUT                       10,    BOT_BOX.6,    BOT_BOX.23,    33.58                                BOT_BOX                         
-   INPUT                       11,    BOT_BOX.7,    BOT_BOX.18,    244.2182                             BOT_BOX                         
-   INPUT                       12,    BOT_BOX.16,    BOT_BOX.20,    15.02263                            BOT_BOX                         
-   INPUT                       13,    BOT_BOX.17,    BOT_BOX.21,    15.02263                            BOT_BOX                         
-   INPUT                       14,    BOT_BOX.18,    BOT_BOX.24,    28.85781                            BOT_BOX                         
-   INPUT                       15,    BOT_BOX.22,    BOT_BOX.23,    209.875                             BOT_BOX                         
+   INPUT                       1,    BOT_BOX.3,    BOT_BOX.13,    2436.311                              BOT_BOX                         
+   INPUT                       2,    BOT_BOX.3,    BOT_BOX.18,    96.82276                              BOT_BOX                         
+   INPUT                       3,    BOT_BOX.3,    BOT_BOX.25,    72.78869                              BOT_BOX                         
+   INPUT                       4,    BOT_BOX.3,    BOT_BOX.26,    2.892735                              BOT_BOX                         
+   INPUT                       5,    BOT_BOX.6,    BOT_BOX.7,    70.91246                               BOT_BOX                         
+   INPUT                       6,    BOT_BOX.6,    BOT_BOX.12,    33.58                                 BOT_BOX                         
+   INPUT                       7,    BOT_BOX.6,    BOT_BOX.22,    209.875                               BOT_BOX                         
+   INPUT                       8,    BOT_BOX.6,    BOT_BOX.24,    99.38453                              BOT_BOX                         
+   INPUT                       9,    BOT_BOX.7,    BOT_BOX.14,    28.85781                              BOT_BOX                         
+   INPUT                       10,    BOT_BOX.7,    BOT_BOX.23,    244.2182                             BOT_BOX                         
+   INPUT                       11,    BOT_BOX.7,    BOT_BOX.25,    99.38453                             BOT_BOX                         
+   INPUT                       12,    BOT_BOX.11,    BOT_BOX.12,    242.3102                            BOT_BOX                         
+   INPUT                       13,    BOT_BOX.11,    BOT_BOX.22,    46.55409                            BOT_BOX                         
+   INPUT                       14,    BOT_BOX.11,    TOP_BOX.8,    2197.811                             BOT_BOX                         
+   INPUT                       15,    BOT_BOX.12,    BOT_BOX.14,    15.18245                            BOT_BOX                         
+   INPUT                       16,    BOT_BOX.12,    TOP_BOX.9,    1969.467                             BOT_BOX                         
+   INPUT                       17,    BOT_BOX.13,    BOT_BOX.15,    7.191379                            BOT_BOX                         
+   INPUT                       18,    BOT_BOX.13,    BOT_BOX.23,    3.755658                            BOT_BOX                         
+   INPUT                       19,    BOT_BOX.13,    TOP_BOX.37,    10161.31                            BOT_BOX                         
+   INPUT                       20,    BOT_BOX.14,    BOT_BOX.16,    276.6534                            BOT_BOX                         
+   INPUT                       21,    BOT_BOX.14,    TOP_BOX.12,    1969.467                            BOT_BOX                         
+   INPUT                       22,    BOT_BOX.15,    BOT_BOX.22,    3.755658                            BOT_BOX                         
+   INPUT                       23,    BOT_BOX.15,    BOT_BOX.26,    2436.311                            BOT_BOX                         
+   INPUT                       24,    BOT_BOX.15,    TOP_BOX.24,    10161.31                            BOT_BOX                         
+   INPUT                       25,    BOT_BOX.16,    BOT_BOX.23,    40.00742                            BOT_BOX                         
+   INPUT                       26,    BOT_BOX.16,    TOP_BOX.29,    2454.698                            BOT_BOX                         
+   INPUT                       27,    BOT_BOX.17,    BOT_BOX.26,    109.4525                            BOT_BOX                         
+   INPUT                       28,    BOT_BOX.17,    BOT_BOX.28,    64.38957                            BOT_BOX                         
+   INPUT                       29,    BOT_BOX.18,    BOT_BOX.27,    72.78869                            BOT_BOX                         
+   INPUT                       30,    BOT_BOX.22,    TOP_BOX.26,    6993.035                            BOT_BOX                         
+   INPUT                       31,    BOT_BOX.23,    TOP_BOX.28,    7249.922                            BOT_BOX                         
+   INPUT                       32,    BOT_BOX.24,    BOT_BOX.25,    70.91246                            BOT_BOX                         
+   INPUT                       33,    BOT_BOX.24,    BOT_BOX.26,    64.38957                            BOT_BOX                         
+   INPUT                       34,    BOT_BOX.24,    BOT_BOX.28,    109.4525                            BOT_BOX                         
+   INPUT                       35,    BOT_BOX.25,    BOT_BOX.27,    96.82276                            BOT_BOX                         
+   INPUT                       36,    TOP_BOX.8,    TOP_BOX.9,    32.43523                              BOT_BOX                         
+   INPUT                       37,    TOP_BOX.8,    TOP_BOX.26,    12.97409                             BOT_BOX                         
+   INPUT                       38,    TOP_BOX.9,    TOP_BOX.12,    15.18245                             BOT_BOX                         
+   INPUT                       39,    TOP_BOX.12,    TOP_BOX.29,    32.43523                            BOT_BOX                         
+   INPUT                       40,    TOP_BOX.24,    TOP_BOX.26,    3.755658                            BOT_BOX                         
+   INPUT                       41,    TOP_BOX.24,    TOP_BOX.37,    4.298645                            BOT_BOX                         
+   INPUT                       42,    TOP_BOX.28,    TOP_BOX.29,    11.14961                            BOT_BOX                         
+   INPUT                       43,    TOP_BOX.28,    TOP_BOX.37,    3.755658                            BOT_BOX                         
    INPUT           HEADER CONDUCTOR DATA, CHIP                                                          CHIP                            
    INPUT           C Contact - Face Contactor[CHIP][0]::3DA                                             CHIP                            
-   INPUT                       1,    CHIP.1,    STACK_PCB.11,    7.                                     CHIP                            
-   INPUT                       2,    CHIP.1,    STACK_PCB.16,    3.                                     CHIP                            
+   INPUT                       1,    CHIP.1,    STACK_PCB.11,    28000.                                 CHIP                            
+   INPUT                       2,    CHIP.1,    STACK_PCB.16,    12000.                                 CHIP                            
    INPUT           HEADER CONDUCTOR DATA, HEADER                                                        HEADER                          
-   INPUT                       1,    HEADER.1,    HEADER.2,    152.8777                                 HEADER                          
-   INPUT                       2,    HEADER.1,    HEADER.3,    4.405376                                 HEADER                          
+   INPUT                       1,    HEADER.1,    HEADER.2,    458.633                                  HEADER                          
+   INPUT                       2,    HEADER.1,    HEADER.3,    13.21613                                 HEADER                          
    INPUT                       3,    HEADER.1,    HEADER.5,    561.7216                                 HEADER                          
-   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
-   INPUT                       4,    HEADER.1,    STACK_PCB.6,    0.15                                  HEADER                          
-   INPUT                       5,    HEADER.1,    STACK_PCB.9,    0.1                                   HEADER                          
-   INPUT                       6,    HEADER.2,    HEADER.4,    4.405376                                 HEADER                          
-   INPUT                       7,    HEADER.2,    HEADER.6,    561.7216                                 HEADER                          
-   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
-   INPUT                       8,    HEADER.2,    STACK_PCB.6,    0.15                                  HEADER                          
-   INPUT                       9,    HEADER.2,    STACK_PCB.9,    0.1                                   HEADER                          
-   INPUT                       10,    HEADER.3,    HEADER.4,    152.8777                                HEADER                          
-   INPUT                       11,    HEADER.3,    HEADER.7,    561.7216                                HEADER                          
-   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
-   INPUT                       12,    HEADER.3,    STACK_PCB.6,    0.175                                HEADER                          
-   INPUT                       13,    HEADER.3,    STACK_PCB.14,    0.075                               HEADER                          
-   INPUT                       14,    HEADER.4,    HEADER.8,    561.7216                                HEADER                          
-   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
-   INPUT                       15,    HEADER.4,    STACK_PCB.6,    0.175                                HEADER                          
-   INPUT                       16,    HEADER.4,    STACK_PCB.14,    0.075                               HEADER                          
-   INPUT                       17,    HEADER.5,    HEADER.6,    152.8777                                HEADER                          
-   INPUT                       18,    HEADER.5,    HEADER.7,    4.405376                                HEADER                          
-   INPUT                       19,    HEADER.6,    HEADER.8,    4.405376                                HEADER                          
-   INPUT                       20,    HEADER.7,    HEADER.8,    152.8777                                HEADER                          
-   INPUT                       21,    HEADER.9,    HEADER.10,    305.7553                               HEADER                          
-   INPUT                       22,    HEADER.9,    HEADER.13,    280.8608                               HEADER                          
-   INPUT                       23,    HEADER.9,    HEADER.15,    8.810753                               HEADER                          
+   INPUT                       4,    HEADER.1,    HEADER.11,    280.8608                                HEADER                          
    INPUT           C Contact - Face Contactor[HEADER][2]::486                                           HEADER                          
-   INPUT                       24,    HEADER.9,    STACK_PCB.6,    0.175                                HEADER                          
-   INPUT                       25,    HEADER.9,    STACK_PCB.14,    0.075                               HEADER                          
-   INPUT                       26,    HEADER.10,    HEADER.14,    280.8608                              HEADER                          
-   INPUT                       27,    HEADER.10,    HEADER.16,    8.810753                              HEADER                          
+   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
+   INPUT                       5,    HEADER.1,    STACK_PCB.6,    0.3                                   HEADER                          
+   INPUT                       6,    HEADER.1,    STACK_PCB.9,    0.2                                   HEADER                          
+   INPUT                       7,    HEADER.2,    HEADER.4,    13.21613                                 HEADER                          
+   INPUT                       8,    HEADER.2,    HEADER.6,    561.7216                                 HEADER                          
+   INPUT                       9,    HEADER.2,    HEADER.12,    280.8608                                HEADER                          
    INPUT           C Contact - Face Contactor[HEADER][2]::486                                           HEADER                          
-   INPUT                       28,    HEADER.10,    STACK_PCB.6,    0.175                               HEADER                          
-   INPUT                       29,    HEADER.10,    STACK_PCB.14,    0.075                              HEADER                          
-   INPUT                       30,    HEADER.11,    HEADER.12,    305.7553                              HEADER                          
-   INPUT                       31,    HEADER.11,    HEADER.13,    8.810753                              HEADER                          
-   INPUT                       32,    HEADER.11,    HEADER.15,    280.8608                              HEADER                          
-   INPUT                       33,    HEADER.12,    HEADER.14,    8.810753                              HEADER                          
-   INPUT                       34,    HEADER.12,    HEADER.16,    280.8608                              HEADER                          
-   INPUT                       35,    HEADER.13,    HEADER.14,    305.7553                              HEADER                          
-   INPUT                       36,    HEADER.15,    HEADER.16,    305.7553                              HEADER                          
+   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
+   INPUT                       10,    HEADER.2,    STACK_PCB.6,    0.3                                  HEADER                          
+   INPUT                       11,    HEADER.2,    STACK_PCB.9,    0.2                                  HEADER                          
+   INPUT                       12,    HEADER.3,    HEADER.4,    458.633                                 HEADER                          
+   INPUT                       13,    HEADER.3,    HEADER.7,    561.7216                                HEADER                          
+   INPUT                       14,    HEADER.3,    HEADER.13,    280.8608                               HEADER                          
    INPUT           C Contact - Face Contactor[HEADER][2]::486                                           HEADER                          
-   INPUT                       37,    HEADER.15,    STACK_PCB.6,    0.15                                HEADER                          
-   INPUT                       38,    HEADER.15,    STACK_PCB.9,    0.1                                 HEADER                          
-   INPUT                       39,    HEADER.16,    STACK_PCB.6,    0.15                                HEADER                          
-   INPUT                       40,    HEADER.16,    STACK_PCB.9,    0.1                                 HEADER                          
+   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
+   INPUT                       15,    HEADER.3,    STACK_PCB.6,    0.35                                 HEADER                          
+   INPUT                       16,    HEADER.3,    TOP_BOX.37,    0.15                                  HEADER                          
+   INPUT                       17,    HEADER.4,    HEADER.8,    561.7216                                HEADER                          
+   INPUT                       18,    HEADER.4,    HEADER.14,    280.8608                               HEADER                          
+   INPUT           C Contact - Face Contactor[HEADER][2]::486                                           HEADER                          
+   INPUT           C Contact - Face Contactor[HEADER][1]::48D                                           HEADER                          
+   INPUT                       19,    HEADER.4,    STACK_PCB.6,    0.35                                 HEADER                          
+   INPUT                       20,    HEADER.4,    TOP_BOX.37,    0.15                                  HEADER                          
+   INPUT                       21,    HEADER.5,    HEADER.6,    152.8777                                HEADER                          
+   INPUT                       22,    HEADER.5,    HEADER.7,    4.405376                                HEADER                          
+   INPUT                       23,    HEADER.6,    HEADER.8,    4.405376                                HEADER                          
+   INPUT                       24,    HEADER.7,    HEADER.8,    152.8777                                HEADER                          
+   INPUT                       25,    HEADER.11,    HEADER.12,    305.7553                              HEADER                          
+   INPUT                       26,    HEADER.11,    HEADER.13,    8.810753                              HEADER                          
+   INPUT                       27,    HEADER.12,    HEADER.14,    8.810753                              HEADER                          
+   INPUT                       28,    HEADER.13,    HEADER.14,    305.7553                              HEADER                          
    INPUT           HEADER CONDUCTOR DATA, STACK_PCB                                                     STACK_PCB                       
    INPUT                       1,    STACK_PCB.1,    STACK_PCB.2,    22.55                              STACK_PCB                       
    INPUT                       2,    STACK_PCB.1,    STACK_PCB.3,    3.608                              STACK_PCB                       
@@ -334,28 +352,63 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       9,    STACK_PCB.5,    STACK_PCB.12,    18.25735                          STACK_PCB                       
    INPUT                       10,    STACK_PCB.5,    STACK_PCB.16,    17.82524                         STACK_PCB                       
    INPUT                       11,    STACK_PCB.6,    STACK_PCB.9,    9.128675                          STACK_PCB                       
-   INPUT                       12,    STACK_PCB.6,    STACK_PCB.14,    9.128675                         STACK_PCB                       
+   INPUT                       12,    STACK_PCB.6,    TOP_BOX.37,    9.128675                           STACK_PCB                       
    INPUT                       13,    STACK_PCB.8,    STACK_PCB.9,    8.912619                          STACK_PCB                       
-   INPUT                       14,    STACK_PCB.10,    STACK_PCB.11,    26.24                           STACK_PCB                       
-   INPUT                       15,    STACK_PCB.10,    STACK_PCB.13,    3.100625                        STACK_PCB                       
-   INPUT                       16,    STACK_PCB.11,    STACK_PCB.12,    8.912619                        STACK_PCB                       
-   INPUT                       17,    STACK_PCB.11,    STACK_PCB.15,    3.100625                        STACK_PCB                       
-   INPUT                       18,    STACK_PCB.11,    STACK_PCB.16,    9.128675                        STACK_PCB                       
-   INPUT                       19,    STACK_PCB.12,    STACK_PCB.14,    8.912619                        STACK_PCB                       
-   INPUT                       20,    STACK_PCB.13,    STACK_PCB.15,    26.24                           STACK_PCB                       
+   INPUT                       14,    STACK_PCB.11,    STACK_PCB.12,    8.912619                        STACK_PCB                       
+   INPUT                       15,    STACK_PCB.11,    STACK_PCB.15,    3.100625                        STACK_PCB                       
+   INPUT                       16,    STACK_PCB.11,    STACK_PCB.16,    9.128675                        STACK_PCB                       
+   INPUT                       17,    STACK_PCB.11,    TOP_BOX.28,    26.24                             STACK_PCB                       
+   INPUT                       18,    STACK_PCB.12,    TOP_BOX.37,    8.912619                          STACK_PCB                       
+   INPUT                       19,    STACK_PCB.13,    STACK_PCB.15,    26.24                           STACK_PCB                       
+   INPUT                       20,    STACK_PCB.13,    TOP_BOX.28,    3.100625                          STACK_PCB                       
    INPUT           HEADER CONDUCTOR DATA, TOP_BOX                                                       TOP_BOX                         
-   INPUT                       1,    TOP_BOX.2,    TOP_BOX.18,    3190.1                                TOP_BOX                         
-   INPUT                       2,    TOP_BOX.3,    TOP_BOX.4,    244.2182                               TOP_BOX                         
-   INPUT                       3,    TOP_BOX.3,    TOP_BOX.7,    28.85781                               TOP_BOX                         
-   INPUT                       4,    TOP_BOX.4,    TOP_BOX.19,    28.85781                              TOP_BOX                         
+   INPUT                       1,    TOP_BOX.2,    TOP_BOX.4,    99.38453                               TOP_BOX                         
+   INPUT                       2,    TOP_BOX.2,    TOP_BOX.13,    70.91246                              TOP_BOX                         
+   INPUT                       3,    TOP_BOX.3,    TOP_BOX.4,    70.91246                               TOP_BOX                         
+   INPUT                       4,    TOP_BOX.3,    TOP_BOX.13,    99.38453                              TOP_BOX                         
    INPUT                       5,    TOP_BOX.5,    TOP_BOX.6,    209.875                                TOP_BOX                         
-   INPUT                       6,    TOP_BOX.5,    TOP_BOX.23,    33.58                                 TOP_BOX                         
-   INPUT                       7,    TOP_BOX.6,    TOP_BOX.24,    33.58                                 TOP_BOX                         
-   INPUT                       8,    TOP_BOX.7,    TOP_BOX.19,    244.2182                              TOP_BOX                         
-   INPUT                       9,    TOP_BOX.15,    TOP_BOX.20,    11.57094                             TOP_BOX                         
-   INPUT                       10,    TOP_BOX.16,    TOP_BOX.21,    3190.1                              TOP_BOX                         
-   INPUT                       11,    TOP_BOX.17,    TOP_BOX.22,    58.46157                            TOP_BOX                         
-   INPUT                       12,    TOP_BOX.23,    TOP_BOX.24,    209.875                             TOP_BOX                         
+   INPUT                       6,    TOP_BOX.5,    TOP_BOX.38,    33.58                                 TOP_BOX                         
+   INPUT                       7,    TOP_BOX.6,    TOP_BOX.39,    33.58                                 TOP_BOX                         
+   INPUT                       8,    TOP_BOX.8,    TOP_BOX.9,    110.2798                               TOP_BOX                         
+   INPUT                       9,    TOP_BOX.8,    TOP_BOX.10,    646.415                               TOP_BOX                         
+   INPUT                       10,    TOP_BOX.8,    TOP_BOX.26,    44.11191                             TOP_BOX                         
+   INPUT                       11,    TOP_BOX.9,    TOP_BOX.11,    579.255                              TOP_BOX                         
+   INPUT                       12,    TOP_BOX.9,    TOP_BOX.12,    51.62032                             TOP_BOX                         
+   INPUT                       13,    TOP_BOX.10,    TOP_BOX.11,    110.2798                            TOP_BOX                         
+   INPUT                       14,    TOP_BOX.10,    TOP_BOX.25,    44.11191                            TOP_BOX                         
+   INPUT                       15,    TOP_BOX.11,    TOP_BOX.30,    51.62032                            TOP_BOX                         
+   INPUT                       16,    TOP_BOX.12,    TOP_BOX.29,    110.2798                            TOP_BOX                         
+   INPUT                       17,    TOP_BOX.12,    TOP_BOX.30,    579.255                             TOP_BOX                         
+   INPUT                       18,    TOP_BOX.13,    TOP_BOX.14,    64.38957                            TOP_BOX                         
+   INPUT                       19,    TOP_BOX.13,    TOP_BOX.34,    109.4525                            TOP_BOX                         
+   INPUT                       20,    TOP_BOX.14,    TOP_BOX.16,    109.4525                            TOP_BOX                         
+   INPUT                       21,    TOP_BOX.15,    TOP_BOX.20,    4872.622                            TOP_BOX                         
+   INPUT                       22,    TOP_BOX.15,    TOP_BOX.21,    5.78547                             TOP_BOX                         
+   INPUT                       23,    TOP_BOX.16,    TOP_BOX.34,    64.38957                            TOP_BOX                         
+   INPUT                       24,    TOP_BOX.17,    TOP_BOX.33,    72.78869                            TOP_BOX                         
+   INPUT                       25,    TOP_BOX.17,    TOP_BOX.35,    96.82276                            TOP_BOX                         
+   INPUT                       26,    TOP_BOX.19,    TOP_BOX.27,    244.2182                            TOP_BOX                         
+   INPUT                       27,    TOP_BOX.19,    TOP_BOX.40,    28.85781                            TOP_BOX                         
+   INPUT                       28,    TOP_BOX.20,    TOP_BOX.22,    5.78547                             TOP_BOX                         
+   INPUT                       29,    TOP_BOX.21,    TOP_BOX.22,    4872.622                            TOP_BOX                         
+   INPUT                       30,    TOP_BOX.23,    TOP_BOX.24,    2988.62                             TOP_BOX                         
+   INPUT                       31,    TOP_BOX.23,    TOP_BOX.25,    12.76924                            TOP_BOX                         
+   INPUT                       32,    TOP_BOX.23,    TOP_BOX.36,    14.61539                            TOP_BOX                         
+   INPUT                       33,    TOP_BOX.24,    TOP_BOX.26,    12.76924                            TOP_BOX                         
+   INPUT                       34,    TOP_BOX.24,    TOP_BOX.37,    14.61539                            TOP_BOX                         
+   INPUT                       35,    TOP_BOX.25,    TOP_BOX.26,    2056.775                            TOP_BOX                         
+   INPUT                       36,    TOP_BOX.27,    TOP_BOX.28,    2132.33                             TOP_BOX                         
+   INPUT                       37,    TOP_BOX.27,    TOP_BOX.32,    66.76648                            TOP_BOX                         
+   INPUT                       38,    TOP_BOX.27,    TOP_BOX.36,    12.76924                            TOP_BOX                         
+   INPUT                       39,    TOP_BOX.28,    TOP_BOX.29,    37.90867                            TOP_BOX                         
+   INPUT                       40,    TOP_BOX.28,    TOP_BOX.37,    12.76924                            TOP_BOX                         
+   INPUT                       41,    TOP_BOX.29,    TOP_BOX.32,    721.97                              TOP_BOX                         
+   INPUT                       42,    TOP_BOX.30,    TOP_BOX.32,    110.2798                            TOP_BOX                         
+   INPUT                       43,    TOP_BOX.31,    TOP_BOX.33,    96.82276                            TOP_BOX                         
+   INPUT                       44,    TOP_BOX.31,    TOP_BOX.35,    72.78869                            TOP_BOX                         
+   INPUT                       45,    TOP_BOX.32,    TOP_BOX.40,    244.2182                            TOP_BOX                         
+   INPUT                       46,    TOP_BOX.36,    TOP_BOX.37,    2988.62                             TOP_BOX                         
+   INPUT                       47,    TOP_BOX.38,    TOP_BOX.39,    209.875                             TOP_BOX                         
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     6
 

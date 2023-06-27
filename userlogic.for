@@ -296,7 +296,7 @@
        use sf_interfaces
        USE USERREGISTER_MOD
        USE USERCOMMONDATA
-       Q(          25) = Q(          25) + 1.2000000
+       Q(          19) = Q(          19) + 1.2000000
        CALL QVTIME('CHIP')
        CALL GVTIME('CHIP')
        CALL CVTIME('CHIP')
