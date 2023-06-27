@@ -1,1 +1,9 @@
-No overlapping surfaces greater than 10.0%% found in TXRX_Internal_Upper
+Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+Node HEADER.16::47F is overlapped by STACK_PCB.11 covering  100%%
+Node HEADER.18::481 is overlapped by STACK_PCB.22 covering  100%%
+Node HEADER.1::600 is overlapped by STACK_PCB.7 covering  100%%
+Node HEADER.3::5FE is overlapped by STACK_PCB.3 covering  100%%
+Node STACK_PCB.11::740 is overlapped by HEADER.16 covering  100%%
+Node STACK_PCB.22::74C is overlapped by HEADER.1 covering  100%%
+Node STACK_PCB.3::59A is overlapped by HEADER.3 covering  100%%
+Node STACK_PCB.7::59E is overlapped by HEADER.18 covering  100%%

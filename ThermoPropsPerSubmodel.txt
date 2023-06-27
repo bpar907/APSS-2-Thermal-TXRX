@@ -1,10 +1,12 @@
 BOT_BOX
         Aluminum 6061-T6
+        PCB 4.6% Cu
 CHIP
         PCB 4.6% Cu
 HEADER
         PCB 4.6% Cu
 STACK_PCB
+        Aluminum 6061-T6
         PCB 4.6% Cu
 TOP_BOX
         Aluminum 6061-T6

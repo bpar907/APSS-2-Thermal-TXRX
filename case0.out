@@ -21,8 +21,8 @@
                MODIFICATION DATE .... 09FEB2023 
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     1
- DATE = 06/23/2023 START TIME = 17:28:03
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0
+ DATE = 06/27/2023 START TIME = 20:11:12
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0
  
 
 
@@ -146,12 +146,12 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
   GLOBAL CONTROL CONSTANTS
 
 
-   ABSZRO =   0.00000     SIGMA  =  5.670400E-08    TIMEM  =   0.00000        TIMEN  =   0.00000        TIMEND =   100.000    
+   ABSZRO =   0.00000     SIGMA  =  5.670400E-14    TIMEM  =   0.00000        TIMEN  =   0.00000        TIMEND =   100.000    
    TIMEO  =   0.00000    
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     2
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -167,9 +167,13 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       3=  293.15     T       6=  293.15     T       7=  293.15     T      11=  293.15     T      12=  293.15     T      13=  293.15    
-   T      14=  293.15     T      15=  293.15     T      16=  293.15     T      17=  293.15     T      18=  293.15     T      22=  293.15    
-   T      23=  293.15     T      24=  293.15     T      25=  293.15     T      26=  293.15     T      27=  293.15     T      28=  293.15    
+   T       2=  293.15     T       3=  293.15     T       5=  293.15     T       7=  293.15     T       8=  293.15     T      10=  293.15    
+   T      12=  293.15     T      13=  293.15     T      14=  293.15     T      15=  293.15     T      16=  293.15     T      18=  293.15    
+   T      19=  293.15     T      20=  293.15     T      21=  293.15     T      22=  293.15     T      23=  293.15     T      26=  293.15    
+   T      29=  293.15     T      31=  293.15     T      32=  293.15     T      37=  293.15     T      38=  293.15     T      40=  293.15    
+   T      42=  293.15     T      45=  293.15     T      46=  293.15     T      47=  293.15     T      49=  293.15     T      50=  293.15    
+   T      51=  293.15     T      52=  293.15     T      53=  293.15     T      54=  293.15     T      55=  293.15     T      56=  293.15    
+   T      57=  293.15     T      58=  293.15     T      59=  293.15     T      60=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -177,7 +181,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     3
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -193,7 +197,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  293.15    
+   T       1=  293.15     T       2=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -201,7 +205,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     4
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -217,8 +221,8 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  293.15     T       2=  293.15     T       3=  293.15     T       4=  293.15     T       5=  293.15     T       6=  293.15    
-   T       7=  293.15     T       8=  293.15     T      11=  293.15     T      12=  293.15     T      13=  293.15     T      14=  293.15    
+   T       1=  293.15     T       3=  293.15     T       5=  293.15     T       6=  293.15     T       7=  293.15     T       8=  293.15    
+   T      11=  293.15     T      12=  293.15     T      13=  293.15     T      14=  293.15     T      16=  293.15     T      18=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -226,7 +230,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     5
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -250,11 +254,38 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     6
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
   SUBMODEL NAME = STACK_PCB                       
+
+                                       CALCULATED                               ALLOWED
+         MAX DIFF DELTA T PER ITER     DRLXCC(                   0)=  1.00100     VS. DRLXCA= 1.000000E-03
+         MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  1.00100     VS. ARLXCA= 1.000000E-03
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE =  0.00000     VS. EBALSA= 1.000000E-02
+         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
+         MAX NODAL ENERGY BALANCE      EBALNC(                   0)=  0.00000     VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           0      VS. NLOOPS=        1000
+         PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
+
+                                     DIFFUSION NODES IN INPUT NODE NUMBER ORDER
+   T       1=  293.15     T       3=  293.15     T       5=  293.15     T       7=  293.15     T       9=  293.15     T      10=  293.15    
+   T      11=  293.15     T      12=  293.15     T      14=  293.15     T      15=  293.15     T      18=  293.15     T      20=  293.15    
+   T      21=  293.15     T      22=  293.15     T      27=  293.15     T      28=  293.15     T      29=  293.15     T      31=  293.15    
+   T      34=  293.15     T      37=  293.15    
+                                     ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
+                                                        ++NONE++
+                                     BOUNDARY NODES IN INPUT NODE NUMBER ORDER
+                                                        ++NONE++
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     7
+
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
+   STEADY
+
+
+  SUBMODEL NAME = TOP_BOX                         
 
                                        CALCULATED                               ALLOWED
          MAX DIFF DELTA T PER ITER     DRLXCC(                   0)=  1.00100     VS. DRLXCA= 1.000000E-03
@@ -267,76 +298,20 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
    T       1=  293.15     T       2=  293.15     T       3=  293.15     T       4=  293.15     T       5=  293.15     T       6=  293.15    
-   T       8=  293.15     T       9=  293.15     T      11=  293.15     T      12=  293.15     T      13=  293.15     T      15=  293.15    
-   T      16=  293.15    
+   T       7=  293.15     T       8=  293.15     T       9=  293.15     T      10=  293.15     T      12=  293.15     T      14=  293.15    
+   T      15=  293.15     T      16=  293.15     T      17=  293.15     T      18=  293.15     T      19=  293.15     T      20=  293.15    
+   T      21=  293.15     T      27=  293.15     T      29=  293.15     T      31=  293.15     T      32=  293.15     T      33=  293.15    
+   T      37=  293.15     T      40=  293.15     T      41=  293.15     T      42=  293.15     T      44=  293.15     T      47=  293.15    
+   T      48=  293.15     T      50=  293.15     T      52=  293.15     T      53=  293.15     T      54=  293.15     T      56=  293.15    
+   T      57=  293.15     T      59=  293.15     T      60=  293.15     T      61=  293.15     T      62=  293.15     T      63=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
-
-                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     7
-
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
-   STEADY
-
-
-  SUBMODEL NAME = TOP_BOX                         
-
-                                       CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(                   0)=  1.00100     VS. DRLXCA= 1.000000E-03
-         MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  1.00100     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE =  0.00000     VS. EBALSA= 1.000000E-02
-         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(                   0)=  0.00000     VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           0      VS. NLOOPS=        1000
-         PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
-
-                                     DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       2=  293.15     T       3=  293.15     T       4=  293.15     T       5=  293.15     T       6=  293.15     T       8=  293.15    
-   T       9=  293.15     T      10=  293.15     T      11=  293.15     T      12=  293.15     T      13=  293.15     T      14=  293.15    
-   T      15=  293.15     T      16=  293.15     T      17=  293.15     T      19=  293.15     T      20=  293.15     T      21=  293.15    
-   T      22=  293.15     T      23=  293.15     T      24=  293.15     T      25=  293.15     T      26=  293.15     T      27=  293.15    
-   T      28=  293.15     T      29=  293.15     T      30=  293.15     T      31=  293.15     T      32=  293.15     T      33=  293.15    
-   T      34=  293.15     T      35=  293.15     T      36=  293.15     T      37=  293.15     T      38=  293.15     T      39=  293.15    
-   T      40=  293.15    
-                                     ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
-                                                        ++NONE++
-                                     BOUNDARY NODES IN INPUT NODE NUMBER ORDER
-                                                        ++NONE++
-  
- LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL BOT_BOX WERE OSCILLATING AS OF LOOPCT =    102
- LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
- LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
- LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-  
-  
- LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL CHIP WERE OSCILLATING AS OF LOOPCT =    102
- LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
- LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
- LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-  
-  
- LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL HEADER WERE OSCILLATING AS OF LOOPCT =    102
- LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
- LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
- LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-  
-  
- LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL STACK_PCB WERE OSCILLATING AS OF LOOPCT =    102
- LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
- LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
- LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-  
-  
- LOOPCT =             105  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL TOP_BOX WERE OSCILLATING AS OF LOOPCT =    105
- LOOPCT =             105                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
- LOOPCT =             105                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
- LOOPCT =             105                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-  
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     8
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -345,18 +320,22 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(BOT_BOX           15)=-2.611280E-04 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(BOT_BOX           59)= 2.858282E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(BOT_BOX           13)= -7.18839     VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(BOT_BOX            5)= 1.753425E-09 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       3=  6.4068     T       6=  6.4055     T       7=  6.4076     T      11=  6.4061     T      12=  6.4063     T      13=  6.4069    
-   T      14=  6.4076     T      15=  6.4050     T      16=  6.4079     T      17=  6.4050     T      18=  6.4066     T      22=  6.4055    
-   T      23=  6.4092     T      24=  6.4051     T      25=  6.4062     T      26=  6.4050     T      27=  6.4064     T      28=  6.4050    
+   T       2=  268.72     T       3=  271.24     T       5=  272.01     T       7=  272.10     T       8=  272.08     T      10=  269.54    
+   T      12=  270.66     T      13=  273.10     T      14=  272.06     T      15=  271.33     T      16=  271.32     T      18=  272.64    
+   T      19=  271.79     T      20=  270.71     T      21=  271.29     T      22=  272.97     T      23=  272.13     T      26=  271.13    
+   T      29=  268.79     T      31=  268.67     T      32=  272.09     T      37=  269.63     T      38=  268.79     T      40=  268.88    
+   T      42=  271.81     T      45=  268.88     T      46=  271.01     T      47=  269.54     T      49=  269.76     T      50=  269.36    
+   T      51=  270.58     T      52=  268.68     T      53=  273.14     T      54=  270.66     T      55=  271.93     T      56=  269.64    
+   T      57=  272.21     T      58=  273.10     T      59=  268.55     T      60=  268.68    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -364,7 +343,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     9
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -373,16 +352,16 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(CHIP               1)=-2.583666E-04 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(CHIP               2)= 9.024496E-06 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
-         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  1.20000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(CHIP               1)= 1.718318E-09 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
+         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  2.82000         ESUMOS=  0.00000    
+         MAX NODAL ENERGY BALANCE      EBALNC(CHIP               1)=-8.757417E-10 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  6.4377    
+   T       1=  314.18     T       2=  299.81    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -390,7 +369,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    10
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -399,17 +378,17 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(HEADER             2)=-1.901653E-04 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(HEADER            14)= 3.305421E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(HEADER             4)=-1.093711E-04 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(HEADER            16)= 4.488772E-09 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  6.3067     T       2=  6.3067     T       3=  6.3067     T       4=  6.3067     T       5=  6.3067     T       6=  6.3067    
-   T       7=  6.3067     T       8=  6.3067     T      11=  6.3066     T      12=  6.3066     T      13=  6.3066     T      14=  6.3066    
+   T       1=  264.18     T       3=  263.73     T       5=  263.94     T       6=  263.95     T       7=  263.51     T       8=  263.51    
+   T      11=  263.92     T      12=  263.93     T      13=  263.50     T      14=  263.50     T      16=  264.17     T      18=  263.71    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -417,7 +396,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    11
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -428,10 +407,10 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
                                        CALCULATED                               ALLOWED
          MAX DIFF DELTA T PER ITER     DRLXCC(                   0)=  0.00000     VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
-         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  1.19999    
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
+         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  2.82000    
          MAX NODAL ENERGY BALANCE      EBALNC(                   0)=  0.00000     VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
@@ -443,7 +422,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    12
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -452,18 +431,19 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(STACK_PCB          13)=-2.594935E-04 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(STACK_PCB          22)= 3.258161E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                    0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(STACK_PCB          11)=-1.856249E-02 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(STACK_PCB          28)=-1.295308E-08 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  6.4311     T       2=  6.4311     T       3=  6.4311     T       4=  6.4311     T       5=  6.4250     T       6=  6.4144    
-   T       8=  6.4245     T       9=  6.4168     T      11=  6.4377     T      12=  6.4236     T      13=  6.4226     T      15=  6.4242    
-   T      16=  6.4377    
+   T       1=  288.16     T       3=  264.22     T       5=  268.82     T       7=  264.71     T       9=  298.34     T      10=  279.66    
+   T      11=  264.61     T      12=  273.25     T      14=  273.15     T      15=  278.39     T      18=  272.12     T      20=  273.01    
+   T      21=  273.38     T      22=  264.10     T      27=  288.17     T      28=  289.93     T      29=  298.36     T      31=  269.57    
+   T      34=  272.30     T      37=  278.97    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -471,7 +451,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    13
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
    STEADY
 
 
@@ -480,57 +460,57 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(TOP_BOX            6)= 6.484686E-04 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(TOP_BOX           18)= 2.905532E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 8.617718E-06 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.287757E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(TOP_BOX           37)=  7.20134     VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =         114      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(TOP_BOX           41)= 1.097299E-08 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       2=  4.1906     T       3=  4.1906     T       4=  4.1905     T       5=  4.7687     T       6=  4.7687     T       8=  6.4054    
-   T       9=  6.4056     T      10=  6.4054     T      11=  6.4057     T      12=  6.4069     T      13=  4.1906     T      14=  4.1906    
-   T      15=  5.4804     T      16=  4.1906     T      17=  5.2263     T      19=  6.4083     T      20=  5.4804     T      21=  5.4804    
-   T      22=  5.4804     T      23=  6.4042     T      24=  6.4042     T      25=  6.4048     T      26=  6.4048     T      27=  6.4085    
-   T      28=  6.4085     T      29=  6.4072     T      30=  6.4068     T      31=  5.2263     T      32=  6.4073     T      33=  5.2263    
-   T      34=  4.1906     T      35=  5.2263     T      36=  6.4062     T      37=  6.4062     T      38=  4.7687     T      39=  4.7687    
-   T      40=  6.4074    
+   T       1=  272.12     T       2=  271.37     T       3=  270.06     T       4=  272.32     T       5=  272.08     T       6=  271.28    
+   T       7=  269.02     T       8=  273.11     T       9=  269.06     T      10=  272.12     T      12=  273.11     T      14=  273.09    
+   T      15=  272.92     T      16=  273.07     T      17=  272.98     T      18=  272.09     T      19=  269.82     T      20=  270.98    
+   T      21=  272.14     T      27=  269.14     T      29=  269.68     T      31=  269.15     T      32=  269.93     T      33=  272.34    
+   T      37=  269.19     T      40=  269.57     T      41=  272.39     T      42=  268.90     T      44=  268.90     T      47=  272.12    
+   T      48=  272.09     T      50=  268.87     T      52=  272.13     T      53=  272.82     T      54=  269.85     T      56=  272.28    
+   T      57=  272.28     T      59=  270.54     T      60=  269.92     T      61=  269.51     T      62=  270.78     T      63=  273.13    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
  
-     SAVE WRITTEN AT TIMEN =   0.00000    , LOOPCT/O/R =        114/         0/         0, STARTING RECORD =       1226
+     SAVE WRITTEN AT TIMEN =   0.00000    , LOOPCT/O/R =          5/         0/         0, STARTING RECORD =       2054
  
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    14
 
- MODEL = SINDA                                                                  TXRX.dwg - Case Set 0                                                       
+ MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0                                                      
  
 
 
          MODEL SIZE TABULATION:    8 THERMAL AND    0 FLUID SUBMODELS. 
                                    0 ARRAY CELLS, 
                                    0 REGISTERS.
-                                  82 NODES IN T ARRAY 
-                                1085 CONDUCTORS IN G ARRAY. 
+                                 117 NODES IN T ARRAY 
+                                1878 CONDUCTORS IN G ARRAY. 
                                    0 DYNAMIC CONDUCTORS FROM TD 
 
  THERMAL SUBMODELS ------ 
 
        NAME                                NODES    DIFF    ARIT   BD,HT       CONDS     LIN     RAD
 
-       BOT_BOX                                18      18       0       0          43      43       0
-       CHIP                                    1       1       0       0           2       2       0
-       HEADER                                 12      12       0       0          28      28       0
+       BOT_BOX                                40      40       0       0          93      93       0
+       CHIP                                    2       2       0       0           3       3       0
+       HEADER                                 12      12       0       0          24      24       0
        SPACE                                   1       0       0       1           0       0       0
-       STACK_PCB                              13      13       0       0          20      20       0
-       TOP_BOX                                37      37       0       0          47      47       0
-       C0A0                                    0       0       0       0         709       0     709
-       C0A1                                    0       0       0       0         236       0     236
+       STACK_PCB                              20      20       0       0          57      57       0
+       TOP_BOX                                42      42       0       0          93      93       0
+       C0A0                                    0       0       0       0         470       0     470
+       C0A1                                    0       0       0       0        1138       0    1138
  
-                               TOTAL          82      81       0       1        1085     140     945
+                               TOTAL         117     116       0       1        1878     270    1608
 
                     Note: Active conductors are attributed to the thermal submodel of an endpoint node.
                           The tally in each submodel may differ from CONDUCTOR DATA inputs.
@@ -541,4 +521,4 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
        NAME                                LUMPS   TANKS    JUNC    PLEN       PATHS   TUBES    CONN        TIES   FTIES  IFACES
 
        (NONE)
- LOOPCT =             114  The ASTAP execution time is:   0.978922500000010       seconds
+ LOOPCT =               5  The ASTAP execution time is:   0.729197599999679       seconds

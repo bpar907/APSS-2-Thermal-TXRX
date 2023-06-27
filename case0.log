@@ -1,8 +1,8 @@
-[ AutoCAD - Fri Jun 23 17:27:44 2023  ]----------------------------------------
+[ AutoCAD - Tue Jun 27 20:11:09 2023  ]----------------------------------------
 No duplicate nodes or insulation nodalization warnings found
 
 Calculating SINDA/FLUINT data
-Calculating Thermal Analyzer Input took 0.28 sec
+Calculating Thermal Analyzer Input took 0.30 sec
 
 Outputting SINDA/FLUINT data
 Outputting data for submodel BOT_BOX...
@@ -12,79 +12,61 @@ Outputting data for submodel HEADER...
 Outputting data for submodel SPACE...
 Outputting data for submodel STACK_PCB...
 Outputting data for submodel TOP_BOX...
-    Number of nodes:      82
-    Number of conductors: 140
+    Number of nodes:      117
+    Number of conductors: 270
     
-Total Nodal Mass = 103084006.870612 kg
+Total Nodal Mass = 0.122199 kg
 
 
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Lower-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Restart: Int values not same: 5 .vs. 22
-Deleting old database named TXRX_Internal_Lower-RcOptics.rck
-Creating new database named TXRX_Internal_Lower-RcOptics.rck
-Fixed RadCAD
-Fixed license found.
-Setting number of threads to: 8
-Time to calculate radk = 0.89 sec
-Outputting SINDA/FLUINT radks to file C0A0.k...
-Total elapsed time for calculations and output = 1.47 sec
-    76 calculation nodes
-    709 radks were output, 767 radks were filtered out
+Restart was successful. No calculations were performed.
+    75 calculation nodes
+    470 radks were output, 672 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    39 nodes(51%) have Bij Inactive > .2
+    38 nodes(50%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
-    No overlapping surfaces greater than 10.0% found in TXRX_Internal_Lower
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+    Node HEADER.16::47F is overlapped by STACK_PCB.11 covering  100%
+    Node HEADER.18::481 is overlapped by STACK_PCB.22 covering  100%
+    Node HEADER.1::600 is overlapped by STACK_PCB.7 covering  100%
+    Node HEADER.3::5FE is overlapped by STACK_PCB.3 covering  100%
+    Node STACK_PCB.11::740 is overlapped by HEADER.16 covering  100%
+    Node STACK_PCB.22::74C is overlapped by HEADER.18 covering  100%
+    Node STACK_PCB.3::59A is overlapped by HEADER.3 covering  100%
+    Node STACK_PCB.7::59E is overlapped by HEADER.1 covering  100%
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
 
 
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Upper-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Restart: Int values not same: 5 .vs. 22
-Deleting old database named TXRX_Internal_Upper-RcOptics.rck
-Creating new database named TXRX_Internal_Upper-RcOptics.rck
-Fixed RadCAD
-Fixed license found.
-Setting number of threads to: 8
-Time to calculate radk = 0.71 sec
-Outputting SINDA/FLUINT radks to file C0A1.k...
-Total elapsed time for calculations and output = 1.15 sec
-    77 calculation nodes
-    236 radks were output, 226 radks were filtered out
+Restart was successful. No calculations were performed.
+    78 calculation nodes
+    1138 radks were output, 1280 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    23 nodes(29%) have Bij Inactive > .2
+    12 nodes(15%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
-    No overlapping surfaces greater than 10.0% found in TXRX_Internal_Upper
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+    Node HEADER.16::47F is overlapped by STACK_PCB.11 covering  100%
+    Node HEADER.18::481 is overlapped by STACK_PCB.22 covering  100%
+    Node HEADER.1::600 is overlapped by STACK_PCB.7 covering  100%
+    Node HEADER.3::5FE is overlapped by STACK_PCB.3 covering  100%
+    Node STACK_PCB.11::740 is overlapped by HEADER.16 covering  100%
+    Node STACK_PCB.22::74C is overlapped by HEADER.1 covering  100%
+    Node STACK_PCB.3::59A is overlapped by HEADER.3 covering  100%
+    Node STACK_PCB.7::59E is overlapped by HEADER.18 covering  100%
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
 
-*** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\case0.inp
+*** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX_V2\case0.inp
 Successful completion of processor
-From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\messages_case0.log
-     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL BOT_BOX WERE OSCILLATING AS OF LOOPCT =    102
-     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
-     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
-     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL CHIP WERE OSCILLATING AS OF LOOPCT =    102
-     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
-     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
-     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL HEADER WERE OSCILLATING AS OF LOOPCT =    102
-     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
-     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
-     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-     LOOPCT =             102  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL STACK_PCB WERE OSCILLATING AS OF LOOPCT =    102
-     LOOPCT =             102                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
-     LOOPCT =             102                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
-     LOOPCT =             102                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-     LOOPCT =             105  *** WARNING ***   MORE THAN HALF THE NODES IN SUBMODEL TOP_BOX WERE OSCILLATING AS OF LOOPCT =    105
-     LOOPCT =             105                    HEAVY DAMPING (ITERXT=0, EXTLIM=0.5) WAS APPLIED.
-     LOOPCT =             105                    IF SUCCESSFUL, CONSIDER THESE SETTINGS IN CONTROL DATA.
-     LOOPCT =             105                    OTHERWISE, IDENTIFY AND CORRECT THE SOURCE OF OSCILLATIONS.
-     LOOPCT =             114  The ASTAP execution time is:   0.978922500000010       seconds
-Time to run SINDA = 18.41 sec
+From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX_V2\messages_case0.log
+     LOOPCT =               5  The ASTAP execution time is:   0.729197599999679       seconds
+Time to run SINDA = 3.79 sec
 
-Case Set Solved::Elapsed time = 22.94 sec
+Case Set Solved::Elapsed time = 4.77 sec

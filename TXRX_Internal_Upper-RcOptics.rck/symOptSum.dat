@@ -1,11 +1,11 @@
-C    DWG name:      TXRX.dwg
+C    DWG name:      TXRX_V2.dwg
 C    Thermophysical Property Database: TdThermo.tdp
 C    Optical Property Database:        RcOptics.rco
 C    Computer name: LAPTOP-BEN2019
 C    User name:     benpa
 C    Symbol Names, Evaluated values, Input Strings, Comments
-C    TXRX_Chip_Operation 1.2  1.2
-C    TXRX_Chip_Standby   0.22 0.22
+C    TXRX_Amplifier_Operation 1.32  1.32
+C    TXRX_MCU_Operation       0.115 0.115
 C
 C Optical Properties Used:
 C PROPERTY NAME                  EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
