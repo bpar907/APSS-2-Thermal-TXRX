@@ -1,8 +1,8 @@
 Submodel, Substrate, Insulation Mass, kg
   BOT_BOX 0.02005 0.
      CHIP 0.03170 0.
-   HEADER 0.03036 0.
-STACK_PCB 0.01568 0.
+   HEADER 0.02370 0.
+STACK_PCB 0.02234 0.
   TOP_BOX 0.02441 0.
    Total: 0.12220 0.
 

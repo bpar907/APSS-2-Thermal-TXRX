@@ -1,8 +1,17 @@
-[ AutoCAD - Tue Jun 27 20:11:09 2023  ]----------------------------------------
+[ AutoCAD - Wed Jul 05 22:32:14 2023  ]----------------------------------------
 No duplicate nodes or insulation nodalization warnings found
 
+Overriding 1 symbol values for this case set
+
+Undefined symbol: 'TXRX_chip_operation' in expression:
+TXRX_chip_operation
+The error occurred while updating: Heatload: TXRX Chip
+There were expression errors, default value of 1.0 will be returned.
+
 Calculating SINDA/FLUINT data
-Calculating Thermal Analyzer Input took 0.30 sec
+ContactorData\Warnings_HEADER_486.txt contains 4 warnings
+ContactorData\Warnings_HEADER_48D.txt contains 4 warnings
+Calculating Thermal Analyzer Input took 0.49 sec
 
 Outputting SINDA/FLUINT data
 Outputting data for submodel BOT_BOX...
@@ -12,8 +21,8 @@ Outputting data for submodel HEADER...
 Outputting data for submodel SPACE...
 Outputting data for submodel STACK_PCB...
 Outputting data for submodel TOP_BOX...
-    Number of nodes:      117
-    Number of conductors: 270
+    Number of nodes:      122
+    Number of conductors: 276
     
 Total Nodal Mass = 0.122199 kg
 
@@ -22,22 +31,18 @@ Total Nodal Mass = 0.122199 kg
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
 Restart was successful. No calculations were performed.
-    75 calculation nodes
-    470 radks were output, 672 radks were filtered out
+    78 calculation nodes
+    895 radks were output, 1122 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    38 nodes(50%) have Bij Inactive > .2
+    4 nodes(5%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
     Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
-    Node HEADER.16::47F is overlapped by STACK_PCB.11 covering  100%
-    Node HEADER.18::481 is overlapped by STACK_PCB.22 covering  100%
-    Node HEADER.1::600 is overlapped by STACK_PCB.7 covering  100%
-    Node HEADER.3::5FE is overlapped by STACK_PCB.3 covering  100%
-    Node STACK_PCB.11::740 is overlapped by HEADER.16 covering  100%
-    Node STACK_PCB.22::74C is overlapped by HEADER.18 covering  100%
-    Node STACK_PCB.3::59A is overlapped by HEADER.3 covering  100%
-    Node STACK_PCB.7::59E is overlapped by HEADER.1 covering  100%
+    Node HEADER.1::600 is overlapped by HEADER.1 covering  100%
+    Node HEADER.3::5FE is overlapped by HEADER.3 covering  100%
+    Node STACK_PCB.11::740 is overlapped by STACK_PCB.11 covering  100%
+    Node STACK_PCB.22::74C is overlapped by STACK_PCB.22 covering  100%
     Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
 
 
@@ -45,28 +50,26 @@ Restart was successful. No calculations were performed.
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
 Restart was successful. No calculations were performed.
-    78 calculation nodes
-    1138 radks were output, 1280 radks were filtered out
+    80 calculation nodes
+    1421 radks were output, 1316 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    12 nodes(15%) have Bij Inactive > .2
+    4 nodes(5%) have Bij Inactive > .2
         This may be ok, but may be an indication of an incorrect active side
      
     Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
-    Node HEADER.16::47F is overlapped by STACK_PCB.11 covering  100%
-    Node HEADER.18::481 is overlapped by STACK_PCB.22 covering  100%
-    Node HEADER.1::600 is overlapped by STACK_PCB.7 covering  100%
-    Node HEADER.3::5FE is overlapped by STACK_PCB.3 covering  100%
-    Node STACK_PCB.11::740 is overlapped by HEADER.16 covering  100%
+    Node HEADER.1::600 is overlapped by HEADER.1 covering  100%
+    Node HEADER.1::600 is overlapped by STACK_PCB.22 covering  100%
+    Node HEADER.3::5FE is overlapped by HEADER.3 covering  100%
+    Node STACK_PCB.11::740 is overlapped by STACK_PCB.11 covering  100%
+    Node STACK_PCB.22::74C is overlapped by STACK_PCB.22 covering  100%
     Node STACK_PCB.22::74C is overlapped by HEADER.1 covering  100%
-    Node STACK_PCB.3::59A is overlapped by HEADER.3 covering  100%
-    Node STACK_PCB.7::59E is overlapped by HEADER.18 covering  100%
     Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
 
-*** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX_V2\case0.inp
+*** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\case0.inp
 Successful completion of processor
-From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX_V2\messages_case0.log
-     LOOPCT =               5  The ASTAP execution time is:   0.729197599999679       seconds
-Time to run SINDA = 3.79 sec
+From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\messages_case0.log
+     LOOPCT =               7  The ASTAP execution time is:   0.924277099999017       seconds
+Time to run SINDA = 7.83 sec
 
-Case Set Solved::Elapsed time = 4.77 sec
+Case Set Solved::Elapsed time = 9.09 sec
