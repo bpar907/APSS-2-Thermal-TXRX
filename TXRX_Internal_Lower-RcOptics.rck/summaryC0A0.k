@@ -1,5 +1,5 @@
-78 calculation nodes
-895 radks were output, 1122 radks were filtered out
+72 calculation nodes
+752 radks were output, 928 radks were filtered out
 0 nodes(0%%) have bij sum + bij inactive < .9
 5000 average number of rays per node shot
 4 nodes(5%%) have Bij Inactive > .2

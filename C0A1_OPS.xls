@@ -49,7 +49,6 @@ STACK_PCB.37	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]
 TOP_BOX.1	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.2	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.3	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::5DF, Rect[TOP_BOX]-BOT::5DF
-TOP_BOX.4	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.5	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::668, Rect[TOP_BOX]-BOT::668
 TOP_BOX.6	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::668, Rect[TOP_BOX]-BOT::668
 TOP_BOX.7	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606
@@ -59,22 +58,21 @@ TOP_BOX.12	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC,
 TOP_BOX.14	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::620, Rect[TOP_BOX]-BOT::620
 TOP_BOX.15	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.16	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::5E4, Rect[TOP_BOX]-BOT::5E4, Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694, Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
-TOP_BOX.17	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
+TOP_BOX.17	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
 TOP_BOX.18	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.20	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::5E4, Rect[TOP_BOX]-BOT::5E4
 TOP_BOX.21	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::620, Rect[TOP_BOX]-BOT::620
 TOP_BOX.27	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5DF, Rect[TOP_BOX]-BOT::5DF, Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9
 TOP_BOX.29	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606
 TOP_BOX.31	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5DF, Rect[TOP_BOX]-BOT::5DF, Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::678, Rect[TOP_BOX]-BOT::678
-TOP_BOX.32	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E4, Rect[TOP_BOX]-BOT::5E4, Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9
+TOP_BOX.32	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E4, Rect[TOP_BOX]-BOT::5E4, Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694
 TOP_BOX.33	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::620, Rect[TOP_BOX]-BOT::620
 TOP_BOX.37	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606
 TOP_BOX.37	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
-TOP_BOX.40	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.41	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.42	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9
 TOP_BOX.44	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606
-TOP_BOX.47	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
+TOP_BOX.47	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
 TOP_BOX.48	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
 TOP_BOX.50	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606
 TOP_BOX.50	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
@@ -87,15 +85,14 @@ TOP_BOX.59	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::620,
 TOP_BOX.59	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.60	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::5DF, Rect[TOP_BOX]-BOT::5DF, Rect[TOP_BOX]-TOP::668, Rect[TOP_BOX]-BOT::668, Rect[TOP_BOX]-TOP::678, Rect[TOP_BOX]-BOT::678
 TOP_BOX.62	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC, Rect[TOP_BOX]-TOP::620, Rect[TOP_BOX]-BOT::620, Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
-TOP_BOX.63	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
-TOP_BOX.64	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
-TOP_BOX.65	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694
 TOP_BOX.66	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
+TOP_BOX.66	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.67	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694
-TOP_BOX.68	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5CC, Rect[TOP_BOX]-BOT::5CC
+TOP_BOX.67	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.69	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606, Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694
 TOP_BOX.69	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.70	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694, Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
 TOP_BOX.70	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A, Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592
 TOP_BOX.71	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::5E9, Rect[TOP_BOX]-BOT::5E9, Rect[TOP_BOX]-TOP::606, Rect[TOP_BOX]-BOT::606, Rect[TOP_BOX]-TOP::694, Rect[TOP_BOX]-BOT::694
 TOP_BOX.72	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[TOP_BOX]-TOP::6A4, Rect[TOP_BOX]-BOT::6A4
+TOP_BOX.72	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A

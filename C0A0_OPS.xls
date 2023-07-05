@@ -17,14 +17,14 @@ BOT_BOX.18	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A,
 BOT_BOX.19	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A
 BOT_BOX.20	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A, Rect[BOT_BOX]-TOP::55D, Rect[BOT_BOX]-BOT::55D
 BOT_BOX.21	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A
-BOT_BOX.22	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
-BOT_BOX.23	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
+BOT_BOX.22	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A, Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
+BOT_BOX.23	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A, Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
 BOT_BOX.26	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A, Rect[BOT_BOX]-TOP::6D6, Rect[BOT_BOX]-BOT::6D6
 BOT_BOX.29	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::557, Rect[BOT_BOX]-BOT::557, Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563
 BOT_BOX.31	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6CC, Rect[BOT_BOX]-BOT::6CC
 BOT_BOX.31	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::58D, Rect[STACK_PCB]-BOT::58D, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 BOT_BOX.32	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A, Rect[BOT_BOX]-TOP::658, Rect[BOT_BOX]-BOT::658
-BOT_BOX.37	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::55D, Rect[BOT_BOX]-BOT::55D, Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563
+BOT_BOX.37	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::55D, Rect[BOT_BOX]-BOT::55D, Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563, Rect[BOT_BOX]-TOP::6B4, Rect[BOT_BOX]-BOT::6B4
 BOT_BOX.38	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::557, Rect[BOT_BOX]-BOT::557, Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563, Rect[BOT_BOX]-TOP::6CC, Rect[BOT_BOX]-BOT::6CC
 BOT_BOX.40	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563
 BOT_BOX.42	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A
@@ -45,9 +45,6 @@ BOT_BOX.58	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A,
 BOT_BOX.59	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6BE, Rect[BOT_BOX]-BOT::6BE
 BOT_BOX.59	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 BOT_BOX.60	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::563, Rect[BOT_BOX]-BOT::563, Rect[BOT_BOX]-TOP::6BE, Rect[BOT_BOX]-BOT::6BE
-BOT_BOX.61	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A
-BOT_BOX.62	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::51A, Rect[BOT_BOX]-BOT::51A
-BOT_BOX.63	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6B4, Rect[BOT_BOX]-BOT::6B4
 HEADER.1	PCB Black	0.97	0.94							FD Brick[HEADER]-XMIN::3CE, FD Brick[HEADER]-YMIN::3CE, FD Brick[HEADER]-ZMIN::3CE
 HEADER.1	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597, Rect[STACK_PCB]-TOP::5F8, Rect[STACK_PCB]-BOT::5F8
 HEADER.3	PCB Black	0.97	0.94							FD Brick[HEADER]-XMIN::3CE, FD Brick[HEADER]-YMAX::3CE, FD Brick[HEADER]-ZMIN::3CE
@@ -81,19 +78,19 @@ STACK_PCB.31	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]
 STACK_PCB.34	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::658, Rect[BOT_BOX]-BOT::658
 STACK_PCB.34	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 STACK_PCB.37	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
-TOP_BOX.4	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.37	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6BE, Rect[BOT_BOX]-BOT::6BE
 TOP_BOX.37	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
-TOP_BOX.40	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.50	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6BE, Rect[BOT_BOX]-BOT::6BE
 TOP_BOX.50	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.59	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::658, Rect[BOT_BOX]-BOT::658, Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
 TOP_BOX.59	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
-TOP_BOX.63	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.66	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
+TOP_BOX.66	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A
 TOP_BOX.67	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6B4, Rect[BOT_BOX]-BOT::6B4
+TOP_BOX.67	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592, Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.69	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6B4, Rect[BOT_BOX]-BOT::6B4, Rect[BOT_BOX]-TOP::6BE, Rect[BOT_BOX]-BOT::6BE
 TOP_BOX.69	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::597, Rect[STACK_PCB]-BOT::597
 TOP_BOX.70	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC, Rect[BOT_BOX]-TOP::6B4, Rect[BOT_BOX]-BOT::6B4
 TOP_BOX.70	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A, Rect[STACK_PCB]-TOP::592, Rect[STACK_PCB]-BOT::592
 TOP_BOX.72	Hard Anodised Aliminum 6061-T6	0.86	0.9							Rect[BOT_BOX]-TOP::6AC, Rect[BOT_BOX]-BOT::6AC
+TOP_BOX.72	PCB Green	0.84	0.66							Rect[STACK_PCB]-TOP::57A, Rect[STACK_PCB]-BOT::57A

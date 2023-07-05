@@ -1,17 +1,10 @@
-[ AutoCAD - Wed Jul 05 22:32:14 2023  ]----------------------------------------
+[ AutoCAD - Wed Jul 05 22:53:24 2023  ]----------------------------------------
 No duplicate nodes or insulation nodalization warnings found
-
-Overriding 1 symbol values for this case set
-
-Undefined symbol: 'TXRX_chip_operation' in expression:
-TXRX_chip_operation
-The error occurred while updating: Heatload: TXRX Chip
-There were expression errors, default value of 1.0 will be returned.
 
 Calculating SINDA/FLUINT data
 ContactorData\Warnings_HEADER_486.txt contains 4 warnings
 ContactorData\Warnings_HEADER_48D.txt contains 4 warnings
-Calculating Thermal Analyzer Input took 0.49 sec
+Calculating Thermal Analyzer Input took 0.89 sec
 
 Outputting SINDA/FLUINT data
 Outputting data for submodel BOT_BOX...
@@ -21,8 +14,8 @@ Outputting data for submodel HEADER...
 Outputting data for submodel SPACE...
 Outputting data for submodel STACK_PCB...
 Outputting data for submodel TOP_BOX...
-    Number of nodes:      122
-    Number of conductors: 276
+    Number of nodes:      113
+    Number of conductors: 266
     
 Total Nodal Mass = 0.122199 kg
 
@@ -31,8 +24,8 @@ Total Nodal Mass = 0.122199 kg
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
 Restart was successful. No calculations were performed.
-    78 calculation nodes
-    895 radks were output, 1122 radks were filtered out
+    72 calculation nodes
+    752 radks were output, 928 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
     4 nodes(5%) have Bij Inactive > .2
@@ -50,8 +43,8 @@ Restart was successful. No calculations were performed.
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
 Restart was successful. No calculations were performed.
-    80 calculation nodes
-    1421 radks were output, 1316 radks were filtered out
+    74 calculation nodes
+    1247 radks were output, 1094 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
     4 nodes(5%) have Bij Inactive > .2
@@ -69,7 +62,7 @@ Restart was successful. No calculations were performed.
 *** Running SINDA model named C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\case0.inp
 Successful completion of processor
 From C:\Users\benpa\Documents\useful\Hobbies\APSS\2023 - thermal analysis\TXRX\messages_case0.log
-     LOOPCT =               7  The ASTAP execution time is:   0.924277099999017       seconds
-Time to run SINDA = 7.83 sec
+     LOOPCT =               5  The ASTAP execution time is:   0.947145999991335       seconds
+Time to run SINDA = 8.50 sec
 
-Case Set Solved::Elapsed time = 9.09 sec
+Case Set Solved::Elapsed time = 10.21 sec

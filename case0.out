@@ -21,7 +21,7 @@
                MODIFICATION DATE .... 09FEB2023 
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     1
- DATE = 07/05/2023 START TIME = 22:32:20
+ DATE = 07/05/2023 START TIME = 22:53:32
  MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0
  
 
@@ -173,8 +173,7 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
    T      29=  293.15     T      31=  293.15     T      32=  293.15     T      37=  293.15     T      38=  293.15     T      40=  293.15    
    T      42=  293.15     T      45=  293.15     T      46=  293.15     T      47=  293.15     T      49=  293.15     T      50=  293.15    
    T      51=  293.15     T      52=  293.15     T      53=  293.15     T      54=  293.15     T      55=  293.15     T      56=  293.15    
-   T      57=  293.15     T      58=  293.15     T      59=  293.15     T      60=  293.15     T      61=  293.15     T      62=  293.15    
-   T      63=  293.15    
+   T      57=  293.15     T      58=  293.15     T      59=  293.15     T      60=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -297,14 +296,13 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  293.15     T       2=  293.15     T       3=  293.15     T       4=  293.15     T       5=  293.15     T       6=  293.15    
-   T       7=  293.15     T       9=  293.15     T      10=  293.15     T      12=  293.15     T      14=  293.15     T      15=  293.15    
-   T      16=  293.15     T      17=  293.15     T      18=  293.15     T      20=  293.15     T      21=  293.15     T      27=  293.15    
-   T      29=  293.15     T      31=  293.15     T      32=  293.15     T      33=  293.15     T      37=  293.15     T      40=  293.15    
-   T      41=  293.15     T      42=  293.15     T      44=  293.15     T      47=  293.15     T      48=  293.15     T      50=  293.15    
-   T      52=  293.15     T      53=  293.15     T      54=  293.15     T      56=  293.15     T      57=  293.15     T      59=  293.15    
-   T      60=  293.15     T      62=  293.15     T      63=  293.15     T      64=  293.15     T      65=  293.15     T      66=  293.15    
-   T      67=  293.15     T      68=  293.15     T      69=  293.15     T      70=  293.15     T      71=  293.15     T      72=  293.15    
+   T       1=  293.15     T       2=  293.15     T       3=  293.15     T       5=  293.15     T       6=  293.15     T       7=  293.15    
+   T       9=  293.15     T      10=  293.15     T      12=  293.15     T      14=  293.15     T      15=  293.15     T      16=  293.15    
+   T      17=  293.15     T      18=  293.15     T      20=  293.15     T      21=  293.15     T      27=  293.15     T      29=  293.15    
+   T      31=  293.15     T      32=  293.15     T      33=  293.15     T      37=  293.15     T      41=  293.15     T      42=  293.15    
+   T      44=  293.15     T      47=  293.15     T      48=  293.15     T      50=  293.15     T      52=  293.15     T      53=  293.15    
+   T      54=  293.15     T      56=  293.15     T      57=  293.15     T      59=  293.15     T      60=  293.15     T      62=  293.15    
+   T      66=  293.15     T      67=  293.15     T      69=  293.15     T      70=  293.15     T      71=  293.15     T      72=  293.15    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -321,23 +319,22 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(BOT_BOX           16)= 3.734503E-06 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(BOT_BOX           14)=-1.144849E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(BOT_BOX           54)=-8.030829E-09 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(BOT_BOX           14)= 1.422576E-08 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       2=  400.50     T       3=  411.19     T       5=  415.24     T       7=  415.41     T       8=  415.40     T      10=  406.83    
-   T      12=  414.12     T      13=  416.18     T      14=  416.04     T      15=  414.24     T      16=  414.23     T      18=  415.99    
-   T      19=  413.13     T      20=  407.82     T      21=  415.54     T      22=  410.00     T      23=  414.35     T      26=  411.25    
-   T      29=  400.84     T      31=  400.33     T      32=  415.44     T      37=  403.35     T      38=  400.83     T      40=  400.46    
-   T      42=  415.26     T      45=  400.46     T      46=  411.51     T      47=  402.93     T      49=  405.30     T      50=  402.13    
-   T      51=  402.91     T      52=  400.30     T      53=  416.68     T      54=  414.12     T      55=  415.23     T      56=  404.62    
-   T      57=  415.84     T      58=  415.77     T      59=  399.72     T      60=  400.29     T      61=  415.97     T      62=  412.93    
-   T      63=  405.28    
+   T       2=  296.43     T       3=  300.15     T       5=  302.15     T       7=  302.25     T       8=  302.24     T      10=  298.75    
+   T      12=  301.26     T      13=  303.27     T      14=  302.83     T      15=  301.25     T      16=  301.25     T      18=  303.08    
+   T      19=  300.86     T      20=  299.06     T      21=  302.28     T      22=  300.76     T      23=  303.23     T      26=  300.18    
+   T      29=  296.56     T      31=  296.36     T      32=  302.26     T      37=  297.43     T      38=  296.54     T      40=  296.63    
+   T      42=  302.15     T      45=  296.63     T      46=  300.29     T      47=  297.31     T      49=  298.10     T      50=  297.03    
+   T      51=  297.29     T      52=  296.36     T      53=  303.32     T      54=  301.26     T      55=  302.15     T      56=  297.86    
+   T      57=  302.48     T      58=  303.26     T      59=  296.17     T      60=  296.37    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -354,16 +351,16 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(CHIP               2)=-7.756221E-06 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(CHIP               2)= 6.767130E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
-         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  4.32000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(CHIP               1)= 1.315537E-09 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
+         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  1.43500         ESUMOS=  0.00000    
+         MAX NODAL ENERGY BALANCE      EBALNC(CHIP               2)=-8.716327E-10 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  486.97     T       2=  446.27    
+   T       1=  305.83     T       2=  325.95    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -380,17 +377,17 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(HEADER            12)= 1.489504E-06 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(HEADER             3)=-7.725369E-06 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(HEADER             3)=-3.810472E-09 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(HEADER             1)=-1.084590E-09 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  381.85     T       3=  381.43     T       5=  380.85     T       6=  380.90     T       7=  380.42     T       8=  380.43    
-   T      11=  380.88     T      12=  380.93     T      13=  380.43     T      14=  380.45    
+   T       1=  289.58     T       3=  289.43     T       5=  289.22     T       6=  289.20     T       7=  289.09     T       8=  289.08    
+   T      11=  289.18     T      12=  289.17     T      13=  289.07     T      14=  289.06    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -409,10 +406,10 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
                                        CALCULATED                               ALLOWED
          MAX DIFF DELTA T PER ITER     DRLXCC(                   0)=  0.00000     VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
-         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  4.32000    
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
+         ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  1.43500    
          MAX NODAL ENERGY BALANCE      EBALNC(                   0)=  0.00000     VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
@@ -433,18 +430,18 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(STACK_PCB           5)=-2.480785E-05 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(STACK_PCB          28)= 6.701475E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                    0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(STACK_PCB          27)= 2.734347E-08 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(STACK_PCB          28)=-3.596417E-08 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  432.51     T       5=  400.33     T       9=  456.69     T      10=  438.05     T      11=  381.84     T      12=  416.76    
-   T      14=  416.22     T      15=  432.32     T      18=  415.46     T      20=  416.07     T      21=  413.22     T      22=  381.32    
-   T      27=  432.53     T      28=  436.42     T      29=  456.75     T      31=  404.26     T      34=  415.87     T      37=  421.21    
+   T       1=  303.37     T       5=  296.59     T       9=  304.72     T      10=  301.41     T      11=  289.48     T      12=  303.38    
+   T      14=  303.29     T      15=  307.17     T      18=  302.27     T      20=  302.60     T      21=  300.28     T      22=  289.37    
+   T      27=  303.38     T      28=  316.06     T      29=  304.73     T      31=  297.73     T      34=  302.50     T      37=  305.38    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
@@ -461,29 +458,28 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          CONVERGENCE STATUS: SUBMODEL CONVERGED                                                                                  
 
                                        CALCULATED                               ALLOWED
-         MAX DIFF DELTA T PER ITER     DRLXCC(TOP_BOX           44)=-2.083171E-05 VS. DRLXCA= 1.000000E-03
+         MAX DIFF DELTA T PER ITER     DRLXCC(TOP_BOX           53)=-1.122868E-05 VS. DRLXCA= 1.000000E-03
          MAX ARITH DELTA T PER ITER    ARLXCC(                   0)=  0.00000     VS. ARLXCA= 1.000000E-03
-         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 6.127705E-10 VS. EBALSA= 1.000000E-02
+         FRACTIONAL SYSTEM LEVEL ENERGY IMBALANCE = 3.713209E-09 VS. EBALSA= 1.000000E-02
          ENERGY INTO AND OUT OF SUB    ESUMIS                  =  0.00000         ESUMOS=  0.00000    
-         MAX NODAL ENERGY BALANCE      EBALNC(TOP_BOX           48)=-1.147247E-08 VS. EBALNA=  0.00000    
-         NUMBER OF ITERATIONS          LOOPCT                  =           7      VS. NLOOPS=        1000
+         MAX NODAL ENERGY BALANCE      EBALNC(TOP_BOX           53)= 9.867218E-09 VS. EBALNA=  0.00000    
+         NUMBER OF ITERATIONS          LOOPCT                  =           5      VS. NLOOPS=        1000
          PROBLEM TIME                  TIMEN                   =  0.00000     VS. TIMEND=  100.000    
 
                                      DIFFUSION NODES IN INPUT NODE NUMBER ORDER
-   T       1=  415.16     T       2=  411.43     T       3=  406.10     T       4=  435.93     T       5=  415.15     T       6=  411.18    
-   T       7=  401.62     T       9=  401.84     T      10=  412.77     T      12=  416.41     T      14=  415.95     T      15=  415.63    
-   T      16=  407.09     T      17=  410.03     T      18=  413.76     T      20=  408.02     T      21=  415.41     T      27=  402.17    
-   T      29=  403.14     T      31=  402.24     T      32=  404.05     T      33=  415.74     T      37=  401.34     T      40=  393.37    
-   T      41=  415.36     T      42=  400.52     T      44=  400.52     T      47=  414.34     T      48=  413.76     T      50=  400.45    
-   T      52=  415.37     T      53=  415.69     T      54=  403.77     T      56=  413.75     T      57=  413.75     T      59=  415.77    
-   T      60=  405.54     T      62=  415.56     T      63=  431.67     T      64=  415.61     T      65=  406.11     T      66=  414.35    
-   T      67=  405.00     T      68=  412.59     T      69=  402.84     T      70=  405.10     T      71=  403.57     T      72=  410.00    
+   T       1=  302.11     T       2=  300.31     T       3=  298.42     T       5=  302.11     T       6=  300.21     T       7=  296.86    
+   T       9=  296.93     T      10=  300.85     T      12=  303.17     T      14=  303.18     T      15=  302.91     T      16=  299.01    
+   T      17=  300.75     T      18=  301.22     T      20=  299.28     T      21=  302.25     T      27=  297.05     T      29=  297.51    
+   T      31=  297.07     T      32=  297.85     T      33=  302.43     T      37=  296.76     T      41=  302.21     T      42=  296.66    
+   T      44=  296.66     T      47=  303.05     T      48=  301.22     T      50=  296.63     T      52=  302.23     T      53=  302.68    
+   T      54=  297.74     T      56=  301.21     T      57=  301.20     T      59=  303.26     T      60=  298.21     T      62=  303.17    
+   T      66=  303.30     T      67=  297.31     T      69=  297.24     T      70=  298.65     T      71=  297.70     T      72=  300.75    
                                      ARITHMETIC NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
                                      BOUNDARY NODES IN INPUT NODE NUMBER ORDER
                                                         ++NONE++
  
-     SAVE WRITTEN AT TIMEN =   0.00000    , LOOPCT/O/R =          7/         0/         0, STARTING RECORD =       2773
+     SAVE WRITTEN AT TIMEN =   0.00000    , LOOPCT/O/R =          5/         0/         0, STARTING RECORD =       2437
  
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    14
@@ -495,24 +491,24 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
          MODEL SIZE TABULATION:    8 THERMAL AND    0 FLUID SUBMODELS. 
                                    0 ARRAY CELLS, 
                                    0 REGISTERS.
-                                 122 NODES IN T ARRAY 
-                                2592 CONDUCTORS IN G ARRAY. 
+                                 113 NODES IN T ARRAY 
+                                2265 CONDUCTORS IN G ARRAY. 
                                    0 DYNAMIC CONDUCTORS FROM TD 
 
  THERMAL SUBMODELS ------ 
 
        NAME                                NODES    DIFF    ARIT   BD,HT       CONDS     LIN     RAD
 
-       BOT_BOX                                43      43       0       0          98      98       0
+       BOT_BOX                                40      40       0       0          93      93       0
        CHIP                                    2       2       0       0           3       3       0
        HEADER                                 10      10       0       0          20      20       0
        SPACE                                   1       0       0       1           0       0       0
        STACK_PCB                              18      18       0       0          57      57       0
-       TOP_BOX                                48      48       0       0          98      98       0
-       C0A0                                    0       0       0       0         895       0     895
-       C0A1                                    0       0       0       0        1421       0    1421
+       TOP_BOX                                42      42       0       0          93      93       0
+       C0A0                                    0       0       0       0         752       0     752
+       C0A1                                    0       0       0       0        1247       0    1247
  
-                               TOTAL         122     121       0       1        2592     276    2316
+                               TOTAL         113     112       0       1        2265     266    1999
 
                     Note: Active conductors are attributed to the thermal submodel of an endpoint node.
                           The tally in each submodel may differ from CONDUCTOR DATA inputs.
@@ -523,4 +519,4 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
        NAME                                LUMPS   TANKS    JUNC    PLEN       PATHS   TUBES    CONN        TIES   FTIES  IFACES
 
        (NONE)
- LOOPCT =               7  The ASTAP execution time is:   0.924277099999017       seconds
+ LOOPCT =               5  The ASTAP execution time is:   0.947145999991335       seconds

@@ -33,7 +33,7 @@
    INPUT               MLINE = 100000 $ Limits headers output                                           ROOT                            
    INPUT           TITLE TXRX_V2.dwg - Case Set 0                                                       ROOT                            
    INPUT           C    SINDA Data generated with Thermal Desktop 6.2 Patch 36                          ROOT                            
-   INPUT           C    Generated on Wed Jul  5 22:32:15 2023                                           ROOT                            
+   INPUT           C    Generated on Wed Jul  5 22:53:25 2023                                           ROOT                            
    INPUT           C    From file: TXRX_V2.dwg                                                          ROOT                            
    INPUT           C    Case Set: Case Set 0                                                            ROOT                            
    INPUT           C    TDUNITS,   Energy     = J                                                       ROOT                            
@@ -53,8 +53,8 @@
    INPUT           C    Computer name: LAPTOP-BEN2019                                                   ROOT                            
    INPUT           C    User name:     benpa                                                            ROOT                            
    INPUT           C    Symbol Names, Evaluated values, Input Strings, Comments                         ROOT                            
-   INPUT           C    TXRX_Amplifier_Operation 1.32 1.32                                              ROOT                            
-   INPUT           C    TXRX_MCU_Operation       3.   3                                                 ROOT                            
+   INPUT           C    TXRX_Amplifier_Operation 1.32  1.32                                             ROOT                            
+   INPUT           C    TXRX_MCU_Operation       0.115 0.115                                            ROOT                            
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     2
 
@@ -163,7 +163,7 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       5,    293.15,    0.9827605                                               BOT_BOX                         
    INPUT                       7,    293.15,    0.02906045                                              BOT_BOX                         
    INPUT                       8,    293.15,    0.006935255                                             BOT_BOX                         
-   INPUT                       10,    293.15,    0.04454672                                             BOT_BOX                         
+   INPUT                       10,    293.15,    0.06961754                                             BOT_BOX                         
    INPUT                       12,    293.15,    0.001053179                                            BOT_BOX                         
    INPUT                       13,    293.15,    0.02008666                                             BOT_BOX                         
    INPUT                       14,    293.15,    2.313454                                               BOT_BOX                         
@@ -173,13 +173,13 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       19,    293.15,    0.4199412                                              BOT_BOX                         
    INPUT                       20,    293.15,    0.04121184                                             BOT_BOX                         
    INPUT                       21,    293.15,    5.049254                                               BOT_BOX                         
-   INPUT                       22,    293.15,    0.1482982                                              BOT_BOX                         
-   INPUT                       23,    293.15,    0.08748784                                             BOT_BOX                         
+   INPUT                       22,    293.15,    0.2974584                                              BOT_BOX                         
+   INPUT                       23,    293.15,    0.5042135                                              BOT_BOX                         
    INPUT                       26,    293.15,    0.226067                                               BOT_BOX                         
    INPUT                       29,    293.15,    0.04115656                                             BOT_BOX                         
    INPUT                       31,    293.15,    0.09876223                                             BOT_BOX                         
    INPUT                       32,    293.15,    0.01325732                                             BOT_BOX                         
-   INPUT                       37,    293.15,    0.0517108                                              BOT_BOX                         
+   INPUT                       37,    293.15,    0.06325174                                             BOT_BOX                         
    INPUT                       38,    293.15,    0.04567                                                BOT_BOX                         
    INPUT                       40,    293.15,    0.22026                                                BOT_BOX                         
    INPUT                       42,    293.15,    0.4698126                                              BOT_BOX                         
@@ -188,19 +188,16 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       47,    293.15,    0.06235822                                             BOT_BOX                         
    INPUT                       49,    293.15,    0.02719982                                             BOT_BOX                         
    INPUT                       50,    293.15,    0.03990924                                             BOT_BOX                         
-   INPUT                       51,    293.15,    0.04840362                                             BOT_BOX                         
+   INPUT                       51,    293.15,    0.02305701                                             BOT_BOX                         
    INPUT                       52,    293.15,    0.05055791                                             BOT_BOX                         
    INPUT                       53,    293.15,    0.06528177                                             BOT_BOX                         
    INPUT                       54,    293.15,    2.978784                                               BOT_BOX                         
    INPUT                       55,    293.15,    0.3831999                                              BOT_BOX                         
    INPUT                       56,    293.15,    0.05563075                                             BOT_BOX                         
    INPUT                       57,    293.15,    0.1424814                                              BOT_BOX                         
-   INPUT                       58,    293.15,    0.01007426                                             BOT_BOX                         
+   INPUT                       58,    293.15,    0.01035005                                             BOT_BOX                         
    INPUT                       59,    293.15,    0.07381623                                             BOT_BOX                         
    INPUT                       60,    293.15,    0.02634034                                             BOT_BOX                         
-   INPUT                       61,    293.15,    0.3559153                                              BOT_BOX                         
-   INPUT                       62,    293.15,    0.2099706                                              BOT_BOX                         
-   INPUT                       63,    293.15,    0.01154095                                             BOT_BOX                         
    INPUT           HEADER NODE DATA, CHIP                                                               CHIP                            
    INPUT                       1,    293.15,    0.1004928                                               CHIP                            
    INPUT                       2,    293.15,    48.85067                                                CHIP                            
@@ -240,7 +237,6 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       1,    293.15,    0.4698126                                               TOP_BOX                         
    INPUT                       2,    293.15,    0.2771638                                               TOP_BOX                         
    INPUT                       3,    293.15,    0.02719982                                              TOP_BOX                         
-   INPUT                       4,    293.15,    0.2951978                                               TOP_BOX                         
    INPUT                       5,    293.15,    0.7391155                                               TOP_BOX                         
    INPUT                       6,    293.15,    0.4360378                                               TOP_BOX                         
    INPUT                       7,    293.15,    0.0558258                                               TOP_BOX                         
@@ -249,22 +245,21 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       12,    293.15,    0.2104742                                              TOP_BOX                         
    INPUT                       14,    293.15,    0.06476118                                             TOP_BOX                         
    INPUT                       15,    293.15,    0.7118306                                              TOP_BOX                         
-   INPUT                       16,    293.15,    0.05272859                                             TOP_BOX                         
-   INPUT                       17,    293.15,    0.5042138                                              TOP_BOX                         
+   INPUT                       16,    293.15,    0.1379694                                              TOP_BOX                         
+   INPUT                       17,    293.15,    0.5074292                                              TOP_BOX                         
    INPUT                       18,    293.15,    0.001053179                                            TOP_BOX                         
    INPUT                       20,    293.15,    0.04121184                                             TOP_BOX                         
    INPUT                       21,    293.15,    0.04274278                                             TOP_BOX                         
    INPUT                       27,    293.15,    0.04115656                                             TOP_BOX                         
    INPUT                       29,    293.15,    0.08458375                                             TOP_BOX                         
    INPUT                       31,    293.15,    0.07336827                                             TOP_BOX                         
-   INPUT                       32,    293.15,    0.0517108                                              TOP_BOX                         
+   INPUT                       32,    293.15,    0.09095001                                             TOP_BOX                         
    INPUT                       33,    293.15,    0.4593728                                              TOP_BOX                         
    INPUT                       37,    293.15,    0.1118417                                              TOP_BOX                         
-   INPUT                       40,    293.15,    0.07270025                                             TOP_BOX                         
    INPUT                       41,    293.15,    5.049254                                               TOP_BOX                         
    INPUT                       42,    293.15,    0.22026                                                TOP_BOX                         
    INPUT                       44,    293.15,    0.8748788                                              TOP_BOX                         
-   INPUT                       47,    293.15,    0.2974586                                              TOP_BOX                         
+   INPUT                       47,    293.15,    0.8601291                                              TOP_BOX                         
    INPUT                       48,    293.15,    2.978784                                               TOP_BOX                         
    INPUT                       50,    293.15,    1.156817                                               TOP_BOX                         
    INPUT                       52,    293.15,    0.02241384                                             TOP_BOX                         
@@ -272,19 +267,15 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       54,    293.15,    0.06235822                                             TOP_BOX                         
    INPUT                       56,    293.15,    1.364812                                               TOP_BOX                         
    INPUT                       57,    293.15,    0.0004825428                                           TOP_BOX                         
-   INPUT                       59,    293.15,    0.04212268                                             TOP_BOX                         
+   INPUT                       59,    293.15,    0.04333617                                             TOP_BOX                         
    INPUT                       60,    293.15,    0.1239826                                              TOP_BOX                         
-   INPUT                       62,    293.15,    0.03248576                                             TOP_BOX                         
-   INPUT                       63,    293.15,    0.5003816                                              TOP_BOX                         
-   INPUT                       64,    293.15,    0.3559153                                              TOP_BOX                         
-   INPUT                       65,    293.15,    0.03923922                                             TOP_BOX                         
-   INPUT                       66,    293.15,    0.3849465                                              TOP_BOX                         
-   INPUT                       67,    293.15,    0.05078017                                             TOP_BOX                         
-   INPUT                       68,    293.15,    0.2099706                                              TOP_BOX                         
-   INPUT                       69,    293.15,    0.1810965                                              TOP_BOX                         
-   INPUT                       70,    293.15,    0.0728355                                              TOP_BOX                         
-   INPUT                       71,    293.15,    0.1390185                                              TOP_BOX                         
-   INPUT                       72,    293.15,    0.652512                                               TOP_BOX                         
+   INPUT                       62,    293.15,    0.03342345                                             TOP_BOX                         
+   INPUT                       66,    293.15,    1.152894                                               TOP_BOX                         
+   INPUT                       67,    293.15,    0.1234804                                              TOP_BOX                         
+   INPUT                       69,    293.15,    0.06957138                                             TOP_BOX                         
+   INPUT                       70,    293.15,    0.1831471                                              TOP_BOX                         
+   INPUT                       71,    293.15,    0.05284                                                TOP_BOX                         
+   INPUT                       72,    293.15,    0.6801443                                              TOP_BOX                         
    INPUT           HEADER NODE DATA,C0A0                                                                C0A0                            
    INPUT           HEADER NODE DATA,C0A1                                                                C0A1                            
 
@@ -309,91 +300,86 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       11,    BOT_BOX.8,    BOT_BOX.32,    0.05719067                           BOT_BOX                         
    INPUT                       12,    BOT_BOX.8,    BOT_BOX.55,    0.02259693                           BOT_BOX                         
    INPUT                       13,    BOT_BOX.10,    BOT_BOX.20,    0.1546071                           BOT_BOX                         
-   INPUT                       14,    BOT_BOX.10,    BOT_BOX.22,    0.008745002                         BOT_BOX                         
-   INPUT                       15,    BOT_BOX.10,    BOT_BOX.37,    0.04566636                          BOT_BOX                         
-   INPUT                       16,    BOT_BOX.10,    BOT_BOX.62,    0.03569806                          BOT_BOX                         
-   INPUT                       17,    BOT_BOX.10,    BOT_BOX.63,    0.07338288                          BOT_BOX                         
-   INPUT                       18,    BOT_BOX.10,    TOP_BOX.70,    0.07379968                          BOT_BOX                         
-   INPUT                       19,    BOT_BOX.12,    BOT_BOX.16,    5.394882E-05                        BOT_BOX                         
-   INPUT                       20,    BOT_BOX.12,    BOT_BOX.49,    7.197040E-05                        BOT_BOX                         
-   INPUT                       21,    BOT_BOX.12,    BOT_BOX.54,    0.5064368                           BOT_BOX                         
-   INPUT                       22,    BOT_BOX.13,    BOT_BOX.18,    0.04197597                          BOT_BOX                         
-   INPUT                       23,    BOT_BOX.13,    BOT_BOX.53,    0.01776272                          BOT_BOX                         
-   INPUT                       24,    BOT_BOX.13,    BOT_BOX.58,    0.03774583                          BOT_BOX                         
-   INPUT                       25,    BOT_BOX.13,    STACK_PCB.14,    0.4029596                         BOT_BOX                         
-   INPUT                       26,    BOT_BOX.14,    BOT_BOX.15,    0.08615798                          BOT_BOX                         
-   INPUT                       27,    BOT_BOX.14,    BOT_BOX.18,    0.6294747                           BOT_BOX                         
-   INPUT                       28,    BOT_BOX.14,    BOT_BOX.21,    0.2586467                           BOT_BOX                         
-   INPUT                       29,    BOT_BOX.14,    BOT_BOX.53,    0.1364222                           BOT_BOX                         
-   INPUT                       30,    BOT_BOX.15,    BOT_BOX.16,    0.2320379                           BOT_BOX                         
-   INPUT                       31,    BOT_BOX.15,    BOT_BOX.19,    0.3713558                           BOT_BOX                         
-   INPUT                       32,    BOT_BOX.15,    BOT_BOX.54,    0.1525874                           BOT_BOX                         
-   INPUT                       33,    BOT_BOX.16,    BOT_BOX.20,    0.0001312965                        BOT_BOX                         
-   INPUT                       34,    BOT_BOX.18,    BOT_BOX.19,    0.02651009                          BOT_BOX                         
-   INPUT                       35,    BOT_BOX.18,    BOT_BOX.61,    1.337636                            BOT_BOX                         
-   INPUT                       36,    BOT_BOX.19,    BOT_BOX.20,    0.07139613                          BOT_BOX                         
-   INPUT                       37,    BOT_BOX.19,    BOT_BOX.62,    0.7891322                           BOT_BOX                         
-   INPUT                       38,    BOT_BOX.20,    BOT_BOX.47,    0.04566636                          BOT_BOX                         
-   INPUT                       39,    BOT_BOX.21,    BOT_BOX.42,    0.3450475                           BOT_BOX                         
-   INPUT                       40,    BOT_BOX.21,    BOT_BOX.54,    0.188045                            BOT_BOX                         
-   INPUT                       41,    BOT_BOX.21,    BOT_BOX.57,    0.2977497                           BOT_BOX                         
-   INPUT                       42,    BOT_BOX.22,    BOT_BOX.23,    0.005522942                         BOT_BOX                         
-   INPUT                       43,    BOT_BOX.22,    TOP_BOX.72,    3.210323                            BOT_BOX                         
-   INPUT                       44,    BOT_BOX.23,    BOT_BOX.58,    0.01487421                          BOT_BOX                         
-   INPUT                       45,    BOT_BOX.23,    TOP_BOX.66,    1.893915                            BOT_BOX                         
-   INPUT                       46,    BOT_BOX.26,    BOT_BOX.46,    1.195655                            BOT_BOX                         
-   INPUT                       47,    BOT_BOX.26,    BOT_BOX.55,    0.01427118                          BOT_BOX                         
-   INPUT                       48,    BOT_BOX.26,    BOT_BOX.56,    0.03843469                          BOT_BOX                         
-   INPUT                       49,    BOT_BOX.29,    BOT_BOX.38,    0.2944611                           BOT_BOX                         
-   INPUT                       50,    BOT_BOX.29,    BOT_BOX.40,    0.007273459                         BOT_BOX                         
-   INPUT                       51,    BOT_BOX.29,    BOT_BOX.49,    0.0301398                           BOT_BOX                         
-   INPUT                       52,    BOT_BOX.29,    BOT_BOX.60,    0.2324789                           BOT_BOX                         
-   INPUT                       53,    BOT_BOX.31,    BOT_BOX.38,    0.2498356                           BOT_BOX                         
-   INPUT                       54,    BOT_BOX.31,    BOT_BOX.52,    0.07338288                          BOT_BOX                         
-   INPUT                       55,    BOT_BOX.31,    STACK_PCB.31,    0.01902765                        BOT_BOX                         
-   INPUT                       56,    BOT_BOX.32,    BOT_BOX.42,    0.0277044                           BOT_BOX                         
-   INPUT                       57,    BOT_BOX.32,    BOT_BOX.57,    0.009736659                         BOT_BOX                         
-   INPUT                       58,    BOT_BOX.32,    STACK_PCB.18,    0.2659558                         BOT_BOX                         
-   INPUT                       59,    BOT_BOX.37,    BOT_BOX.47,    0.1943443                           BOT_BOX                         
-   INPUT                       60,    BOT_BOX.37,    BOT_BOX.51,    0.1761187                           BOT_BOX                         
-   INPUT                       61,    BOT_BOX.38,    BOT_BOX.56,    0.04916745                          BOT_BOX                         
-   INPUT                       62,    BOT_BOX.40,    BOT_BOX.45,    3.643313                            BOT_BOX                         
-   INPUT                       63,    BOT_BOX.40,    BOT_BOX.47,    0.007055452                         BOT_BOX                         
-   INPUT                       64,    BOT_BOX.42,    BOT_BOX.46,    0.01749683                          BOT_BOX                         
-   INPUT                       65,    BOT_BOX.42,    BOT_BOX.55,    2.026722                            BOT_BOX                         
-   INPUT                       66,    BOT_BOX.45,    BOT_BOX.50,    0.01322281                          BOT_BOX                         
-   INPUT                       67,    BOT_BOX.45,    BOT_BOX.60,    0.01363138                          BOT_BOX                         
-   INPUT                       68,    BOT_BOX.45,    TOP_BOX.50,    4.16795                             BOT_BOX                         
-   INPUT                       69,    BOT_BOX.46,    BOT_BOX.49,    0.04712188                          BOT_BOX                         
-   INPUT                       70,    BOT_BOX.46,    BOT_BOX.54,    0.2035592                           BOT_BOX                         
-   INPUT                       71,    BOT_BOX.47,    BOT_BOX.50,    0.3522374                           BOT_BOX                         
-   INPUT                       72,    BOT_BOX.49,    BOT_BOX.56,    0.2342532                           BOT_BOX                         
-   INPUT                       73,    BOT_BOX.50,    BOT_BOX.51,    0.07499541                          BOT_BOX                         
-   INPUT                       74,    BOT_BOX.50,    TOP_BOX.37,    0.4029596                           BOT_BOX                         
-   INPUT                       75,    BOT_BOX.51,    BOT_BOX.63,    0.01902765                          BOT_BOX                         
-   INPUT                       76,    BOT_BOX.51,    TOP_BOX.69,    0.8173368                           BOT_BOX                         
-   INPUT                       77,    BOT_BOX.52,    BOT_BOX.59,    0.05299881                          BOT_BOX                         
-   INPUT                       78,    BOT_BOX.53,    BOT_BOX.57,    0.007298574                         BOT_BOX                         
-   INPUT                       79,    BOT_BOX.53,    STACK_PCB.12,    1.309621                          BOT_BOX                         
-   INPUT                       80,    BOT_BOX.56,    STACK_PCB.31,    0.6165266                         BOT_BOX                         
-   INPUT                       81,    BOT_BOX.57,    STACK_PCB.34,    2.858328                          BOT_BOX                         
-   INPUT                       82,    BOT_BOX.58,    BOT_BOX.61,    0.02098798                          BOT_BOX                         
-   INPUT                       83,    BOT_BOX.58,    TOP_BOX.59,    0.2021494                           BOT_BOX                         
-   INPUT                       84,    BOT_BOX.59,    BOT_BOX.60,    0.2659558                           BOT_BOX                         
-   INPUT                       85,    BOT_BOX.59,    TOP_BOX.50,    0.006357919                         BOT_BOX                         
-   INPUT                       86,    BOT_BOX.61,    BOT_BOX.62,    0.01325505                          BOT_BOX                         
-   INPUT                       87,    BOT_BOX.63,    TOP_BOX.67,    0.2498356                           BOT_BOX                         
-   INPUT                       88,    STACK_PCB.12,    STACK_PCB.14,    0.01646078                      BOT_BOX                         
-   INPUT                       89,    STACK_PCB.12,    STACK_PCB.34,    0.006763616                     BOT_BOX                         
-   INPUT                       90,    STACK_PCB.14,    TOP_BOX.59,    0.0349792                         BOT_BOX                         
-   INPUT                       91,    STACK_PCB.18,    STACK_PCB.34,    0.009022999                     BOT_BOX                         
-   INPUT                       92,    TOP_BOX.37,    TOP_BOX.50,    0.006167353                         BOT_BOX                         
-   INPUT                       93,    TOP_BOX.37,    TOP_BOX.69,    0.0349792                           BOT_BOX                         
-   INPUT                       94,    TOP_BOX.59,    TOP_BOX.66,    0.01487421                          BOT_BOX                         
-   INPUT                       95,    TOP_BOX.66,    TOP_BOX.72,    0.005522942                         BOT_BOX                         
-   INPUT                       96,    TOP_BOX.67,    TOP_BOX.69,    0.01902765                          BOT_BOX                         
-   INPUT                       97,    TOP_BOX.67,    TOP_BOX.70,    0.07338288                          BOT_BOX                         
-   INPUT                       98,    TOP_BOX.70,    TOP_BOX.72,    0.008745002                         BOT_BOX                         
+   INPUT                       14,    BOT_BOX.10,    BOT_BOX.22,    0.05057227                          BOT_BOX                         
+   INPUT                       15,    BOT_BOX.10,    BOT_BOX.37,    0.06469402                          BOT_BOX                         
+   INPUT                       16,    BOT_BOX.10,    TOP_BOX.70,    0.6165266                           BOT_BOX                         
+   INPUT                       17,    BOT_BOX.12,    BOT_BOX.16,    5.394882E-05                        BOT_BOX                         
+   INPUT                       18,    BOT_BOX.12,    BOT_BOX.49,    7.197040E-05                        BOT_BOX                         
+   INPUT                       19,    BOT_BOX.12,    BOT_BOX.54,    0.5064368                           BOT_BOX                         
+   INPUT                       20,    BOT_BOX.13,    BOT_BOX.18,    0.04197597                          BOT_BOX                         
+   INPUT                       21,    BOT_BOX.13,    BOT_BOX.53,    0.01776272                          BOT_BOX                         
+   INPUT                       22,    BOT_BOX.13,    BOT_BOX.58,    0.03774583                          BOT_BOX                         
+   INPUT                       23,    BOT_BOX.13,    STACK_PCB.14,    0.4029596                         BOT_BOX                         
+   INPUT                       24,    BOT_BOX.14,    BOT_BOX.15,    0.08615798                          BOT_BOX                         
+   INPUT                       25,    BOT_BOX.14,    BOT_BOX.18,    0.6294747                           BOT_BOX                         
+   INPUT                       26,    BOT_BOX.14,    BOT_BOX.21,    0.2586467                           BOT_BOX                         
+   INPUT                       27,    BOT_BOX.14,    BOT_BOX.53,    0.1364222                           BOT_BOX                         
+   INPUT                       28,    BOT_BOX.15,    BOT_BOX.16,    0.2320379                           BOT_BOX                         
+   INPUT                       29,    BOT_BOX.15,    BOT_BOX.19,    0.3713558                           BOT_BOX                         
+   INPUT                       30,    BOT_BOX.15,    BOT_BOX.54,    0.1525874                           BOT_BOX                         
+   INPUT                       31,    BOT_BOX.16,    BOT_BOX.20,    0.0001312965                        BOT_BOX                         
+   INPUT                       32,    BOT_BOX.18,    BOT_BOX.19,    0.02651009                          BOT_BOX                         
+   INPUT                       33,    BOT_BOX.18,    BOT_BOX.23,    1.337636                            BOT_BOX                         
+   INPUT                       34,    BOT_BOX.19,    BOT_BOX.20,    0.07139613                          BOT_BOX                         
+   INPUT                       35,    BOT_BOX.19,    BOT_BOX.22,    0.7891322                           BOT_BOX                         
+   INPUT                       36,    BOT_BOX.20,    BOT_BOX.47,    0.04566636                          BOT_BOX                         
+   INPUT                       37,    BOT_BOX.21,    BOT_BOX.42,    0.3450475                           BOT_BOX                         
+   INPUT                       38,    BOT_BOX.21,    BOT_BOX.54,    0.188045                            BOT_BOX                         
+   INPUT                       39,    BOT_BOX.21,    BOT_BOX.57,    0.2977497                           BOT_BOX                         
+   INPUT                       40,    BOT_BOX.22,    BOT_BOX.23,    0.01877799                          BOT_BOX                         
+   INPUT                       41,    BOT_BOX.22,    TOP_BOX.72,    1.893915                            BOT_BOX                         
+   INPUT                       42,    BOT_BOX.23,    BOT_BOX.58,    0.02973298                          BOT_BOX                         
+   INPUT                       43,    BOT_BOX.23,    TOP_BOX.66,    3.210323                            BOT_BOX                         
+   INPUT                       44,    BOT_BOX.26,    BOT_BOX.46,    1.195655                            BOT_BOX                         
+   INPUT                       45,    BOT_BOX.26,    BOT_BOX.55,    0.01427118                          BOT_BOX                         
+   INPUT                       46,    BOT_BOX.26,    BOT_BOX.56,    0.03843469                          BOT_BOX                         
+   INPUT                       47,    BOT_BOX.29,    BOT_BOX.38,    0.2944611                           BOT_BOX                         
+   INPUT                       48,    BOT_BOX.29,    BOT_BOX.40,    0.007273459                         BOT_BOX                         
+   INPUT                       49,    BOT_BOX.29,    BOT_BOX.49,    0.0301398                           BOT_BOX                         
+   INPUT                       50,    BOT_BOX.29,    BOT_BOX.60,    0.2324789                           BOT_BOX                         
+   INPUT                       51,    BOT_BOX.31,    BOT_BOX.38,    0.2498356                           BOT_BOX                         
+   INPUT                       52,    BOT_BOX.31,    BOT_BOX.52,    0.07338288                          BOT_BOX                         
+   INPUT                       53,    BOT_BOX.31,    STACK_PCB.31,    0.01902765                        BOT_BOX                         
+   INPUT                       54,    BOT_BOX.32,    BOT_BOX.42,    0.0277044                           BOT_BOX                         
+   INPUT                       55,    BOT_BOX.32,    BOT_BOX.57,    0.009736659                         BOT_BOX                         
+   INPUT                       56,    BOT_BOX.32,    STACK_PCB.18,    0.2659558                         BOT_BOX                         
+   INPUT                       57,    BOT_BOX.37,    BOT_BOX.47,    0.1943443                           BOT_BOX                         
+   INPUT                       58,    BOT_BOX.37,    BOT_BOX.51,    0.2495016                           BOT_BOX                         
+   INPUT                       59,    BOT_BOX.37,    TOP_BOX.67,    0.2498356                           BOT_BOX                         
+   INPUT                       60,    BOT_BOX.38,    BOT_BOX.56,    0.04916745                          BOT_BOX                         
+   INPUT                       61,    BOT_BOX.40,    BOT_BOX.45,    3.643313                            BOT_BOX                         
+   INPUT                       62,    BOT_BOX.40,    BOT_BOX.47,    0.007055452                         BOT_BOX                         
+   INPUT                       63,    BOT_BOX.42,    BOT_BOX.46,    0.01749683                          BOT_BOX                         
+   INPUT                       64,    BOT_BOX.42,    BOT_BOX.55,    2.026722                            BOT_BOX                         
+   INPUT                       65,    BOT_BOX.45,    BOT_BOX.50,    0.01322281                          BOT_BOX                         
+   INPUT                       66,    BOT_BOX.45,    BOT_BOX.60,    0.01363138                          BOT_BOX                         
+   INPUT                       67,    BOT_BOX.45,    TOP_BOX.50,    4.16795                             BOT_BOX                         
+   INPUT                       68,    BOT_BOX.46,    BOT_BOX.49,    0.04712188                          BOT_BOX                         
+   INPUT                       69,    BOT_BOX.46,    BOT_BOX.54,    0.2035592                           BOT_BOX                         
+   INPUT                       70,    BOT_BOX.47,    BOT_BOX.50,    0.3522374                           BOT_BOX                         
+   INPUT                       71,    BOT_BOX.49,    BOT_BOX.56,    0.2342532                           BOT_BOX                         
+   INPUT                       72,    BOT_BOX.50,    BOT_BOX.51,    0.07499541                          BOT_BOX                         
+   INPUT                       73,    BOT_BOX.50,    TOP_BOX.37,    0.4029596                           BOT_BOX                         
+   INPUT                       74,    BOT_BOX.51,    TOP_BOX.69,    0.2686396                           BOT_BOX                         
+   INPUT                       75,    BOT_BOX.52,    BOT_BOX.59,    0.05299881                          BOT_BOX                         
+   INPUT                       76,    BOT_BOX.53,    BOT_BOX.57,    0.007298574                         BOT_BOX                         
+   INPUT                       77,    BOT_BOX.53,    STACK_PCB.12,    1.309621                          BOT_BOX                         
+   INPUT                       78,    BOT_BOX.56,    STACK_PCB.31,    0.6165266                         BOT_BOX                         
+   INPUT                       79,    BOT_BOX.57,    STACK_PCB.34,    2.858328                          BOT_BOX                         
+   INPUT                       80,    BOT_BOX.58,    TOP_BOX.59,    0.2081197                           BOT_BOX                         
+   INPUT                       81,    BOT_BOX.59,    BOT_BOX.60,    0.2659558                           BOT_BOX                         
+   INPUT                       82,    BOT_BOX.59,    TOP_BOX.50,    0.006357919                         BOT_BOX                         
+   INPUT                       83,    STACK_PCB.12,    STACK_PCB.14,    0.01646078                      BOT_BOX                         
+   INPUT                       84,    STACK_PCB.12,    STACK_PCB.34,    0.006763616                     BOT_BOX                         
+   INPUT                       85,    STACK_PCB.14,    TOP_BOX.59,    0.0349792                         BOT_BOX                         
+   INPUT                       86,    STACK_PCB.18,    STACK_PCB.34,    0.009022999                     BOT_BOX                         
+   INPUT                       87,    TOP_BOX.37,    TOP_BOX.50,    0.006167353                         BOT_BOX                         
+   INPUT                       88,    TOP_BOX.37,    TOP_BOX.69,    0.0349792                           BOT_BOX                         
+   INPUT                       89,    TOP_BOX.59,    TOP_BOX.66,    0.008745002                         BOT_BOX                         
+   INPUT                       90,    TOP_BOX.66,    TOP_BOX.72,    0.005522942                         BOT_BOX                         
+   INPUT                       91,    TOP_BOX.67,    TOP_BOX.69,    0.07338288                          BOT_BOX                         
+   INPUT                       92,    TOP_BOX.67,    TOP_BOX.70,    0.01902765                          BOT_BOX                         
+   INPUT                       93,    TOP_BOX.70,    TOP_BOX.72,    0.01487421                          BOT_BOX                         
    INPUT           HEADER CONDUCTOR DATA, CHIP                                                          CHIP                            
    INPUT           C Contact - Face Contactor[CHIP][1]::738                                             CHIP                            
    INPUT                       1,    CHIP.1,    STACK_PCB.27,    0.01666666                             CHIP                            
@@ -438,7 +424,7 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       14,    HEADER.1,    STACK_PCB.5,    0.0007580725                         STACK_PCB                       
    INPUT                       15,    HEADER.1,    STACK_PCB.11,    0.05972991                          STACK_PCB                       
    INPUT                       16,    HEADER.1,    TOP_BOX.37,    0.03784612                            STACK_PCB                       
-   INPUT                       17,    HEADER.1,    TOP_BOX.40,    0.02088131                            STACK_PCB                       
+   INPUT                       17,    HEADER.1,    TOP_BOX.67,    0.02088131                            STACK_PCB                       
    INPUT                       18,    HEADER.3,    STACK_PCB.5,    0.0007814962                         STACK_PCB                       
    INPUT                       19,    HEADER.3,    STACK_PCB.22,    0.05806166                          STACK_PCB                       
    INPUT                       20,    STACK_PCB.1,    STACK_PCB.9,    5.796527E-06                      STACK_PCB                       
@@ -450,7 +436,7 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       26,    STACK_PCB.10,    STACK_PCB.11,    0.007671151                     STACK_PCB                       
    INPUT                       27,    STACK_PCB.10,    STACK_PCB.15,    0.002848375                     STACK_PCB                       
    INPUT                       28,    STACK_PCB.10,    STACK_PCB.29,    0.03990029                      STACK_PCB                       
-   INPUT                       29,    STACK_PCB.10,    TOP_BOX.4,    0.08478824                         STACK_PCB                       
+   INPUT                       29,    STACK_PCB.10,    TOP_BOX.72,    0.08478824                        STACK_PCB                       
    INPUT                       30,    STACK_PCB.11,    STACK_PCB.22,    0.001484048                     STACK_PCB                       
    INPUT                       31,    STACK_PCB.11,    TOP_BOX.70,    0.01661175                        STACK_PCB                       
    INPUT                       32,    STACK_PCB.12,    STACK_PCB.14,    0.0001398869                    STACK_PCB                       
@@ -459,7 +445,7 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       35,    STACK_PCB.14,    STACK_PCB.15,    0.004510104                     STACK_PCB                       
    INPUT                       36,    STACK_PCB.14,    TOP_BOX.59,    0.0002972601                      STACK_PCB                       
    INPUT                       37,    STACK_PCB.15,    STACK_PCB.28,    0.06763386                      STACK_PCB                       
-   INPUT                       38,    STACK_PCB.15,    TOP_BOX.63,    0.1437222                         STACK_PCB                       
+   INPUT                       38,    STACK_PCB.15,    TOP_BOX.66,    0.1437222                         STACK_PCB                       
    INPUT                       39,    STACK_PCB.18,    STACK_PCB.20,    0.002976697                     STACK_PCB                       
    INPUT                       40,    STACK_PCB.18,    STACK_PCB.34,    7.667921E-05                    STACK_PCB                       
    INPUT                       41,    STACK_PCB.20,    STACK_PCB.21,    0.001879945                     STACK_PCB                       
@@ -472,13 +458,13 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       48,    STACK_PCB.28,    STACK_PCB.29,    0.009257237                     STACK_PCB                       
    INPUT                       49,    STACK_PCB.28,    STACK_PCB.37,    0.02779027                      STACK_PCB                       
    INPUT                       50,    STACK_PCB.34,    STACK_PCB.37,    0.03199169                      STACK_PCB                       
-   INPUT                       51,    TOP_BOX.4,    TOP_BOX.63,    0.001424187                          STACK_PCB                       
-   INPUT                       52,    TOP_BOX.4,    TOP_BOX.70,    0.003835576                          STACK_PCB                       
-   INPUT                       53,    TOP_BOX.37,    TOP_BOX.50,    0.0007580725                        STACK_PCB                       
-   INPUT                       54,    TOP_BOX.37,    TOP_BOX.69,    0.004299538                         STACK_PCB                       
-   INPUT                       55,    TOP_BOX.40,    TOP_BOX.69,    0.01892306                          STACK_PCB                       
-   INPUT                       56,    TOP_BOX.40,    TOP_BOX.70,    0.004906619                         STACK_PCB                       
-   INPUT                       57,    TOP_BOX.59,    TOP_BOX.63,    0.002255052                         STACK_PCB                       
+   INPUT                       51,    TOP_BOX.37,    TOP_BOX.50,    0.0007580725                        STACK_PCB                       
+   INPUT                       52,    TOP_BOX.37,    TOP_BOX.69,    0.004299538                         STACK_PCB                       
+   INPUT                       53,    TOP_BOX.59,    TOP_BOX.66,    0.002255052                         STACK_PCB                       
+   INPUT                       54,    TOP_BOX.66,    TOP_BOX.72,    0.001424187                         STACK_PCB                       
+   INPUT                       55,    TOP_BOX.67,    TOP_BOX.69,    0.01892306                          STACK_PCB                       
+   INPUT                       56,    TOP_BOX.67,    TOP_BOX.70,    0.004906619                         STACK_PCB                       
+   INPUT                       57,    TOP_BOX.70,    TOP_BOX.72,    0.003835576                         STACK_PCB                       
    INPUT           HEADER CONDUCTOR DATA, TOP_BOX                                                       TOP_BOX                         
    INPUT                       1,    BOT_BOX.3,    BOT_BOX.5,    0.018778                               TOP_BOX                         
    INPUT                       2,    BOT_BOX.3,    STACK_PCB.31,    0.05057231                          TOP_BOX                         
@@ -521,63 +507,58 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       39,    TOP_BOX.7,    TOP_BOX.44,    0.02889038                           TOP_BOX                         
    INPUT                       40,    TOP_BOX.9,    TOP_BOX.31,    0.365739                             TOP_BOX                         
    INPUT                       41,    TOP_BOX.10,    TOP_BOX.15,    0.02651009                          TOP_BOX                         
-   INPUT                       42,    TOP_BOX.10,    TOP_BOX.20,    0.07139613                          TOP_BOX                         
-   INPUT                       43,    TOP_BOX.10,    TOP_BOX.56,    0.3713558                           TOP_BOX                         
-   INPUT                       44,    TOP_BOX.10,    TOP_BOX.68,    0.7891322                           TOP_BOX                         
+   INPUT                       42,    TOP_BOX.10,    TOP_BOX.17,    0.7891322                           TOP_BOX                         
+   INPUT                       43,    TOP_BOX.10,    TOP_BOX.20,    0.07139613                          TOP_BOX                         
+   INPUT                       44,    TOP_BOX.10,    TOP_BOX.56,    0.3713558                           TOP_BOX                         
    INPUT                       45,    TOP_BOX.12,    TOP_BOX.14,    0.05726858                          TOP_BOX                         
    INPUT                       46,    TOP_BOX.12,    TOP_BOX.33,    0.02353125                          TOP_BOX                         
    INPUT                       47,    TOP_BOX.12,    TOP_BOX.53,    0.1364222                           TOP_BOX                         
    INPUT                       48,    TOP_BOX.14,    TOP_BOX.15,    0.04197597                          TOP_BOX                         
    INPUT                       49,    TOP_BOX.14,    TOP_BOX.62,    0.1216959                           TOP_BOX                         
-   INPUT                       50,    TOP_BOX.15,    TOP_BOX.53,    0.6294747                           TOP_BOX                         
-   INPUT                       51,    TOP_BOX.15,    TOP_BOX.64,    1.337636                            TOP_BOX                         
-   INPUT                       52,    TOP_BOX.16,    TOP_BOX.17,    0.02973301                          TOP_BOX                         
+   INPUT                       50,    TOP_BOX.15,    TOP_BOX.47,    1.337636                            TOP_BOX                         
+   INPUT                       51,    TOP_BOX.15,    TOP_BOX.53,    0.6294747                           TOP_BOX                         
+   INPUT                       52,    TOP_BOX.16,    TOP_BOX.17,    0.08627037                          TOP_BOX                         
    INPUT                       53,    TOP_BOX.16,    TOP_BOX.20,    0.1546071                           TOP_BOX                         
-   INPUT                       54,    TOP_BOX.16,    TOP_BOX.32,    0.04566636                          TOP_BOX                         
-   INPUT                       55,    TOP_BOX.16,    TOP_BOX.65,    0.2495018                           TOP_BOX                         
-   INPUT                       56,    TOP_BOX.16,    TOP_BOX.68,    0.03569806                          TOP_BOX                         
-   INPUT                       57,    TOP_BOX.16,    TOP_BOX.70,    0.02170579                          TOP_BOX                         
-   INPUT                       58,    TOP_BOX.17,    TOP_BOX.47,    0.018778                            TOP_BOX                         
-   INPUT                       59,    TOP_BOX.17,    TOP_BOX.72,    0.9442126                           TOP_BOX                         
-   INPUT                       60,    TOP_BOX.18,    TOP_BOX.48,    0.5064368                           TOP_BOX                         
-   INPUT                       61,    TOP_BOX.18,    TOP_BOX.57,    5.394882E-05                        TOP_BOX                         
-   INPUT                       62,    TOP_BOX.20,    TOP_BOX.54,    0.04566636                          TOP_BOX                         
-   INPUT                       63,    TOP_BOX.20,    TOP_BOX.57,    0.0001312965                        TOP_BOX                         
-   INPUT                       64,    TOP_BOX.21,    TOP_BOX.33,    0.03139186                          TOP_BOX                         
-   INPUT                       65,    TOP_BOX.21,    TOP_BOX.52,    0.1843878                           TOP_BOX                         
-   INPUT                       66,    TOP_BOX.27,    TOP_BOX.31,    0.2944611                           TOP_BOX                         
-   INPUT                       67,    TOP_BOX.27,    TOP_BOX.42,    0.007273459                         TOP_BOX                         
-   INPUT                       68,    TOP_BOX.29,    TOP_BOX.37,    0.1185175                           TOP_BOX                         
-   INPUT                       69,    TOP_BOX.29,    TOP_BOX.44,    0.02802445                          TOP_BOX                         
-   INPUT                       70,    TOP_BOX.29,    TOP_BOX.54,    0.3522374                           TOP_BOX                         
-   INPUT                       71,    TOP_BOX.29,    TOP_BOX.71,    0.1589455                           TOP_BOX                         
-   INPUT                       72,    TOP_BOX.31,    TOP_BOX.60,    0.09483382                          TOP_BOX                         
-   INPUT                       73,    TOP_BOX.32,    TOP_BOX.54,    0.1943443                           TOP_BOX                         
-   INPUT                       74,    TOP_BOX.32,    TOP_BOX.71,    0.1761187                           TOP_BOX                         
-   INPUT                       75,    TOP_BOX.33,    TOP_BOX.41,    0.2977497                           TOP_BOX                         
-   INPUT                       76,    TOP_BOX.37,    TOP_BOX.50,    0.020969                            TOP_BOX                         
-   INPUT                       77,    TOP_BOX.37,    TOP_BOX.69,    0.1189293                           TOP_BOX                         
-   INPUT                       78,    TOP_BOX.41,    TOP_BOX.48,    0.188045                            TOP_BOX                         
-   INPUT                       79,    TOP_BOX.41,    TOP_BOX.53,    0.2586467                           TOP_BOX                         
-   INPUT                       80,    TOP_BOX.42,    TOP_BOX.44,    3.643313                            TOP_BOX                         
-   INPUT                       81,    TOP_BOX.42,    TOP_BOX.54,    0.007055452                         TOP_BOX                         
-   INPUT                       82,    TOP_BOX.44,    TOP_BOX.50,    1.225868                            TOP_BOX                         
-   INPUT                       83,    TOP_BOX.47,    TOP_BOX.62,    0.05057231                          TOP_BOX                         
-   INPUT                       84,    TOP_BOX.47,    TOP_BOX.66,    0.5570339                           TOP_BOX                         
-   INPUT                       85,    TOP_BOX.48,    TOP_BOX.56,    0.1525874                           TOP_BOX                         
-   INPUT                       86,    TOP_BOX.53,    TOP_BOX.56,    0.08615798                          TOP_BOX                         
-   INPUT                       87,    TOP_BOX.56,    TOP_BOX.57,    0.2320379                           TOP_BOX                         
-   INPUT                       88,    TOP_BOX.59,    TOP_BOX.62,    0.05945571                          TOP_BOX                         
-   INPUT                       89,    TOP_BOX.59,    TOP_BOX.66,    0.05057231                          TOP_BOX                         
-   INPUT                       90,    TOP_BOX.62,    TOP_BOX.64,    0.02098798                          TOP_BOX                         
-   INPUT                       91,    TOP_BOX.64,    TOP_BOX.68,    0.01325505                          TOP_BOX                         
-   INPUT                       92,    TOP_BOX.65,    TOP_BOX.67,    0.07348106                          TOP_BOX                         
-   INPUT                       93,    TOP_BOX.65,    TOP_BOX.71,    0.06469401                          TOP_BOX                         
-   INPUT                       94,    TOP_BOX.66,    TOP_BOX.72,    0.018778                            TOP_BOX                         
-   INPUT                       95,    TOP_BOX.67,    TOP_BOX.69,    0.06469401                          TOP_BOX                         
-   INPUT                       96,    TOP_BOX.67,    TOP_BOX.70,    0.2495018                           TOP_BOX                         
-   INPUT                       97,    TOP_BOX.69,    TOP_BOX.71,    0.2403932                           TOP_BOX                         
-   INPUT                       98,    TOP_BOX.70,    TOP_BOX.72,    0.02973301                          TOP_BOX                         
+   INPUT                       54,    TOP_BOX.16,    TOP_BOX.32,    0.1103604                           TOP_BOX                         
+   INPUT                       55,    TOP_BOX.16,    TOP_BOX.70,    0.1813314                           TOP_BOX                         
+   INPUT                       56,    TOP_BOX.17,    TOP_BOX.47,    0.03203305                          TOP_BOX                         
+   INPUT                       57,    TOP_BOX.17,    TOP_BOX.72,    0.5570339                           TOP_BOX                         
+   INPUT                       58,    TOP_BOX.18,    TOP_BOX.48,    0.5064368                           TOP_BOX                         
+   INPUT                       59,    TOP_BOX.18,    TOP_BOX.57,    5.394882E-05                        TOP_BOX                         
+   INPUT                       60,    TOP_BOX.20,    TOP_BOX.54,    0.04566636                          TOP_BOX                         
+   INPUT                       61,    TOP_BOX.20,    TOP_BOX.57,    0.0001312965                        TOP_BOX                         
+   INPUT                       62,    TOP_BOX.21,    TOP_BOX.33,    0.03139186                          TOP_BOX                         
+   INPUT                       63,    TOP_BOX.21,    TOP_BOX.52,    0.1843878                           TOP_BOX                         
+   INPUT                       64,    TOP_BOX.27,    TOP_BOX.31,    0.2944611                           TOP_BOX                         
+   INPUT                       65,    TOP_BOX.27,    TOP_BOX.42,    0.007273459                         TOP_BOX                         
+   INPUT                       66,    TOP_BOX.29,    TOP_BOX.37,    0.1185175                           TOP_BOX                         
+   INPUT                       67,    TOP_BOX.29,    TOP_BOX.44,    0.02802445                          TOP_BOX                         
+   INPUT                       68,    TOP_BOX.29,    TOP_BOX.54,    0.3522374                           TOP_BOX                         
+   INPUT                       69,    TOP_BOX.29,    TOP_BOX.71,    0.1589455                           TOP_BOX                         
+   INPUT                       70,    TOP_BOX.31,    TOP_BOX.60,    0.09483382                          TOP_BOX                         
+   INPUT                       71,    TOP_BOX.32,    TOP_BOX.54,    0.1943443                           TOP_BOX                         
+   INPUT                       72,    TOP_BOX.32,    TOP_BOX.67,    0.07348106                          TOP_BOX                         
+   INPUT                       73,    TOP_BOX.32,    TOP_BOX.71,    0.4256205                           TOP_BOX                         
+   INPUT                       74,    TOP_BOX.33,    TOP_BOX.41,    0.2977497                           TOP_BOX                         
+   INPUT                       75,    TOP_BOX.37,    TOP_BOX.50,    0.020969                            TOP_BOX                         
+   INPUT                       76,    TOP_BOX.37,    TOP_BOX.69,    0.1189293                           TOP_BOX                         
+   INPUT                       77,    TOP_BOX.41,    TOP_BOX.48,    0.188045                            TOP_BOX                         
+   INPUT                       78,    TOP_BOX.41,    TOP_BOX.53,    0.2586467                           TOP_BOX                         
+   INPUT                       79,    TOP_BOX.42,    TOP_BOX.44,    3.643313                            TOP_BOX                         
+   INPUT                       80,    TOP_BOX.42,    TOP_BOX.54,    0.007055452                         TOP_BOX                         
+   INPUT                       81,    TOP_BOX.44,    TOP_BOX.50,    1.225868                            TOP_BOX                         
+   INPUT                       82,    TOP_BOX.47,    TOP_BOX.62,    0.05072099                          TOP_BOX                         
+   INPUT                       83,    TOP_BOX.47,    TOP_BOX.66,    0.9442126                           TOP_BOX                         
+   INPUT                       84,    TOP_BOX.48,    TOP_BOX.56,    0.1525874                           TOP_BOX                         
+   INPUT                       85,    TOP_BOX.53,    TOP_BOX.56,    0.08615798                          TOP_BOX                         
+   INPUT                       86,    TOP_BOX.56,    TOP_BOX.57,    0.2320379                           TOP_BOX                         
+   INPUT                       87,    TOP_BOX.59,    TOP_BOX.62,    0.06121168                          TOP_BOX                         
+   INPUT                       88,    TOP_BOX.59,    TOP_BOX.66,    0.02973301                          TOP_BOX                         
+   INPUT                       89,    TOP_BOX.66,    TOP_BOX.72,    0.018778                            TOP_BOX                         
+   INPUT                       90,    TOP_BOX.67,    TOP_BOX.69,    0.2495018                           TOP_BOX                         
+   INPUT                       91,    TOP_BOX.67,    TOP_BOX.70,    0.06469401                          TOP_BOX                         
+   INPUT                       92,    TOP_BOX.69,    TOP_BOX.71,    0.07901164                          TOP_BOX                         
+   INPUT                       93,    TOP_BOX.70,    TOP_BOX.72,    0.05057231                          TOP_BOX                         
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     6
 
@@ -587,7 +568,7 @@ HEADER NODE DATA, TOP_BOX
  CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
 
    INPUT           HEADER VARIABLES0, CHIP                                                              CHIP                            
-   INPUT                 CHIP.Q1 = CHIP.Q1 + 3.                                                         CHIP                            
+   INPUT                 CHIP.Q1 = CHIP.Q1 + 0.115                                                      CHIP                            
    INPUT                 CHIP.Q2 = CHIP.Q2 + 1.32                                                       CHIP                            
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     7
