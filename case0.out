@@ -18,10 +18,10 @@
                P R O C E S S O R  E X E C U T I O N
 
                VERSION .............. CR6.2N    
-               MODIFICATION DATE .... 09FEB2023 
+               MODIFICATION DATE .... 22NOV2021 
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     1
- DATE = 07/05/2023 START TIME = 22:53:32
+ DATE = 07/08/2023 START TIME = 01:52:55
  MODEL = SINDA                                                                TXRX_V2.dwg - Case Set 0
  
 
@@ -519,4 +519,4 @@ STACK_PCB                       , TOP_BOX                         , C0A0        
        NAME                                LUMPS   TANKS    JUNC    PLEN       PATHS   TUBES    CONN        TIES   FTIES  IFACES
 
        (NONE)
- LOOPCT =               5  The ASTAP execution time is:   0.947145999991335       seconds
+ LOOPCT =               5  The ASTAP execution time is:   0.934983600163832       seconds

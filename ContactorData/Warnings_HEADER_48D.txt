@@ -5,4 +5,4 @@ Bot Area	From: ZMIN-FD Brick[HEADER]::3CE	STACK_PCB.22	 0.0% complete
 Overall Area only 0.% complete
 
 Some connections were excluded due to merged nodes. 100.% excluded
-Total connected Area = 0. .vs. Total = 667.4965
+Total connected Area = 0. .vs. Total = 0.0006674965

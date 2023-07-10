@@ -1,6 +1,6 @@
 HEADER OPTIONS
-C    SINDA Data generated with Thermal Desktop 6.2 Patch 36
-C    Generated on Wed Jul  5 22:53:25 2023
+C    SINDA Data generated with Thermal Desktop 6.2 Patch 15
+C    Generated on Sat Jul  8 01:52:40 2023
 C    From file: TXRX_V2.dwg
 C    Case Set: Case Set 0
 C    TDUNITS,   Energy     = J
@@ -17,8 +17,8 @@ C    TDUNITS,   Current    = amp
 C    DWG name:      TXRX_V2.dwg
 C    Thermophysical Property Database: TdThermo.tdp
 C    Optical Property Database:        RcOptics.rco
-C    Computer name: LAPTOP-BEN2019
-C    User name:     benpa
+C    Computer name: DESKTOP-H4NA618
+C    User name:     taiji
 C    Symbol Names, Evaluated values, Input Strings, Comments
 C    TXRX_Amplifier_Operation 1.32  1.32
 C    TXRX_MCU_Operation       0.115 0.115
@@ -159,7 +159,7 @@ HEADER CONDUCTOR DATA, BOT_BOX
             93,    TOP_BOX.70,    TOP_BOX.72,    0.01487421
 HEADER NODE DATA, CHIP
             1,    293.15,    0.1004928
-            2,    293.15,    48.85067
+            2,    293.15,    0.04885067
 HEADER CONDUCTOR DATA, CHIP
 C Contact - Face Contactor[CHIP][1]::738
             1,    CHIP.1,    STACK_PCB.27,    0.01666666

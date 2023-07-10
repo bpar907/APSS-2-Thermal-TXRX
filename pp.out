@@ -18,7 +18,7 @@
              P R E P R O C E S S O R  E X E C U T I O N
 
              VERSION ................... CR6.2N    
-             MODIFICATION DATE ......... 09FEB2023 
+             MODIFICATION DATE ......... 22NOV2021 
 
                             SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     1
 
@@ -32,8 +32,8 @@
    INPUT               SAVE = case0.sav                                                                 ROOT                            
    INPUT               MLINE = 100000 $ Limits headers output                                           ROOT                            
    INPUT           TITLE TXRX_V2.dwg - Case Set 0                                                       ROOT                            
-   INPUT           C    SINDA Data generated with Thermal Desktop 6.2 Patch 36                          ROOT                            
-   INPUT           C    Generated on Wed Jul  5 22:53:25 2023                                           ROOT                            
+   INPUT           C    SINDA Data generated with Thermal Desktop 6.2 Patch 15                          ROOT                            
+   INPUT           C    Generated on Sat Jul  8 01:52:40 2023                                           ROOT                            
    INPUT           C    From file: TXRX_V2.dwg                                                          ROOT                            
    INPUT           C    Case Set: Case Set 0                                                            ROOT                            
    INPUT           C    TDUNITS,   Energy     = J                                                       ROOT                            
@@ -50,8 +50,8 @@
    INPUT           C    DWG name:      TXRX_V2.dwg                                                      ROOT                            
    INPUT           C    Thermophysical Property Database: TdThermo.tdp                                  ROOT                            
    INPUT           C    Optical Property Database:        RcOptics.rco                                  ROOT                            
-   INPUT           C    Computer name: LAPTOP-BEN2019                                                   ROOT                            
-   INPUT           C    User name:     benpa                                                            ROOT                            
+   INPUT           C    Computer name: DESKTOP-H4NA618                                                  ROOT                            
+   INPUT           C    User name:     taiji                                                            ROOT                            
    INPUT           C    Symbol Names, Evaluated values, Input Strings, Comments                         ROOT                            
    INPUT           C    TXRX_Amplifier_Operation 1.32  1.32                                             ROOT                            
    INPUT           C    TXRX_MCU_Operation       0.115 0.115                                            ROOT                            
@@ -200,7 +200,7 @@ HEADER NODE DATA, TOP_BOX
    INPUT                       60,    293.15,    0.02634034                                             BOT_BOX                         
    INPUT           HEADER NODE DATA, CHIP                                                               CHIP                            
    INPUT                       1,    293.15,    0.1004928                                               CHIP                            
-   INPUT                       2,    293.15,    48.85067                                                CHIP                            
+   INPUT                       2,    293.15,    0.04885067                                              CHIP                            
    INPUT           HEADER NODE DATA, HEADER                                                             HEADER                          
    INPUT                       1,    293.15,    6.593514                                                HEADER                          
    INPUT                       3,    293.15,    6.563706                                                HEADER                          
