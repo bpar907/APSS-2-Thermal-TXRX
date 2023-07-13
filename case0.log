@@ -1,10 +1,9 @@
-[ AutoCAD - Sat Jul 08 01:52:39 2023  ]----------------------------------------
+[ AutoCAD - Thu Jul 13 21:17:37 2023  ]----------------------------------------
 No duplicate nodes or insulation nodalization warnings found
 
 Calculating SINDA/FLUINT data
-ContactorData\Warnings_HEADER_486.txt contains 4 warnings
-ContactorData\Warnings_HEADER_48D.txt contains 4 warnings
-Calculating Thermal Analyzer Input took 0.59 sec
+Contactor Restart ContactorData\Restart_HEADER_486.bin restart failed strings
+Calculating Thermal Analyzer Input took 1.12 sec
 
 Outputting SINDA/FLUINT data
 Outputting data for submodel BOT_BOX...
@@ -14,8 +13,8 @@ Outputting data for submodel HEADER...
 Outputting data for submodel SPACE...
 Outputting data for submodel STACK_PCB...
 Outputting data for submodel TOP_BOX...
-    Number of nodes:      113
-    Number of conductors: 266
+    Number of nodes:      127
+    Number of conductors: 303
     
 Total Nodal Mass = 0.090594 kg
 
@@ -23,46 +22,48 @@ Total Nodal Mass = 0.090594 kg
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Lower-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Restart was successful. No calculations were performed.
-    72 calculation nodes
-    752 radks were output, 928 radks were filtered out
+Restart: Values failing are -78.18 and -0.07818 from surface type[11]
+Restart: Point not same
+Deleting old database named TXRX_Internal_Lower-RcOptics.rck
+Creating new database named TXRX_Internal_Lower-RcOptics.rck
+Fixed RadCAD
+Fixed license found.
+Setting number of threads to: 8
+Time to calculate radk = 0.31 sec
+Outputting SINDA/FLUINT radks to file C0A0.k...
+Total elapsed time for calculations and output = 0.47 sec
+    80 calculation nodes
+    853 radks were output, 1101 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    4 nodes(5%) have Bij Inactive > .2
-        This may be ok, but may be an indication of an incorrect active side
      
-    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
-    Node HEADER.1::600 is overlapped by HEADER.1 covering  100%
-    Node HEADER.3::5FE is overlapped by HEADER.3 covering  100%
-    Node STACK_PCB.11::740 is overlapped by STACK_PCB.11 covering  100%
-    Node STACK_PCB.22::74C is overlapped by STACK_PCB.22 covering  100%
-    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+    No overlapping surfaces greater than 10.0% found in TXRX_Internal_Lower
 
 
 *** RADCAD RAYTRACE RADK RUN START for database TXRX_Internal_Upper-RcOptics.rck
 Database already exists, checking to see if the model has changed...
 Using regular optical properties
-Restart was successful. No calculations were performed.
-    74 calculation nodes
-    1247 radks were output, 1094 radks were filtered out
+Restart: Values failing are -13.54 and -0.01354 from surface type[12]
+Restart: Point not same
+Deleting old database named TXRX_Internal_Upper-RcOptics.rck
+Creating new database named TXRX_Internal_Upper-RcOptics.rck
+Fixed RadCAD
+Fixed license found.
+Setting number of threads to: 8
+Time to calculate radk = 0.38 sec
+Outputting SINDA/FLUINT radks to file C0A1.k...
+Total elapsed time for calculations and output = 0.54 sec
+    82 calculation nodes
+    1364 radks were output, 1336 radks were filtered out
     0 nodes(0%) have bij sum + bij inactive < .9
     5000 average number of rays per node shot
-    4 nodes(5%) have Bij Inactive > .2
-        This may be ok, but may be an indication of an incorrect active side
      
-    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
-    Node HEADER.1::600 is overlapped by HEADER.1 covering  100%
-    Node HEADER.1::600 is overlapped by STACK_PCB.22 covering  100%
-    Node HEADER.3::5FE is overlapped by HEADER.3 covering  100%
-    Node STACK_PCB.11::740 is overlapped by STACK_PCB.11 covering  100%
-    Node STACK_PCB.22::74C is overlapped by STACK_PCB.22 covering  100%
-    Node STACK_PCB.22::74C is overlapped by HEADER.1 covering  100%
-    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+    No overlapping surfaces greater than 10.0% found in TXRX_Internal_Upper
 
 *** Running SINDA model named C:\Users\taiji\APSS-Thermal\Kessler\Thermal Submodels\TXRX\APSS-2-Thermal-TXRX\case0.inp
 Successful completion of processor
 From C:\Users\taiji\APSS-Thermal\Kessler\Thermal Submodels\TXRX\APSS-2-Thermal-TXRX\messages_case0.log
-     LOOPCT =               5  The ASTAP execution time is:   0.934983600163832       seconds
-Time to run SINDA = 18.21 sec
+     LOOPCT =               5  The ASTAP execution time is:   0.765109300031327       seconds
+Time to run SINDA = 13.46 sec
 
-Case Set Solved::Elapsed time = 19.60 sec
+Case Set Solved::Elapsed time = 16.60 sec

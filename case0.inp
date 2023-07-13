@@ -6,7 +6,7 @@ HEADER OPTIONS
     SAVE = case0.sav
     MLINE = 100000 $ Limits headers output
 
-TITLE TXRX_V2.dwg - Case Set 0
+TITLE TXRX.dwg - Case Set 0
 HEADER OPERATION DATA
       CALL TDPREBL   $ Place Before BUILD, Code in Subroutine data
 BUILD ALL
@@ -18,7 +18,7 @@ BUILD ALL
       CALL TDPOSTSL $ logic in Subroutine Data
 HEADER CONTROL DATA, GLOBAL
     abszro = 0.
-    sigma  = 5.670400e-14 
+    sigma  = 5.670400e-08 
     nloops  = 1000
     nloopt  = 100
     timeo  = 0.

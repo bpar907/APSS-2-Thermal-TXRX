@@ -1,41 +1,48 @@
 Node: BOT_BOX.2
-      BOT_BOX.2::56B
+      BOT_BOX.2::912
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
       Rect[BOT_BOX]::6CC
 Node: BOT_BOX.3
-      BOT_BOX.3::774
-      Rect[BOT_BOX]::6D6
-      Rect[STACK_PCB]::57A
-      Rect[TOP_BOX]::668
+      BOT_BOX.3::901
+      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::6CC
+      Rect[STACK_PCB]::597
+      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::678
 Node: BOT_BOX.5
-      BOT_BOX.5::776
+      BOT_BOX.5::8B2
       Rect[BOT_BOX]::6D6
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::668
 Node: BOT_BOX.7
-      BOT_BOX.7::778
+      BOT_BOX.7::8B0
       Rect[BOT_BOX]::658
       Rect[BOT_BOX]::6D6
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::620
       Rect[TOP_BOX]::668
 Node: BOT_BOX.8
-      BOT_BOX.8::779
+      BOT_BOX.8::8AC
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
       Rect[BOT_BOX]::6D6
 Node: BOT_BOX.10
-      BOT_BOX.10::81C
-      Rect[BOT_BOX]::51A
+      BOT_BOX.10::91A
+      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6BE
+Node: BOT_BOX.11
+      BOT_BOX.11::91B
       Rect[BOT_BOX]::55D
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6B4
 Node: BOT_BOX.12
-      BOT_BOX.12::79D
-      Rect[BOT_BOX]::51A
+      BOT_BOX.12::91C
+      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6B4
+      Rect[BOT_BOX]::6BE
 Node: BOT_BOX.13
-      BOT_BOX.13::547
+      BOT_BOX.13::8DE
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
 Node: BOT_BOX.14
@@ -54,120 +61,130 @@ Node: BOT_BOX.19
       BOT_BOX.19::7A4
       Rect[BOT_BOX]::51A
 Node: BOT_BOX.20
-      BOT_BOX.20::7A5
+      BOT_BOX.20::8A7
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::55D
 Node: BOT_BOX.21
       BOT_BOX.21::79B
       Rect[BOT_BOX]::51A
 Node: BOT_BOX.22
-      BOT_BOX.22::817
+      BOT_BOX.22::87A
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6AC
 Node: BOT_BOX.23
-      BOT_BOX.23::818
+      BOT_BOX.23::879
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6AC
 Node: BOT_BOX.26
-      BOT_BOX.26::794
+      BOT_BOX.26::8A9
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6D6
 Node: BOT_BOX.29
-      BOT_BOX.29::56C
+      BOT_BOX.29::913
       Rect[BOT_BOX]::557
       Rect[BOT_BOX]::563
 Node: BOT_BOX.31
-      BOT_BOX.31::6D2
+      BOT_BOX.31::8C7
       Rect[BOT_BOX]::6CC
       Rect[STACK_PCB]::58D
       Rect[STACK_PCB]::597
       Rect[TOP_BOX]::678
 Node: BOT_BOX.32
-      BOT_BOX.32::53E
+      BOT_BOX.32::8E1
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
 Node: BOT_BOX.37
-      BOT_BOX.37::821
+      BOT_BOX.37::919
       Rect[BOT_BOX]::55D
       Rect[BOT_BOX]::563
-      Rect[BOT_BOX]::6B4
 Node: BOT_BOX.38
-      BOT_BOX.38::6D3
+      BOT_BOX.38::911
       Rect[BOT_BOX]::557
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6CC
 Node: BOT_BOX.40
-      BOT_BOX.40::56E
+      BOT_BOX.40::915
       Rect[BOT_BOX]::563
 Node: BOT_BOX.42
       BOT_BOX.42::797
       Rect[BOT_BOX]::51A
 Node: BOT_BOX.45
-      BOT_BOX.45::6C7
+      BOT_BOX.45::916
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
 Node: BOT_BOX.46
       BOT_BOX.46::798
       Rect[BOT_BOX]::51A
 Node: BOT_BOX.47
-      BOT_BOX.47::570
-      Rect[BOT_BOX]::55D
+      BOT_BOX.47::917
       Rect[BOT_BOX]::563
 Node: BOT_BOX.49
-      BOT_BOX.49::799
+      BOT_BOX.49::8A8
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::557
 Node: BOT_BOX.50
-      BOT_BOX.50::571
+      BOT_BOX.50::918
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
 Node: BOT_BOX.51
-      BOT_BOX.51::822
-      Rect[BOT_BOX]::563
+      BOT_BOX.51::878
+      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::55D
+      Rect[BOT_BOX]::6AC
       Rect[BOT_BOX]::6B4
-      Rect[BOT_BOX]::6BE
 Node: BOT_BOX.52
-      BOT_BOX.52::6D0
+      BOT_BOX.52::8FF
       Rect[BOT_BOX]::6BE
-      Rect[BOT_BOX]::6CC
       Rect[STACK_PCB]::597
       Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::678
 Node: BOT_BOX.53
-      BOT_BOX.53::544
+      BOT_BOX.53::8DF
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
 Node: BOT_BOX.54
       BOT_BOX.54::79C
       Rect[BOT_BOX]::51A
 Node: BOT_BOX.55
-      BOT_BOX.55::793
+      BOT_BOX.55::8AA
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6D6
 Node: BOT_BOX.56
-      BOT_BOX.56::53D
+      BOT_BOX.56::8E4
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::557
       Rect[BOT_BOX]::6CC
       Rect[BOT_BOX]::6D6
 Node: BOT_BOX.57
-      BOT_BOX.57::541
+      BOT_BOX.57::8E0
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
 Node: BOT_BOX.58
-      BOT_BOX.58::824
+      BOT_BOX.58::87C
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
       Rect[BOT_BOX]::6AC
 Node: BOT_BOX.59
-      BOT_BOX.59::6C8
+      BOT_BOX.59::8FD
       Rect[BOT_BOX]::6BE
       Rect[STACK_PCB]::597
       Rect[TOP_BOX]::606
 Node: BOT_BOX.60
-      BOT_BOX.60::6C9
+      BOT_BOX.60::914
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
+Node: BOT_BOX.61
+      BOT_BOX.61::79D
+      Rect[BOT_BOX]::51A
+Node: BOT_BOX.62
+      BOT_BOX.62::8B4
+      Rect[BOT_BOX]::6D6
+      Rect[STACK_PCB]::57A
+      Rect[TOP_BOX]::668
+Node: BOT_BOX.63
+      BOT_BOX.63::86E
+      Rect[STACK_PCB]::58D
+      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::5F8
 Node: CHIP.1
       CHIP.1::72F
       Rect[CHIP]::72E
@@ -175,19 +192,11 @@ Node: CHIP.2
       CHIP.2::39A
       Rect[CHIP]::399
 Node: HEADER.1
-      FD Brick[HEADER]::3AB
       FD Brick[HEADER]::3CE
-      HEADER.1::600
-      Rect[STACK_PCB]::592
-      Rect[STACK_PCB]::597
-      Rect[STACK_PCB]::5F8
+      HEADER.1::832
 Node: HEADER.3
-      FD Brick[HEADER]::3AB
       FD Brick[HEADER]::3CE
-      HEADER.3::5FE
-      Rect[STACK_PCB]::58D
-      Rect[STACK_PCB]::597
-      Rect[STACK_PCB]::5F8
+      HEADER.3::833
 Node: HEADER.5
       FD Brick[HEADER]::3CE
       HEADER.5::482
@@ -212,37 +221,69 @@ Node: HEADER.13
 Node: HEADER.14
       FD Brick[HEADER]::3AB
       HEADER.14::479
+Node: HEADER.16
+      FD Brick[HEADER]::3AB
+      HEADER.16::835
+Node: HEADER.18
+      FD Brick[HEADER]::3AB
+      HEADER.18::834
+Node: HEADER.19
+      FD Brick[HEADER]::3AB
+      HEADER.19::600
+Node: HEADER.20
+      FD Brick[HEADER]::3CE
+      HEADER.20::47F
+Node: HEADER.21
+      FD Brick[HEADER]::3CE
+      HEADER.21::481
+Node: HEADER.22
+      FD Brick[HEADER]::3AB
+      HEADER.22::5FE
 Node: SPACE.1
       CHIP.2::39A
-Node: STACK_PCB.1
+Node: STACK_PCB.3
+      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::5F8
+      STACK_PCB.3::86C
+Node: STACK_PCB.4
+      Rect[BOT_BOX]::6AC
       Rect[STACK_PCB]::57A
-      STACK_PCB.1::748
+      Rect[TOP_BOX]::6A4
+      STACK_PCB.4::888
 Node: STACK_PCB.5
       Rect[STACK_PCB]::597
-      STACK_PCB.5::59C
-Node: STACK_PCB.9
+      Rect[STACK_PCB]::5F8
+      STACK_PCB.5::86A
+Node: STACK_PCB.7
+      Rect[STACK_PCB]::592
+      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::5F8
+      STACK_PCB.7::868
+Node: STACK_PCB.8
+      Rect[BOT_BOX]::658
+      Rect[BOT_BOX]::6AC
       Rect[STACK_PCB]::57A
-      STACK_PCB.9::744
+      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
+      STACK_PCB.8::88E
 Node: STACK_PCB.10
       Rect[STACK_PCB]::57A
       STACK_PCB.10::73F
 Node: STACK_PCB.11
-      FD Brick[HEADER]::3AB
-      FD Brick[HEADER]::3CE
       Rect[STACK_PCB]::57A
       Rect[STACK_PCB]::592
       Rect[STACK_PCB]::5F8
-      STACK_PCB.11::740
+      STACK_PCB.11::8C1
 Node: STACK_PCB.12
       Rect[BOT_BOX]::658
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::620
-      STACK_PCB.12::741
+      STACK_PCB.12::8C0
 Node: STACK_PCB.14
       Rect[BOT_BOX]::658
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::620
-      STACK_PCB.14::73D
+      STACK_PCB.14::8C3
 Node: STACK_PCB.15
       Rect[STACK_PCB]::57A
       STACK_PCB.15::73E
@@ -250,7 +291,7 @@ Node: STACK_PCB.18
       Rect[BOT_BOX]::658
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::620
-      STACK_PCB.18::749
+      STACK_PCB.18::8BC
 Node: STACK_PCB.20
       Rect[STACK_PCB]::57A
       STACK_PCB.20::74A
@@ -258,12 +299,10 @@ Node: STACK_PCB.21
       Rect[STACK_PCB]::57A
       STACK_PCB.21::74B
 Node: STACK_PCB.22
-      FD Brick[HEADER]::3AB
-      FD Brick[HEADER]::3CE
       Rect[STACK_PCB]::57A
       Rect[STACK_PCB]::58D
       Rect[STACK_PCB]::5F8
-      STACK_PCB.22::74C
+      STACK_PCB.22::8BA
 Node: STACK_PCB.27
       Rect[STACK_PCB]::57A
       STACK_PCB.27::747
@@ -280,15 +319,36 @@ Node: STACK_PCB.31
       Rect[STACK_PCB]::58D
       Rect[TOP_BOX]::668
       Rect[TOP_BOX]::678
-      STACK_PCB.31::7D5
+      STACK_PCB.31::89E
 Node: STACK_PCB.34
       Rect[BOT_BOX]::658
       Rect[STACK_PCB]::57A
       Rect[TOP_BOX]::620
-      STACK_PCB.34::745
+      STACK_PCB.34::8BE
 Node: STACK_PCB.37
       Rect[STACK_PCB]::57A
       STACK_PCB.37::746
+Node: STACK_PCB.38
+      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::5F8
+      STACK_PCB.38::85F
+Node: STACK_PCB.39
+      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::5F8
+      STACK_PCB.39::860
+Node: STACK_PCB.59
+      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::6B4
+      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::592
+      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::6A4
+      STACK_PCB.59::886
+Node: STACK_PCB.63
+      Rect[BOT_BOX]::6AC
+      Rect[STACK_PCB]::57A
+      Rect[TOP_BOX]::6A4
+      STACK_PCB.63::88A
 Node: TOP_BOX.1
       Rect[TOP_BOX]::5CC
       TOP_BOX.1::7BB
@@ -298,100 +358,114 @@ Node: TOP_BOX.2
 Node: TOP_BOX.3
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::5DF
-      TOP_BOX.3::7BD
+      TOP_BOX.3::8A1
 Node: TOP_BOX.5
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::668
-      TOP_BOX.5::7BF
+      TOP_BOX.5::8A0
 Node: TOP_BOX.6
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::668
-      TOP_BOX.6::7C0
+      TOP_BOX.6::89F
 Node: TOP_BOX.7
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
-      TOP_BOX.7::646
+      TOP_BOX.7::90A
 Node: TOP_BOX.9
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::678
-      TOP_BOX.9::648
+      TOP_BOX.9::90C
 Node: TOP_BOX.10
-      Rect[TOP_BOX]::5CC
-      TOP_BOX.10::7B0
+      Rect[TOP_BOX]::5DF
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::678
+      TOP_BOX.10::90D
+Node: TOP_BOX.11
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::678
+      TOP_BOX.11::90E
 Node: TOP_BOX.12
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
-      TOP_BOX.12::7B2
+      TOP_BOX.12::8A4
 Node: TOP_BOX.14
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
-      TOP_BOX.14::7AE
+      TOP_BOX.14::8A6
 Node: TOP_BOX.15
       Rect[TOP_BOX]::5CC
       TOP_BOX.15::7AF
 Node: TOP_BOX.16
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::5E4
-      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::620
       Rect[TOP_BOX]::6A4
-      TOP_BOX.16::825
+      TOP_BOX.16::899
 Node: TOP_BOX.17
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::6A4
-      TOP_BOX.17::819
+      TOP_BOX.17::897
 Node: TOP_BOX.18
       Rect[TOP_BOX]::5CC
       TOP_BOX.18::7B9
+Node: TOP_BOX.19
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::694
+      TOP_BOX.19::904
 Node: TOP_BOX.20
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::5E4
-      TOP_BOX.20::7B1
+      TOP_BOX.20::8A5
 Node: TOP_BOX.21
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
-      TOP_BOX.21::7BA
+      TOP_BOX.21::8A2
 Node: TOP_BOX.27
-      Rect[TOP_BOX]::5DF
       Rect[TOP_BOX]::5E9
-      TOP_BOX.27::5F0
+      TOP_BOX.27::909
 Node: TOP_BOX.29
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
-      TOP_BOX.29::642
+      TOP_BOX.29::906
 Node: TOP_BOX.31
       Rect[TOP_BOX]::5DF
       Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::678
-      TOP_BOX.31::67E
+      TOP_BOX.31::90B
 Node: TOP_BOX.32
       Rect[TOP_BOX]::5E4
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::694
-      TOP_BOX.32::81D
+      TOP_BOX.32::903
 Node: TOP_BOX.33
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
-      TOP_BOX.33::7B6
+      TOP_BOX.33::8A3
 Node: TOP_BOX.37
       Rect[BOT_BOX]::6BE
       Rect[STACK_PCB]::597
       Rect[TOP_BOX]::606
-      TOP_BOX.37::643
+      TOP_BOX.37::8F9
+Node: TOP_BOX.40
+      Rect[BOT_BOX]::6B4
+      Rect[STACK_PCB]::592
+      Rect[STACK_PCB]::597
+      Rect[TOP_BOX]::694
+      TOP_BOX.40::881
 Node: TOP_BOX.41
       Rect[TOP_BOX]::5CC
       TOP_BOX.41::7B7
 Node: TOP_BOX.42
       Rect[TOP_BOX]::5E9
-      TOP_BOX.42::5EE
+      TOP_BOX.42::907
 Node: TOP_BOX.44
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
-      TOP_BOX.44::644
+      TOP_BOX.44::908
 Node: TOP_BOX.47
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::6A4
-      TOP_BOX.47::81A
+      TOP_BOX.47::896
 Node: TOP_BOX.48
       Rect[TOP_BOX]::5CC
       TOP_BOX.48::7B8
@@ -399,92 +473,60 @@ Node: TOP_BOX.50
       Rect[BOT_BOX]::6BE
       Rect[STACK_PCB]::597
       Rect[TOP_BOX]::606
-      TOP_BOX.50::645
+      TOP_BOX.50::8FB
 Node: TOP_BOX.52
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
       Rect[TOP_BOX]::668
-      TOP_BOX.52::760
+      TOP_BOX.52::8B6
 Node: TOP_BOX.53
       Rect[TOP_BOX]::5CC
       TOP_BOX.53::7B3
 Node: TOP_BOX.54
       Rect[TOP_BOX]::5E4
       Rect[TOP_BOX]::5E9
-      TOP_BOX.54::5EC
+      TOP_BOX.54::905
 Node: TOP_BOX.56
       Rect[TOP_BOX]::5CC
       TOP_BOX.56::7B4
 Node: TOP_BOX.57
       Rect[TOP_BOX]::5CC
       TOP_BOX.57::7B5
-Node: TOP_BOX.59
-      Rect[BOT_BOX]::658
-      Rect[BOT_BOX]::6AC
-      Rect[STACK_PCB]::57A
-      Rect[TOP_BOX]::620
-      Rect[TOP_BOX]::6A4
-      TOP_BOX.59::827
 Node: TOP_BOX.60
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::5DF
       Rect[TOP_BOX]::668
       Rect[TOP_BOX]::678
-      TOP_BOX.60::75A
+      TOP_BOX.60::8B9
+Node: TOP_BOX.61
+      Rect[BOT_BOX]::6B4
+      Rect[BOT_BOX]::6BE
+      Rect[STACK_PCB]::597
+      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::694
+      TOP_BOX.61::8F7
 Node: TOP_BOX.62
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::620
-      Rect[TOP_BOX]::6A4
-      TOP_BOX.62::826
-Node: TOP_BOX.66
-      Rect[BOT_BOX]::6AC
-      Rect[STACK_PCB]::57A
-      Rect[TOP_BOX]::6A4
-      TOP_BOX.66::83A
-Node: TOP_BOX.67
-      Rect[BOT_BOX]::6B4
-      Rect[STACK_PCB]::592
-      Rect[STACK_PCB]::597
-      Rect[TOP_BOX]::694
-      TOP_BOX.67::83C
-Node: TOP_BOX.69
-      Rect[BOT_BOX]::6B4
-      Rect[BOT_BOX]::6BE
-      Rect[STACK_PCB]::597
-      Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::694
-      TOP_BOX.69::69D
-Node: TOP_BOX.70
-      Rect[BOT_BOX]::6AC
-      Rect[BOT_BOX]::6B4
-      Rect[STACK_PCB]::57A
-      Rect[STACK_PCB]::592
+      Rect[TOP_BOX]::5E4
       Rect[TOP_BOX]::694
       Rect[TOP_BOX]::6A4
-      TOP_BOX.70::820
-Node: TOP_BOX.71
-      Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::694
-      TOP_BOX.71::69C
-Node: TOP_BOX.72
-      Rect[BOT_BOX]::6AC
-      Rect[STACK_PCB]::57A
-      Rect[TOP_BOX]::6A4
-      TOP_BOX.72::83B
+      TOP_BOX.62::895
+Node: TOP_BOX.64
+      Rect[TOP_BOX]::5CC
+      TOP_BOX.64::7B0
 Conductor: BOT_BOX.1
-      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6BE
       Rect[BOT_BOX]::6CC
 Conductor: BOT_BOX.2
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6CC
 Conductor: BOT_BOX.3
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.4
-      Rect[BOT_BOX]::6D6
+      Rect[BOT_BOX]::6CC
 Conductor: BOT_BOX.5
-      Rect[BOT_BOX]::6D6
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.6
       Rect[BOT_BOX]::6D6
 Conductor: BOT_BOX.7
@@ -503,37 +545,39 @@ Conductor: BOT_BOX.12
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6D6
 Conductor: BOT_BOX.13
-      Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::55D
+      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.14
-      Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::563
 Conductor: BOT_BOX.15
+      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.16
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.17
+      Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6B4
+Conductor: BOT_BOX.18
+      Rect[BOT_BOX]::55D
+      Rect[BOT_BOX]::563
+Conductor: BOT_BOX.19
       Rect[BOT_BOX]::55D
       Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.16
-      Rect[BOT_BOX]::6AC
-      Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.17
-      Rect[BOT_BOX]::51A
-Conductor: BOT_BOX.18
-      Rect[BOT_BOX]::51A
-Conductor: BOT_BOX.19
-      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.20
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::6B4
 Conductor: BOT_BOX.21
-      Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::658
+      Rect[BOT_BOX]::6B4
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.22
       Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.23
+      Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
 Conductor: BOT_BOX.24
       Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.25
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.26
       Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.27
@@ -555,192 +599,245 @@ Conductor: BOT_BOX.34
 Conductor: BOT_BOX.35
       Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.36
-      Rect[BOT_BOX]::55D
+      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.37
       Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.38
       Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.39
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::55D
 Conductor: BOT_BOX.40
       Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::55D
 Conductor: BOT_BOX.41
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.42
       Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.43
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.44
       Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.45
       Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::6D6
+      Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.46
+      Rect[BOT_BOX]::6AC
+Conductor: BOT_BOX.47
+      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::6AC
+Conductor: BOT_BOX.48
+      Rect[BOT_BOX]::6AC
+Conductor: BOT_BOX.49
+      Rect[BOT_BOX]::51A
+Conductor: BOT_BOX.50
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::6D6
-Conductor: BOT_BOX.47
-      Rect[BOT_BOX]::557
-      Rect[BOT_BOX]::563
-Conductor: BOT_BOX.48
-      Rect[BOT_BOX]::563
-Conductor: BOT_BOX.49
-      Rect[BOT_BOX]::557
-Conductor: BOT_BOX.50
-      Rect[BOT_BOX]::563
 Conductor: BOT_BOX.51
-      Rect[BOT_BOX]::6CC
+      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::6D6
 Conductor: BOT_BOX.52
-      Rect[BOT_BOX]::6CC
+      Rect[BOT_BOX]::6D6
 Conductor: BOT_BOX.53
-      Rect[BOT_BOX]::6CC
-Conductor: BOT_BOX.54
-      Rect[BOT_BOX]::51A
-Conductor: BOT_BOX.55
-      Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::658
-Conductor: BOT_BOX.56
-      Rect[BOT_BOX]::658
-Conductor: BOT_BOX.57
-      Rect[BOT_BOX]::55D
-      Rect[BOT_BOX]::563
-Conductor: BOT_BOX.58
-      Rect[BOT_BOX]::563
-      Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.59
-      Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.60
       Rect[BOT_BOX]::557
-      Rect[BOT_BOX]::6CC
-Conductor: BOT_BOX.61
       Rect[BOT_BOX]::563
+Conductor: BOT_BOX.54
+      Rect[BOT_BOX]::563
+Conductor: BOT_BOX.55
+      Rect[BOT_BOX]::557
+Conductor: BOT_BOX.56
+      Rect[BOT_BOX]::563
+Conductor: BOT_BOX.57
+      Rect[BOT_BOX]::6CC
+Conductor: BOT_BOX.58
+      Rect[BOT_BOX]::6CC
+Conductor: BOT_BOX.59
+      Rect[BOT_BOX]::51A
+Conductor: BOT_BOX.60
+      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::658
+Conductor: BOT_BOX.61
+      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.62
       Rect[BOT_BOX]::563
 Conductor: BOT_BOX.63
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::557
+      Rect[BOT_BOX]::6CC
 Conductor: BOT_BOX.64
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::563
 Conductor: BOT_BOX.65
       Rect[BOT_BOX]::563
-      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.66
+      Rect[BOT_BOX]::51A
+Conductor: BOT_BOX.67
+      Rect[BOT_BOX]::51A
+Conductor: BOT_BOX.68
       Rect[BOT_BOX]::563
       Rect[BOT_BOX]::6BE
-Conductor: BOT_BOX.67
-      Rect[BOT_BOX]::6BE
-Conductor: BOT_BOX.68
-      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.69
-      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.70
       Rect[BOT_BOX]::563
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.71
       Rect[BOT_BOX]::51A
-      Rect[BOT_BOX]::557
 Conductor: BOT_BOX.72
-      Rect[BOT_BOX]::563
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.73
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::563
 Conductor: BOT_BOX.74
-      Rect[BOT_BOX]::6B4
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::51A
+      Rect[BOT_BOX]::557
 Conductor: BOT_BOX.75
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::51A
 Conductor: BOT_BOX.76
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.77
+      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::6B4
+Conductor: BOT_BOX.78
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.79
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.80
       Rect[BOT_BOX]::51A
       Rect[BOT_BOX]::658
-Conductor: BOT_BOX.77
+Conductor: BOT_BOX.81
       Rect[BOT_BOX]::658
-Conductor: BOT_BOX.78
+Conductor: BOT_BOX.82
+      Rect[BOT_BOX]::51A
+Conductor: BOT_BOX.83
       Rect[BOT_BOX]::6CC
       Rect[BOT_BOX]::6D6
-Conductor: BOT_BOX.79
-      Rect[BOT_BOX]::658
-Conductor: BOT_BOX.80
-      Rect[BOT_BOX]::658
-      Rect[BOT_BOX]::6AC
-Conductor: BOT_BOX.81
-      Rect[BOT_BOX]::6BE
-Conductor: BOT_BOX.82
-      Rect[BOT_BOX]::6BE
-Conductor: BOT_BOX.83
-      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.84
       Rect[BOT_BOX]::658
 Conductor: BOT_BOX.85
       Rect[BOT_BOX]::658
+      Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.86
-      Rect[BOT_BOX]::658
+      Rect[BOT_BOX]::6BE
 Conductor: BOT_BOX.87
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::6D6
 Conductor: BOT_BOX.88
-      Rect[BOT_BOX]::6BE
+      Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.89
       Rect[BOT_BOX]::6AC
 Conductor: BOT_BOX.90
-      Rect[BOT_BOX]::6AC
+      Rect[BOT_BOX]::658
 Conductor: BOT_BOX.91
-      Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.92
-      Rect[BOT_BOX]::6B4
-Conductor: BOT_BOX.93
       Rect[BOT_BOX]::6AC
+Conductor: BOT_BOX.92
+      Rect[BOT_BOX]::658
+Conductor: BOT_BOX.93
+      Rect[BOT_BOX]::658
+Conductor: BOT_BOX.94
+      Rect[BOT_BOX]::658
+Conductor: BOT_BOX.95
+      Rect[BOT_BOX]::6B4
+Conductor: BOT_BOX.96
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.97
+      Rect[BOT_BOX]::6BE
+Conductor: BOT_BOX.98
+      Rect[BOT_BOX]::6B4
 Conductor: CHIP.1
-      Face Contactor[CHIP][1]::738
+      Face Contactor-MCU CHIP to Stack PCB[CHIP][7]::738
 Conductor: CHIP.2
-      Face Contactor[CHIP][1]::738
+      Face Contactor-MCU CHIP to Stack PCB[CHIP][7]::738
 Conductor: CHIP.3
-      Face Contactor[CHIP][1]::3DA
+      Face Contactor-Amplifier CHIP to Stack PCB[CHIP][7]::3DA
 Conductor: HEADER.1
-      FD Brick[HEADER]::3AB
-      FD Brick[HEADER]::3CE
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
 Conductor: HEADER.2
-      FD Brick[HEADER]::3CE
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
 Conductor: HEADER.3
-      FD Brick[HEADER]::3AB
+      FD Brick[HEADER]::3CE
 Conductor: HEADER.4
-      FD Brick[HEADER]::3AB
       FD Brick[HEADER]::3CE
 Conductor: HEADER.5
       FD Brick[HEADER]::3CE
 Conductor: HEADER.6
-      FD Brick[HEADER]::3AB
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
 Conductor: HEADER.7
-      FD Brick[HEADER]::3AB
-      FD Brick[HEADER]::3CE
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
 Conductor: HEADER.8
-      FD Brick[HEADER]::3CE
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
 Conductor: HEADER.9
       FD Brick[HEADER]::3CE
 Conductor: HEADER.10
       FD Brick[HEADER]::3CE
 Conductor: HEADER.11
-      FD Brick[HEADER]::3CE
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
 Conductor: HEADER.12
       FD Brick[HEADER]::3CE
 Conductor: HEADER.13
       FD Brick[HEADER]::3CE
 Conductor: HEADER.14
-      FD Brick[HEADER]::3AB
+      FD Brick[HEADER]::3CE
 Conductor: HEADER.15
-      FD Brick[HEADER]::3AB
+      FD Brick[HEADER]::3CE
 Conductor: HEADER.16
-      FD Brick[HEADER]::3AB
+      FD Brick[HEADER]::3CE
 Conductor: HEADER.17
-      FD Brick[HEADER]::3AB
+      FD Brick[HEADER]::3CE
 Conductor: HEADER.18
       FD Brick[HEADER]::3AB
 Conductor: HEADER.19
       FD Brick[HEADER]::3AB
 Conductor: HEADER.20
       FD Brick[HEADER]::3AB
+Conductor: HEADER.21
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.22
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.23
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.24
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.25
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.26
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.27
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.28
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.29
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.30
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.31
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.32
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.33
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.34
+      FD Brick[HEADER]::3AB
+Conductor: HEADER.35
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.36
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.37
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
+Conductor: HEADER.38
       FD Brick[HEADER]::3CE
+Conductor: HEADER.39
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+Conductor: HEADER.40
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+Conductor: HEADER.41
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+Conductor: HEADER.42
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+Conductor: HEADER.43
+      Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+Conductor: HEADER.44
+      Face Contactor-Top header to stack PCB[HEADER][8]::486
 Conductor: STACK_PCB.1
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.2
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.3
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.4
@@ -750,12 +847,12 @@ Conductor: STACK_PCB.5
 Conductor: STACK_PCB.6
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.7
+      Rect[STACK_PCB]::58D
       Rect[STACK_PCB]::597
 Conductor: STACK_PCB.8
       Rect[STACK_PCB]::58D
-      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.9
-      Rect[STACK_PCB]::58D
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.10
       Rect[STACK_PCB]::597
 Conductor: STACK_PCB.11
@@ -763,53 +860,57 @@ Conductor: STACK_PCB.11
 Conductor: STACK_PCB.12
       Rect[STACK_PCB]::597
 Conductor: STACK_PCB.13
-      Rect[STACK_PCB]::5F8
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.14
-      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.15
-      Rect[STACK_PCB]::592
+      Rect[STACK_PCB]::597
       Rect[STACK_PCB]::5F8
 Conductor: STACK_PCB.16
-      Rect[STACK_PCB]::597
-Conductor: STACK_PCB.17
-      Rect[STACK_PCB]::592
-      Rect[STACK_PCB]::597
-Conductor: STACK_PCB.18
-      Rect[STACK_PCB]::597
-Conductor: STACK_PCB.19
       Rect[STACK_PCB]::58D
       Rect[STACK_PCB]::5F8
+Conductor: STACK_PCB.17
+      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::5F8
+Conductor: STACK_PCB.18
+      Rect[STACK_PCB]::5F8
+Conductor: STACK_PCB.19
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.20
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.21
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.22
-      Rect[STACK_PCB]::57A
-Conductor: STACK_PCB.23
       Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::5F8
+Conductor: STACK_PCB.23
+      Rect[STACK_PCB]::5F8
 Conductor: STACK_PCB.24
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.25
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::592
+      Rect[STACK_PCB]::5F8
 Conductor: STACK_PCB.26
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.27
-      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::592
+      Rect[STACK_PCB]::597
 Conductor: STACK_PCB.28
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.29
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.30
-      Rect[STACK_PCB]::5F8
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.31
       Rect[STACK_PCB]::57A
-      Rect[STACK_PCB]::592
 Conductor: STACK_PCB.32
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.33
       Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::5F8
 Conductor: STACK_PCB.34
       Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::592
 Conductor: STACK_PCB.35
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.36
@@ -832,48 +933,57 @@ Conductor: STACK_PCB.44
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.45
       Rect[STACK_PCB]::57A
-      Rect[STACK_PCB]::58D
 Conductor: STACK_PCB.46
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.47
       Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::58D
 Conductor: STACK_PCB.48
       Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::5F8
 Conductor: STACK_PCB.49
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.50
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.51
-      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.52
-      Rect[STACK_PCB]::597
+      Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.53
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.54
       Rect[STACK_PCB]::57A
 Conductor: STACK_PCB.55
-      Rect[STACK_PCB]::597
-Conductor: STACK_PCB.56
-      Rect[STACK_PCB]::592
-Conductor: STACK_PCB.57
       Rect[STACK_PCB]::57A
+Conductor: STACK_PCB.56
+      Rect[STACK_PCB]::57A
+      Rect[STACK_PCB]::5F8
+Conductor: STACK_PCB.57
+      Rect[STACK_PCB]::592
+Conductor: STACK_PCB.58
+      Rect[STACK_PCB]::597
+Conductor: STACK_PCB.59
+      Rect[STACK_PCB]::597
+Conductor: STACK_PCB.60
+      Rect[STACK_PCB]::597
 Conductor: TOP_BOX.1
-      Rect[TOP_BOX]::668
+      Rect[TOP_BOX]::678
 Conductor: TOP_BOX.2
-      Rect[TOP_BOX]::668
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.3
-      Rect[TOP_BOX]::668
+      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::678
 Conductor: TOP_BOX.4
       Rect[TOP_BOX]::668
 Conductor: TOP_BOX.5
       Rect[TOP_BOX]::668
 Conductor: TOP_BOX.6
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.7
       Rect[TOP_BOX]::620
-      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.8
-      Rect[TOP_BOX]::678
+      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.9
       Rect[TOP_BOX]::678
 Conductor: TOP_BOX.10
@@ -882,197 +992,207 @@ Conductor: TOP_BOX.11
       Rect[TOP_BOX]::606
 Conductor: TOP_BOX.12
       Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::678
 Conductor: TOP_BOX.13
       Rect[TOP_BOX]::606
 Conductor: TOP_BOX.14
       Rect[TOP_BOX]::606
 Conductor: TOP_BOX.15
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.16
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.17
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.18
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.19
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.20
       Rect[TOP_BOX]::620
 Conductor: TOP_BOX.21
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.22
-      Rect[TOP_BOX]::668
-      Rect[TOP_BOX]::678
+      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.23
       Rect[TOP_BOX]::620
 Conductor: TOP_BOX.24
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.25
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.26
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.27
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.28
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.29
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::668
+      Rect[TOP_BOX]::678
 Conductor: TOP_BOX.30
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.31
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.32
-      Rect[TOP_BOX]::5DF
+      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.33
-      Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::5DF
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.34
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.35
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.36
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.37
-      Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.38
-      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.39
-      Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.40
-      Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::678
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.41
       Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.42
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5DF
 Conductor: TOP_BOX.43
       Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5DF
 Conductor: TOP_BOX.44
       Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.45
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.46
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::668
 Conductor: TOP_BOX.47
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.48
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.49
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
+Conductor: TOP_BOX.50
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
+Conductor: TOP_BOX.51
+      Rect[TOP_BOX]::5E9
+Conductor: TOP_BOX.52
+      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::678
+Conductor: TOP_BOX.53
+      Rect[TOP_BOX]::5DF
+      Rect[TOP_BOX]::5E9
+Conductor: TOP_BOX.54
+      Rect[TOP_BOX]::5DF
+      Rect[TOP_BOX]::678
+Conductor: TOP_BOX.55
       Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::620
-Conductor: TOP_BOX.50
-      Rect[TOP_BOX]::5CC
-Conductor: TOP_BOX.51
-      Rect[TOP_BOX]::5CC
-Conductor: TOP_BOX.52
-      Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::6A4
-Conductor: TOP_BOX.53
-      Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::5E4
-Conductor: TOP_BOX.54
-      Rect[TOP_BOX]::5E4
-      Rect[TOP_BOX]::694
-Conductor: TOP_BOX.55
-      Rect[TOP_BOX]::694
-      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.56
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.57
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.58
       Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.59
       Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.60
-      Rect[TOP_BOX]::5E4
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.61
       Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.62
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.63
       Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::620
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.64
-      Rect[TOP_BOX]::5DF
-      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::6A4
 Conductor: TOP_BOX.65
-      Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.66
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.67
       Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
 Conductor: TOP_BOX.68
       Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.69
-      Rect[TOP_BOX]::5E9
       Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.70
-      Rect[TOP_BOX]::5DF
-      Rect[TOP_BOX]::678
-Conductor: TOP_BOX.71
       Rect[TOP_BOX]::5E4
-      Rect[TOP_BOX]::5E9
+Conductor: TOP_BOX.71
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.72
-      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5E4
 Conductor: TOP_BOX.73
-      Rect[TOP_BOX]::5E9
-      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.74
       Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.75
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::620
 Conductor: TOP_BOX.76
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.77
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.78
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.79
       Rect[TOP_BOX]::5E9
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.80
       Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.81
-      Rect[TOP_BOX]::606
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.82
-      Rect[TOP_BOX]::5CC
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::5E4
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.83
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::5E4
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.84
       Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.85
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.86
-      Rect[TOP_BOX]::5CC
+      Rect[TOP_BOX]::606
 Conductor: TOP_BOX.87
-      Rect[TOP_BOX]::620
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.88
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.89
-      Rect[TOP_BOX]::6A4
+      Rect[TOP_BOX]::5CC
 Conductor: TOP_BOX.90
-      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.91
-      Rect[TOP_BOX]::694
+      Rect[TOP_BOX]::5E9
 Conductor: TOP_BOX.92
       Rect[TOP_BOX]::606
-      Rect[TOP_BOX]::694
 Conductor: TOP_BOX.93
+      Rect[TOP_BOX]::5CC
       Rect[TOP_BOX]::6A4
+Conductor: TOP_BOX.94
+      Rect[TOP_BOX]::5CC
+Conductor: TOP_BOX.95
+      Rect[TOP_BOX]::5CC
+Conductor: TOP_BOX.96
+      Rect[TOP_BOX]::5CC
+Conductor: TOP_BOX.97
+      Rect[TOP_BOX]::5CC
+Conductor: TOP_BOX.98
+      Rect[TOP_BOX]::5CC
 Heat Load: CHIP.1
       Heat Load-TXRX_MCU_Heatload[CHIP]::736
 Heat Load: CHIP.2
-      Heat Load-TXRX Chip[CHIP]::3EA
+      Heat Load-TXRX Amplifier Chip[CHIP]::3EA

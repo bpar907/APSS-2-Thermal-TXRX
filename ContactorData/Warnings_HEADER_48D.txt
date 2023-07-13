@@ -1,8 +1,0 @@
-Bot Area	From: ZMIN-FD Brick[HEADER]::3CE	HEADER.1	 0.0% complete
-Bot Area	From: ZMIN-FD Brick[HEADER]::3CE	STACK_PCB.11	 0.0% complete
-Bot Area	From: ZMIN-FD Brick[HEADER]::3CE	HEADER.3	 0.0% complete
-Bot Area	From: ZMIN-FD Brick[HEADER]::3CE	STACK_PCB.22	 0.0% complete
-Overall Area only 0.% complete
-
-Some connections were excluded due to merged nodes. 100.% excluded
-Total connected Area = 0. .vs. Total = 0.0006674965

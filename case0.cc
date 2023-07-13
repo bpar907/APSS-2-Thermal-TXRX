@@ -1,175 +1,184 @@
 HEADER OPTIONS
 C    SINDA Data generated with Thermal Desktop 6.2 Patch 15
-C    Generated on Sat Jul  8 01:52:40 2023
-C    From file: TXRX_V2.dwg
+C    Generated on Thu Jul 13 21:17:39 2023
+C    From file: TXRX.dwg
 C    Case Set: Case Set 0
 C    TDUNITS,   Energy     = J
 C    TDUNITS,   Time       = s
 C    TDUNITS,   Temp       = K
 C    TDUNITS,   Mass       = kg
-C    TDUNITS,   Length     = mm
+C    TDUNITS,   Length     = m
 C    TDUNITS,   Orbit      = km
 C    TDUNITS,   Pressure   = Pa
 C    TDUNITS,   Force      = N
 C    TDUNITS,   Angle      = Degrees
 C    TDUNITS,   Volt       = volt
 C    TDUNITS,   Current    = amp
-C    DWG name:      TXRX_V2.dwg
+C    DWG name:      TXRX.dwg
 C    Thermophysical Property Database: TdThermo.tdp
 C    Optical Property Database:        RcOptics.rco
 C    Computer name: DESKTOP-H4NA618
 C    User name:     taiji
 C    Symbol Names, Evaluated values, Input Strings, Comments
-C    TXRX_Amplifier_Operation 1.32  1.32
-C    TXRX_MCU_Operation       0.115 0.115
+C    TXRX_Amplifier_Operation_HeatLoad 1.32  1.32
+C    TXRX_MCU_Operation_Heatload       0.115 0.115
 HEADER NODE DATA, BOT_BOX
-            2,    293.15,    0.0162723
-            3,    293.15,    0.5797751
-            5,    293.15,    0.9827605
-            7,    293.15,    0.02906045
-            8,    293.15,    0.006935255
-            10,    293.15,    0.06961754
-            12,    293.15,    0.001053179
-            13,    293.15,    0.02008666
-            14,    293.15,    2.313454
-            15,    293.15,    1.364812
-            16,    293.15,    0.0004825428
-            18,    293.15,    0.7118306
-            19,    293.15,    0.4199412
-            20,    293.15,    0.04121184
-            21,    293.15,    5.049254
-            22,    293.15,    0.2974584
-            23,    293.15,    0.5042135
-            26,    293.15,    0.226067
-            29,    293.15,    0.04115656
-            31,    293.15,    0.09876223
-            32,    293.15,    0.01325732
-            37,    293.15,    0.06325174
-            38,    293.15,    0.04567
-            40,    293.15,    0.22026
-            42,    293.15,    0.4698126
-            45,    293.15,    0.4127949
-            46,    293.15,    0.2771638
-            47,    293.15,    0.06235822
-            49,    293.15,    0.02719982
-            50,    293.15,    0.03990924
-            51,    293.15,    0.02305701
-            52,    293.15,    0.05055791
-            53,    293.15,    0.06528177
-            54,    293.15,    2.978784
-            55,    293.15,    0.3831999
-            56,    293.15,    0.05563075
-            57,    293.15,    0.1424814
-            58,    293.15,    0.01035005
-            59,    293.15,    0.07381623
-            60,    293.15,    0.02634034
+            2,    293.15,    0.01745641
+            3,    293.15,    0.05351799
+            5,    293.15,    1.030242
+            7,    293.15,    0.03112541
+            8,    293.15,    0.007439919
+            10,    293.15,    0.04281335
+            11,    293.15,    0.06785444
+            12,    293.15,    0.02473482
+            13,    293.15,    0.02154832
+            14,    293.15,    2.481799
+            15,    293.15,    1.464126
+            16,    293.15,    0.0005176564
+            18,    293.15,    0.763629
+            19,    293.15,    0.4504994
+            20,    293.15,    0.04421074
+            21,    293.15,    5.416677
+            22,    293.15,    0.540904
+            23,    293.15,    0.3191038
+            26,    293.15,    0.2425174
+            29,    293.15,    0.04415143
+            31,    293.15,    0.1024574
+            32,    293.15,    0.01422203
+            37,    293.15,    0.0668959
+            38,    293.15,    0.04899331
+            40,    293.15,    0.1620433
+            42,    293.15,    0.5039998
+            45,    293.15,    0.3036895
+            46,    293.15,    0.2973324
+            47,    293.15,    0.07424452
+            49,    293.15,    0.02917909
+            50,    293.15,    0.1391436
+            51,    293.15,    0.07468346
+            52,    293.15,    0.07774982
+            53,    293.15,    0.07003219
+            54,    293.15,    3.195544
+            55,    293.15,    0.4110845
+            56,    293.15,    0.05967888
+            57,    293.15,    0.1528495
+            58,    293.15,    0.01110321
+            59,    293.15,    0.8356069
+            60,    293.15,    0.02825707
+            61,    293.15,    0.001129817
+            62,    293.15,    0.6077868
+            63,    293.15,    0.09596452
 HEADER CONDUCTOR DATA, BOT_BOX
-            1,    BOT_BOX.2,    BOT_BOX.38,    0.18962
-            2,    BOT_BOX.2,    BOT_BOX.52,    0.2001351
+            1,    BOT_BOX.2,    BOT_BOX.3,    0.2001351
+            2,    BOT_BOX.2,    BOT_BOX.38,    0.18962
             3,    BOT_BOX.2,    BOT_BOX.60,    0.1136295
-            4,    BOT_BOX.3,    BOT_BOX.5,    0.005522942
-            5,    BOT_BOX.3,    BOT_BOX.26,    1.893915
-            6,    BOT_BOX.3,    STACK_PCB.31,    0.01487421
-            7,    BOT_BOX.5,    BOT_BOX.7,    0.008745002
-            8,    BOT_BOX.5,    BOT_BOX.55,    3.210323
+            4,    BOT_BOX.3,    BOT_BOX.31,    0.07338288
+            5,    BOT_BOX.3,    BOT_BOX.52,    0.05299881
+            6,    BOT_BOX.5,    BOT_BOX.7,    0.008745002
+            7,    BOT_BOX.5,    BOT_BOX.55,    3.210323
+            8,    BOT_BOX.5,    BOT_BOX.62,    0.005522942
             9,    BOT_BOX.7,    BOT_BOX.8,    0.1396152
             10,    BOT_BOX.7,    STACK_PCB.18,    0.05299881
             11,    BOT_BOX.8,    BOT_BOX.32,    0.05719067
             12,    BOT_BOX.8,    BOT_BOX.55,    0.02259693
-            13,    BOT_BOX.10,    BOT_BOX.20,    0.1546071
-            14,    BOT_BOX.10,    BOT_BOX.22,    0.05057227
-            15,    BOT_BOX.10,    BOT_BOX.37,    0.06469402
-            16,    BOT_BOX.10,    TOP_BOX.70,    0.6165266
-            17,    BOT_BOX.12,    BOT_BOX.16,    5.394882e-05 
-            18,    BOT_BOX.12,    BOT_BOX.49,    7.197040e-05 
-            19,    BOT_BOX.12,    BOT_BOX.54,    0.5064368
-            20,    BOT_BOX.13,    BOT_BOX.18,    0.04197597
-            21,    BOT_BOX.13,    BOT_BOX.53,    0.01776272
-            22,    BOT_BOX.13,    BOT_BOX.58,    0.03774583
-            23,    BOT_BOX.13,    STACK_PCB.14,    0.4029596
-            24,    BOT_BOX.14,    BOT_BOX.15,    0.08615798
-            25,    BOT_BOX.14,    BOT_BOX.18,    0.6294747
-            26,    BOT_BOX.14,    BOT_BOX.21,    0.2586467
-            27,    BOT_BOX.14,    BOT_BOX.53,    0.1364222
-            28,    BOT_BOX.15,    BOT_BOX.16,    0.2320379
-            29,    BOT_BOX.15,    BOT_BOX.19,    0.3713558
-            30,    BOT_BOX.15,    BOT_BOX.54,    0.1525874
-            31,    BOT_BOX.16,    BOT_BOX.20,    0.0001312965
-            32,    BOT_BOX.18,    BOT_BOX.19,    0.02651009
-            33,    BOT_BOX.18,    BOT_BOX.23,    1.337636
-            34,    BOT_BOX.19,    BOT_BOX.20,    0.07139613
-            35,    BOT_BOX.19,    BOT_BOX.22,    0.7891322
-            36,    BOT_BOX.20,    BOT_BOX.47,    0.04566636
-            37,    BOT_BOX.21,    BOT_BOX.42,    0.3450475
-            38,    BOT_BOX.21,    BOT_BOX.54,    0.188045
-            39,    BOT_BOX.21,    BOT_BOX.57,    0.2977497
-            40,    BOT_BOX.22,    BOT_BOX.23,    0.01877799
-            41,    BOT_BOX.22,    TOP_BOX.72,    1.893915
-            42,    BOT_BOX.23,    BOT_BOX.58,    0.02973298
-            43,    BOT_BOX.23,    TOP_BOX.66,    3.210323
-            44,    BOT_BOX.26,    BOT_BOX.46,    1.195655
-            45,    BOT_BOX.26,    BOT_BOX.55,    0.01427118
-            46,    BOT_BOX.26,    BOT_BOX.56,    0.03843469
-            47,    BOT_BOX.29,    BOT_BOX.38,    0.2944611
-            48,    BOT_BOX.29,    BOT_BOX.40,    0.007273459
-            49,    BOT_BOX.29,    BOT_BOX.49,    0.0301398
-            50,    BOT_BOX.29,    BOT_BOX.60,    0.2324789
-            51,    BOT_BOX.31,    BOT_BOX.38,    0.2498356
-            52,    BOT_BOX.31,    BOT_BOX.52,    0.07338288
-            53,    BOT_BOX.31,    STACK_PCB.31,    0.01902765
-            54,    BOT_BOX.32,    BOT_BOX.42,    0.0277044
-            55,    BOT_BOX.32,    BOT_BOX.57,    0.009736659
-            56,    BOT_BOX.32,    STACK_PCB.18,    0.2659558
-            57,    BOT_BOX.37,    BOT_BOX.47,    0.1943443
-            58,    BOT_BOX.37,    BOT_BOX.51,    0.2495016
-            59,    BOT_BOX.37,    TOP_BOX.67,    0.2498356
-            60,    BOT_BOX.38,    BOT_BOX.56,    0.04916745
-            61,    BOT_BOX.40,    BOT_BOX.45,    3.643313
-            62,    BOT_BOX.40,    BOT_BOX.47,    0.007055452
-            63,    BOT_BOX.42,    BOT_BOX.46,    0.01749683
-            64,    BOT_BOX.42,    BOT_BOX.55,    2.026722
-            65,    BOT_BOX.45,    BOT_BOX.50,    0.01322281
-            66,    BOT_BOX.45,    BOT_BOX.60,    0.01363138
-            67,    BOT_BOX.45,    TOP_BOX.50,    4.16795
-            68,    BOT_BOX.46,    BOT_BOX.49,    0.04712188
-            69,    BOT_BOX.46,    BOT_BOX.54,    0.2035592
-            70,    BOT_BOX.47,    BOT_BOX.50,    0.3522374
-            71,    BOT_BOX.49,    BOT_BOX.56,    0.2342532
-            72,    BOT_BOX.50,    BOT_BOX.51,    0.07499541
-            73,    BOT_BOX.50,    TOP_BOX.37,    0.4029596
-            74,    BOT_BOX.51,    TOP_BOX.69,    0.2686396
-            75,    BOT_BOX.52,    BOT_BOX.59,    0.05299881
-            76,    BOT_BOX.53,    BOT_BOX.57,    0.007298574
-            77,    BOT_BOX.53,    STACK_PCB.12,    1.309621
-            78,    BOT_BOX.56,    STACK_PCB.31,    0.6165266
-            79,    BOT_BOX.57,    STACK_PCB.34,    2.858328
-            80,    BOT_BOX.58,    TOP_BOX.59,    0.2081197
-            81,    BOT_BOX.59,    BOT_BOX.60,    0.2659558
-            82,    BOT_BOX.59,    TOP_BOX.50,    0.006357919
-            83,    STACK_PCB.12,    STACK_PCB.14,    0.01646078
-            84,    STACK_PCB.12,    STACK_PCB.34,    0.006763616
-            85,    STACK_PCB.14,    TOP_BOX.59,    0.0349792
-            86,    STACK_PCB.18,    STACK_PCB.34,    0.009022999
-            87,    TOP_BOX.37,    TOP_BOX.50,    0.006167353
-            88,    TOP_BOX.37,    TOP_BOX.69,    0.0349792
-            89,    TOP_BOX.59,    TOP_BOX.66,    0.008745002
-            90,    TOP_BOX.66,    TOP_BOX.72,    0.005522942
-            91,    TOP_BOX.67,    TOP_BOX.69,    0.07338288
-            92,    TOP_BOX.67,    TOP_BOX.70,    0.01902765
-            93,    TOP_BOX.70,    TOP_BOX.72,    0.01487421
+            13,    BOT_BOX.10,    BOT_BOX.12,    0.07499541
+            14,    BOT_BOX.10,    BOT_BOX.37,    0.3522374
+            15,    BOT_BOX.10,    BOT_BOX.50,    0.03529191
+            16,    BOT_BOX.10,    TOP_BOX.37,    0.4029596
+            17,    BOT_BOX.11,    BOT_BOX.12,    0.2495016
+            18,    BOT_BOX.11,    BOT_BOX.37,    0.1943443
+            19,    BOT_BOX.11,    BOT_BOX.51,    0.06469402
+            20,    BOT_BOX.11,    TOP_BOX.40,    0.2498356
+            21,    BOT_BOX.12,    TOP_BOX.61,    0.2686396
+            22,    BOT_BOX.13,    BOT_BOX.18,    0.04197597
+            23,    BOT_BOX.13,    BOT_BOX.53,    0.01776272
+            24,    BOT_BOX.13,    BOT_BOX.58,    0.03774583
+            25,    BOT_BOX.13,    STACK_PCB.14,    0.4029596
+            26,    BOT_BOX.14,    BOT_BOX.15,    0.08615798
+            27,    BOT_BOX.14,    BOT_BOX.18,    0.6294747
+            28,    BOT_BOX.14,    BOT_BOX.21,    0.2586467
+            29,    BOT_BOX.14,    BOT_BOX.53,    0.1364222
+            30,    BOT_BOX.15,    BOT_BOX.16,    0.2320379
+            31,    BOT_BOX.15,    BOT_BOX.19,    0.3713558
+            32,    BOT_BOX.15,    BOT_BOX.54,    0.1525874
+            33,    BOT_BOX.16,    BOT_BOX.20,    0.0001312965
+            34,    BOT_BOX.16,    BOT_BOX.61,    5.394882e-05 
+            35,    BOT_BOX.18,    BOT_BOX.19,    0.02651009
+            36,    BOT_BOX.18,    BOT_BOX.22,    1.337636
+            37,    BOT_BOX.19,    BOT_BOX.20,    0.07139613
+            38,    BOT_BOX.19,    BOT_BOX.23,    0.7891322
+            39,    BOT_BOX.20,    BOT_BOX.37,    0.04566636
+            40,    BOT_BOX.20,    BOT_BOX.51,    0.1546071
+            41,    BOT_BOX.21,    BOT_BOX.42,    0.3450475
+            42,    BOT_BOX.21,    BOT_BOX.54,    0.188045
+            43,    BOT_BOX.21,    BOT_BOX.57,    0.2977497
+            44,    BOT_BOX.22,    BOT_BOX.23,    0.01877799
+            45,    BOT_BOX.22,    BOT_BOX.58,    0.02973298
+            46,    BOT_BOX.22,    STACK_PCB.63,    3.210323
+            47,    BOT_BOX.23,    BOT_BOX.51,    0.05057227
+            48,    BOT_BOX.23,    STACK_PCB.4,    1.893915
+            49,    BOT_BOX.26,    BOT_BOX.46,    1.195655
+            50,    BOT_BOX.26,    BOT_BOX.55,    0.01427118
+            51,    BOT_BOX.26,    BOT_BOX.56,    0.03843469
+            52,    BOT_BOX.26,    BOT_BOX.62,    1.893915
+            53,    BOT_BOX.29,    BOT_BOX.38,    0.2944611
+            54,    BOT_BOX.29,    BOT_BOX.40,    0.01032231
+            55,    BOT_BOX.29,    BOT_BOX.49,    0.0301398
+            56,    BOT_BOX.29,    BOT_BOX.60,    0.2324789
+            57,    BOT_BOX.31,    BOT_BOX.38,    0.2498356
+            58,    BOT_BOX.31,    STACK_PCB.31,    0.01902765
+            59,    BOT_BOX.32,    BOT_BOX.42,    0.0277044
+            60,    BOT_BOX.32,    BOT_BOX.57,    0.009736659
+            61,    BOT_BOX.32,    STACK_PCB.18,    0.2659558
+            62,    BOT_BOX.37,    BOT_BOX.47,    0.01883114
+            63,    BOT_BOX.38,    BOT_BOX.56,    0.04916745
+            64,    BOT_BOX.40,    BOT_BOX.45,    2.498539
+            65,    BOT_BOX.40,    BOT_BOX.47,    0.007737577
+            66,    BOT_BOX.42,    BOT_BOX.46,    0.01749683
+            67,    BOT_BOX.42,    BOT_BOX.55,    2.026722
+            68,    BOT_BOX.45,    BOT_BOX.50,    0.01450119
+            69,    BOT_BOX.45,    BOT_BOX.59,    2.858328
+            70,    BOT_BOX.45,    BOT_BOX.60,    0.01934531
+            71,    BOT_BOX.46,    BOT_BOX.49,    0.04712188
+            72,    BOT_BOX.46,    BOT_BOX.54,    0.2035592
+            73,    BOT_BOX.47,    BOT_BOX.50,    1.144773
+            74,    BOT_BOX.49,    BOT_BOX.56,    0.2342532
+            75,    BOT_BOX.49,    BOT_BOX.61,    7.197040e-05 
+            76,    BOT_BOX.50,    TOP_BOX.50,    1.309621
+            77,    BOT_BOX.51,    STACK_PCB.59,    0.6165266
+            78,    BOT_BOX.52,    BOT_BOX.59,    0.009022999
+            79,    BOT_BOX.52,    BOT_BOX.60,    0.2659558
+            80,    BOT_BOX.53,    BOT_BOX.57,    0.007298574
+            81,    BOT_BOX.53,    STACK_PCB.12,    1.309621
+            82,    BOT_BOX.54,    BOT_BOX.61,    0.5064368
+            83,    BOT_BOX.56,    STACK_PCB.31,    0.6165266
+            84,    BOT_BOX.57,    STACK_PCB.34,    2.858328
+            85,    BOT_BOX.58,    STACK_PCB.8,    0.2081197
+            86,    BOT_BOX.59,    TOP_BOX.50,    0.006763616
+            87,    BOT_BOX.62,    STACK_PCB.31,    0.01487421
+            88,    STACK_PCB.4,    STACK_PCB.59,    0.01487421
+            89,    STACK_PCB.4,    STACK_PCB.63,    0.005522942
+            90,    STACK_PCB.8,    STACK_PCB.14,    0.0349792
+            91,    STACK_PCB.8,    STACK_PCB.63,    0.008745002
+            92,    STACK_PCB.12,    STACK_PCB.14,    0.01646078
+            93,    STACK_PCB.12,    STACK_PCB.34,    0.006763616
+            94,    STACK_PCB.18,    STACK_PCB.34,    0.009022999
+            95,    STACK_PCB.59,    TOP_BOX.40,    0.01902765
+            96,    TOP_BOX.37,    TOP_BOX.50,    0.01646078
+            97,    TOP_BOX.37,    TOP_BOX.61,    0.0349792
+            98,    TOP_BOX.40,    TOP_BOX.61,    0.07338288
 HEADER NODE DATA, CHIP
             1,    293.15,    0.1004928
             2,    293.15,    0.04885067
 HEADER CONDUCTOR DATA, CHIP
-C Contact - Face Contactor[CHIP][1]::738
+C Contact - Face Contactor-MCU CHIP to Stack PCB[CHIP][7]::738
             1,    CHIP.1,    STACK_PCB.27,    0.01666666
             2,    CHIP.1,    STACK_PCB.29,    0.06666664
-C Contact - Face Contactor[CHIP][1]::3DA
+C Contact - Face Contactor-Amplifier CHIP to Stack PCB[CHIP][7]::3DA
             3,    CHIP.2,    STACK_PCB.28,    0.133333
 HEADER VARIABLES 0, CHIP
 C Heat Load-TXRX_MCU_Heatload[CHIP]::736
       CHIP.Q1 = CHIP.Q1 + 0.115
-C Heat Load-TXRX Chip[CHIP]::3EA
+C Heat Load-TXRX Amplifier Chip[CHIP]::3EA
       CHIP.Q2 = CHIP.Q2 + 1.32
 HEADER OUTPUT CALLS, GLOBAL
 C Case Set Prop Generated Code
@@ -186,8 +195,8 @@ C Case Set Prop Generated Code
       ENDIF
 
 HEADER NODE DATA, HEADER
-            1,    293.15,    6.593514
-            3,    293.15,    6.563706
+            1,    293.15,    2.509226
+            3,    293.15,    2.509226
             5,    293.15,    2.509226
             6,    293.15,    2.509226
             7,    293.15,    2.509226
@@ -196,243 +205,294 @@ HEADER NODE DATA, HEADER
             12,    293.15,    3.35157
             13,    293.15,    3.35157
             14,    293.15,    3.35157
+            16,    293.15,    3.35157
+            18,    293.15,    3.35157
+            19,    293.15,    3.35157
+            20,    293.15,    2.509226
+            21,    293.15,    2.509226
+            22,    293.15,    3.35157
 HEADER CONDUCTOR DATA, HEADER
-            1,    HEADER.1,    HEADER.3,    0.0136831
-            2,    HEADER.1,    HEADER.5,    0.3492909
-            3,    HEADER.1,    HEADER.11,    0.2616607
-            4,    HEADER.1,    STACK_PCB.11,    0.6021855
-            5,    HEADER.3,    HEADER.7,    0.3492909
-            6,    HEADER.3,    HEADER.13,    0.2616607
-            7,    HEADER.3,    STACK_PCB.22,    0.6021855
-            8,    HEADER.5,    HEADER.6,    0.2579063
-            9,    HEADER.5,    HEADER.7,    0.005858247
-            10,    HEADER.6,    HEADER.8,    0.005858247
-            11,    HEADER.6,    STACK_PCB.11,    0.3492909
-            12,    HEADER.7,    HEADER.8,    0.2579063
-            13,    HEADER.8,    STACK_PCB.22,    0.3492909
-            14,    HEADER.11,    HEADER.12,    0.3442792
-            15,    HEADER.11,    HEADER.13,    0.007824854
-            16,    HEADER.12,    HEADER.14,    0.007824854
-            17,    HEADER.12,    STACK_PCB.11,    0.2616607
-            18,    HEADER.13,    HEADER.14,    0.3442792
-            19,    HEADER.14,    STACK_PCB.22,    0.2616607
-            20,    STACK_PCB.11,    STACK_PCB.22,    0.0136831
+C Contact - Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+            1,    BOT_BOX.63,    HEADER.3,    0.025
+C Contact - Face Contactor-Top header to stack PCB[HEADER][8]::486
+            2,    BOT_BOX.63,    HEADER.22,    0.025
+            3,    HEADER.1,    HEADER.3,    0.005858247
+            4,    HEADER.1,    HEADER.5,    0.3492909
+            5,    HEADER.1,    HEADER.20,    0.2579063
+C Contact - Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+            6,    HEADER.1,    STACK_PCB.3,    0.075
+            7,    HEADER.1,    STACK_PCB.5,    0.15
+            8,    HEADER.1,    STACK_PCB.7,    0.025
+            9,    HEADER.3,    HEADER.7,    0.3492909
+            10,    HEADER.3,    HEADER.21,    0.2579063
+C Contact - Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+            11,    HEADER.3,    STACK_PCB.3,    0.225
+            12,    HEADER.5,    HEADER.6,    0.2579063
+            13,    HEADER.5,    HEADER.7,    0.005858247
+            14,    HEADER.6,    HEADER.8,    0.005858247
+            15,    HEADER.6,    HEADER.20,    0.3492909
+            16,    HEADER.7,    HEADER.8,    0.2579063
+            17,    HEADER.8,    HEADER.21,    0.3492909
+            18,    HEADER.11,    HEADER.12,    0.3442792
+            19,    HEADER.11,    HEADER.13,    0.007824854
+            20,    HEADER.11,    HEADER.19,    0.2616607
+            21,    HEADER.12,    HEADER.14,    0.007824854
+            22,    HEADER.12,    HEADER.16,    0.2616607
+            23,    HEADER.13,    HEADER.14,    0.3442792
+            24,    HEADER.13,    HEADER.22,    0.2616607
+            25,    HEADER.14,    HEADER.18,    0.2616607
+            26,    HEADER.16,    HEADER.18,    0.007824854
+            27,    HEADER.16,    HEADER.19,    0.3442792
+C Contact - Face Contactor-Top header to stack PCB[HEADER][8]::486
+            28,    HEADER.16,    STACK_PCB.11,    0.025
+            29,    HEADER.16,    STACK_PCB.38,    0.075
+            30,    HEADER.16,    STACK_PCB.39,    0.15
+            31,    HEADER.18,    HEADER.22,    0.3442792
+C Contact - Face Contactor-Top header to stack PCB[HEADER][8]::486
+            32,    HEADER.18,    STACK_PCB.22,    0.025
+            33,    HEADER.18,    STACK_PCB.38,    0.225
+            34,    HEADER.19,    HEADER.22,    0.007824854
+C Contact - Face Contactor-Top header to stack PCB[HEADER][8]::486
+            35,    HEADER.19,    STACK_PCB.3,    0.075
+            36,    HEADER.19,    STACK_PCB.5,    0.15
+            37,    HEADER.19,    STACK_PCB.7,    0.025
+            38,    HEADER.20,    HEADER.21,    0.005858247
+C Contact - Face Contactor-Bottom header to stack PCB[HEADER][7]::48D
+            39,    HEADER.20,    STACK_PCB.11,    0.025
+            40,    HEADER.20,    STACK_PCB.38,    0.075
+            41,    HEADER.20,    STACK_PCB.39,    0.15
+            42,    HEADER.21,    STACK_PCB.22,    0.025
+            43,    HEADER.21,    STACK_PCB.38,    0.225
+C Contact - Face Contactor-Top header to stack PCB[HEADER][8]::486
+            44,    HEADER.22,    STACK_PCB.3,    0.225
 HEADER NODE DATA, SPACE
             -1,    2.73,    -1.0
 HEADER NODE DATA, STACK_PCB
-            1,    293.15,    0.001480665
-            5,    293.15,    0.3096637
-            9,    293.15,    0.0006784074
+            3,    293.15,    1.031374
+            4,    293.15,    0.7081561
+            5,    293.15,    0.4725518
+            7,    293.15,    0.1454005
+            8,    293.15,    0.04641434
             10,    293.15,    0.5903957
-            11,    293.15,    6.563784
-            12,    293.15,    0.2729133
-            14,    293.15,    0.08397316
+            11,    293.15,    0.1156708
+            12,    293.15,    0.2922831
+            14,    293.15,    0.08993308
             15,    293.15,    1.000763
-            18,    293.15,    0.0554228
+            18,    293.15,    0.05935639
             20,    293.15,    0.6605099
             21,    293.15,    0.3896648
-            22,    293.15,    6.544084
+            22,    293.15,    0.07634272
             27,    293.15,    4.187875
             28,    293.15,    3.252487
             29,    293.15,    1.91879
-            31,    293.15,    0.1634831
-            34,    293.15,    0.5956499
+            31,    293.15,    0.1726017
+            34,    293.15,    0.6379257
             37,    293.15,    7.098751
+            38,    293.15,    0.8204915
+            39,    293.15,    0.3759301
+            59,    293.15,    0.1922658
+            63,    293.15,    1.200376
 HEADER CONDUCTOR DATA, STACK_PCB
-            1,    BOT_BOX.3,    BOT_BOX.5,    0.0009399542
-            2,    BOT_BOX.3,    STACK_PCB.21,    0.1284671
-            3,    BOT_BOX.3,    STACK_PCB.31,    0.002531454
-            4,    BOT_BOX.5,    BOT_BOX.7,    0.001488319
+            1,    BOT_BOX.3,    BOT_BOX.31,    0.01248909
+            2,    BOT_BOX.3,    BOT_BOX.52,    0.006514454
+            3,    BOT_BOX.5,    BOT_BOX.7,    0.001488319
+            4,    BOT_BOX.5,    BOT_BOX.62,    0.0009399542
             5,    BOT_BOX.5,    STACK_PCB.20,    0.217761
             6,    BOT_BOX.7,    STACK_PCB.18,    0.0004503943
-            7,    BOT_BOX.31,    BOT_BOX.52,    0.01248909
-            8,    BOT_BOX.31,    HEADER.3,    0.03163835
-            9,    BOT_BOX.31,    STACK_PCB.31,    0.003238368
-            10,    BOT_BOX.52,    BOT_BOX.59,    0.006514454
-            11,    BOT_BOX.59,    HEADER.3,    0.02497867
-            12,    BOT_BOX.59,    TOP_BOX.50,    0.0007814962
-            13,    HEADER.1,    HEADER.3,    0.001484048
-            14,    HEADER.1,    STACK_PCB.5,    0.0007580725
-            15,    HEADER.1,    STACK_PCB.11,    0.05972991
-            16,    HEADER.1,    TOP_BOX.37,    0.03784612
-            17,    HEADER.1,    TOP_BOX.67,    0.02088131
-            18,    HEADER.3,    STACK_PCB.5,    0.0007814962
-            19,    HEADER.3,    STACK_PCB.22,    0.05806166
-            20,    STACK_PCB.1,    STACK_PCB.9,    5.796527e-06 
-            21,    STACK_PCB.1,    STACK_PCB.22,    7.732853e-06 
-            22,    STACK_PCB.1,    STACK_PCB.27,    0.05441406
-            23,    STACK_PCB.5,    TOP_BOX.50,    0.3914554
-            24,    STACK_PCB.9,    STACK_PCB.11,    1.410715e-05 
-            25,    STACK_PCB.9,    STACK_PCB.29,    0.02493129
-            26,    STACK_PCB.10,    STACK_PCB.11,    0.007671151
-            27,    STACK_PCB.10,    STACK_PCB.15,    0.002848375
-            28,    STACK_PCB.10,    STACK_PCB.29,    0.03990029
-            29,    STACK_PCB.10,    TOP_BOX.72,    0.08478824
-            30,    STACK_PCB.11,    STACK_PCB.22,    0.001484048
-            31,    STACK_PCB.11,    TOP_BOX.70,    0.01661175
-            32,    STACK_PCB.12,    STACK_PCB.14,    0.0001398869
-            33,    STACK_PCB.12,    STACK_PCB.28,    0.01465787
-            34,    STACK_PCB.12,    STACK_PCB.34,    5.747853e-05 
-            35,    STACK_PCB.14,    STACK_PCB.15,    0.004510104
-            36,    STACK_PCB.14,    TOP_BOX.59,    0.0002972601
-            37,    STACK_PCB.15,    STACK_PCB.28,    0.06763386
-            38,    STACK_PCB.15,    TOP_BOX.66,    0.1437222
-            39,    STACK_PCB.18,    STACK_PCB.20,    0.002976697
-            40,    STACK_PCB.18,    STACK_PCB.34,    7.667921e-05 
-            41,    STACK_PCB.20,    STACK_PCB.21,    0.001879945
-            42,    STACK_PCB.20,    STACK_PCB.37,    0.0370736
-            43,    STACK_PCB.21,    STACK_PCB.22,    0.005063007
-            44,    STACK_PCB.21,    STACK_PCB.27,    0.0218714
-            45,    STACK_PCB.22,    STACK_PCB.31,    0.02516931
-            46,    STACK_PCB.27,    STACK_PCB.29,    0.01639475
-            47,    STACK_PCB.27,    STACK_PCB.37,    0.02020448
-            48,    STACK_PCB.28,    STACK_PCB.29,    0.009257237
-            49,    STACK_PCB.28,    STACK_PCB.37,    0.02779027
-            50,    STACK_PCB.34,    STACK_PCB.37,    0.03199169
-            51,    TOP_BOX.37,    TOP_BOX.50,    0.0007580725
-            52,    TOP_BOX.37,    TOP_BOX.69,    0.004299538
-            53,    TOP_BOX.59,    TOP_BOX.66,    0.002255052
-            54,    TOP_BOX.66,    TOP_BOX.72,    0.001424187
-            55,    TOP_BOX.67,    TOP_BOX.69,    0.01892306
-            56,    TOP_BOX.67,    TOP_BOX.70,    0.004906619
-            57,    TOP_BOX.70,    TOP_BOX.72,    0.003835576
+            7,    BOT_BOX.31,    BOT_BOX.63,    0.03163835
+            8,    BOT_BOX.31,    STACK_PCB.31,    0.003238368
+            9,    BOT_BOX.52,    BOT_BOX.59,    0.00110908
+            10,    BOT_BOX.52,    BOT_BOX.63,    0.02497867
+            11,    BOT_BOX.59,    STACK_PCB.3,    0.2684553
+            12,    BOT_BOX.59,    TOP_BOX.50,    0.0008313633
+            13,    BOT_BOX.62,    STACK_PCB.21,    0.1284671
+            14,    BOT_BOX.62,    STACK_PCB.31,    0.002531454
+            15,    BOT_BOX.63,    STACK_PCB.3,    0.005386406
+            16,    BOT_BOX.63,    STACK_PCB.22,    0.006476737
+            17,    STACK_PCB.3,    STACK_PCB.5,    0.004037635
+            18,    STACK_PCB.3,    STACK_PCB.38,    0.06960857
+            19,    STACK_PCB.4,    STACK_PCB.10,    0.08478824
+            20,    STACK_PCB.4,    STACK_PCB.59,    0.003835576
+            21,    STACK_PCB.4,    STACK_PCB.63,    0.001424187
+            22,    STACK_PCB.5,    STACK_PCB.7,    0.009826495
+            23,    STACK_PCB.5,    STACK_PCB.39,    0.03189302
+            24,    STACK_PCB.5,    TOP_BOX.50,    0.1230001
+            25,    STACK_PCB.7,    STACK_PCB.11,    0.009813238
+            26,    STACK_PCB.7,    TOP_BOX.37,    0.03784612
+            27,    STACK_PCB.7,    TOP_BOX.40,    0.02088131
+            28,    STACK_PCB.8,    STACK_PCB.14,    0.0002972601
+            29,    STACK_PCB.8,    STACK_PCB.63,    0.002255052
+            30,    STACK_PCB.10,    STACK_PCB.11,    0.007671151
+            31,    STACK_PCB.10,    STACK_PCB.15,    0.002848375
+            32,    STACK_PCB.10,    STACK_PCB.29,    0.03990029
+            33,    STACK_PCB.11,    STACK_PCB.39,    0.007817292
+            34,    STACK_PCB.11,    STACK_PCB.59,    0.01661175
+            35,    STACK_PCB.12,    STACK_PCB.14,    0.0001398869
+            36,    STACK_PCB.12,    STACK_PCB.28,    0.01465787
+            37,    STACK_PCB.12,    STACK_PCB.34,    5.747853e-05 
+            38,    STACK_PCB.14,    STACK_PCB.15,    0.004510104
+            39,    STACK_PCB.15,    STACK_PCB.28,    0.06763386
+            40,    STACK_PCB.15,    STACK_PCB.63,    0.1437222
+            41,    STACK_PCB.18,    STACK_PCB.20,    0.002976697
+            42,    STACK_PCB.18,    STACK_PCB.34,    7.667921e-05 
+            43,    STACK_PCB.20,    STACK_PCB.21,    0.001879945
+            44,    STACK_PCB.20,    STACK_PCB.37,    0.0370736
+            45,    STACK_PCB.21,    STACK_PCB.22,    0.005063007
+            46,    STACK_PCB.21,    STACK_PCB.27,    0.0218714
+            47,    STACK_PCB.22,    STACK_PCB.31,    0.02516931
+            48,    STACK_PCB.22,    STACK_PCB.38,    0.004285059
+            49,    STACK_PCB.27,    STACK_PCB.29,    0.01639475
+            50,    STACK_PCB.27,    STACK_PCB.37,    0.02020448
+            51,    STACK_PCB.27,    STACK_PCB.38,    0.05441406
+            52,    STACK_PCB.28,    STACK_PCB.29,    0.009257237
+            53,    STACK_PCB.28,    STACK_PCB.37,    0.02779027
+            54,    STACK_PCB.29,    STACK_PCB.39,    0.02493129
+            55,    STACK_PCB.34,    STACK_PCB.37,    0.03199169
+            56,    STACK_PCB.38,    STACK_PCB.39,    0.003212068
+            57,    STACK_PCB.59,    TOP_BOX.40,    0.004906619
+            58,    TOP_BOX.37,    TOP_BOX.50,    0.00202331
+            59,    TOP_BOX.37,    TOP_BOX.61,    0.004299538
+            60,    TOP_BOX.40,    TOP_BOX.61,    0.01892306
 HEADER NODE DATA, TOP_BOX
-            1,    293.15,    0.4698126
-            2,    293.15,    0.2771638
-            3,    293.15,    0.02719982
-            5,    293.15,    0.7391155
-            6,    293.15,    0.4360378
-            7,    293.15,    0.0558258
-            9,    293.15,    0.03846048
-            10,    293.15,    0.4199412
-            12,    293.15,    0.2104742
-            14,    293.15,    0.06476118
-            15,    293.15,    0.7118306
-            16,    293.15,    0.1379694
-            17,    293.15,    0.5074292
-            18,    293.15,    0.001053179
-            20,    293.15,    0.04121184
-            21,    293.15,    0.04274278
-            27,    293.15,    0.04115656
-            29,    293.15,    0.08458375
-            31,    293.15,    0.07336827
-            32,    293.15,    0.09095001
-            33,    293.15,    0.4593728
-            37,    293.15,    0.1118417
-            41,    293.15,    5.049254
-            42,    293.15,    0.22026
-            44,    293.15,    0.8748788
-            47,    293.15,    0.8601291
-            48,    293.15,    2.978784
-            50,    293.15,    1.156817
-            52,    293.15,    0.02241384
-            53,    293.15,    2.313454
-            54,    293.15,    0.06235822
-            56,    293.15,    1.364812
-            57,    293.15,    0.0004825428
-            59,    293.15,    0.04333617
-            60,    293.15,    0.1239826
-            62,    293.15,    0.03342345
-            66,    293.15,    1.152894
-            67,    293.15,    0.1234804
-            69,    293.15,    0.06957138
-            70,    293.15,    0.1831471
-            71,    293.15,    0.05284
-            72,    293.15,    0.6801443
+            1,    293.15,    0.5039998
+            2,    293.15,    0.2973324
+            3,    293.15,    0.02917909
+            5,    293.15,    0.7928994
+            6,    293.15,    0.4677674
+            7,    293.15,    0.6436404
+            9,    293.15,    0.05988812
+            10,    293.15,    0.07870713
+            11,    293.15,    0.04125917
+            12,    293.15,    0.22579
+            14,    293.15,    0.06947371
+            15,    293.15,    0.763629
+            16,    293.15,    0.03585561
+            17,    293.15,    0.9227189
+            18,    293.15,    0.001129817
+            19,    293.15,    0.05668506
+            20,    293.15,    0.04421074
+            21,    293.15,    0.04585308
+            27,    293.15,    0.1620433
+            29,    293.15,    0.09073873
+            31,    293.15,    0.04415143
+            32,    293.15,    0.09756825
+            33,    293.15,    0.4928004
+            37,    293.15,    0.1178017
+            40,    293.15,    0.1271756
+            41,    293.15,    5.416677
+            42,    293.15,    0.07424456
+            44,    293.15,    0.2949015
+            47,    293.15,    0.5443538
+            48,    293.15,    3.195544
+            50,    293.15,    0.3828561
+            52,    293.15,    0.02404484
+            53,    293.15,    2.481799
+            54,    293.15,    0.0668959
+            56,    293.15,    1.464126
+            57,    293.15,    0.0005176564
+            60,    293.15,    0.1330045
+            61,    293.15,    0.07354466
+            62,    293.15,    0.1480091
+            64,    293.15,    0.4504994
 HEADER CONDUCTOR DATA, TOP_BOX
-            1,    BOT_BOX.3,    BOT_BOX.5,    0.018778
-            2,    BOT_BOX.3,    STACK_PCB.31,    0.05057231
-            3,    BOT_BOX.3,    TOP_BOX.6,    0.5570339
+            1,    BOT_BOX.3,    BOT_BOX.31,    0.2495018
+            2,    BOT_BOX.3,    BOT_BOX.52,    0.180196
+            3,    BOT_BOX.3,    TOP_BOX.11,    0.05886326
             4,    BOT_BOX.5,    BOT_BOX.7,    0.02973301
-            5,    BOT_BOX.5,    TOP_BOX.5,    0.9442126
-            6,    BOT_BOX.7,    STACK_PCB.18,    0.180196
-            7,    BOT_BOX.7,    TOP_BOX.52,    0.0410633
-            8,    BOT_BOX.31,    BOT_BOX.52,    0.2495018
+            5,    BOT_BOX.5,    BOT_BOX.62,    0.018778
+            6,    BOT_BOX.5,    TOP_BOX.5,    0.9442126
+            7,    BOT_BOX.7,    STACK_PCB.18,    0.180196
+            8,    BOT_BOX.7,    TOP_BOX.52,    0.0410633
             9,    BOT_BOX.31,    STACK_PCB.31,    0.06469401
-            10,    BOT_BOX.31,    TOP_BOX.31,    0.07348106
-            11,    BOT_BOX.52,    BOT_BOX.59,    0.180196
-            12,    BOT_BOX.52,    TOP_BOX.9,    0.05886326
-            13,    BOT_BOX.59,    TOP_BOX.7,    0.0782223
-            14,    BOT_BOX.59,    TOP_BOX.50,    0.02161692
-            15,    STACK_PCB.12,    STACK_PCB.14,    0.05596664
-            16,    STACK_PCB.12,    STACK_PCB.34,    0.02299629
-            17,    STACK_PCB.12,    TOP_BOX.12,    0.3851827
-            18,    STACK_PCB.14,    TOP_BOX.14,    0.1185175
-            19,    STACK_PCB.14,    TOP_BOX.59,    0.1189293
-            20,    STACK_PCB.18,    STACK_PCB.34,    0.0306782
-            21,    STACK_PCB.18,    TOP_BOX.21,    0.0782223
-            22,    STACK_PCB.31,    TOP_BOX.60,    0.1813314
-            23,    STACK_PCB.34,    TOP_BOX.33,    0.8406848
-            24,    TOP_BOX.1,    TOP_BOX.2,    0.01749683
-            25,    TOP_BOX.1,    TOP_BOX.5,    2.026722
-            26,    TOP_BOX.1,    TOP_BOX.21,    0.0277044
-            27,    TOP_BOX.1,    TOP_BOX.41,    0.3450475
-            28,    TOP_BOX.2,    TOP_BOX.3,    0.04712188
-            29,    TOP_BOX.2,    TOP_BOX.6,    1.195655
-            30,    TOP_BOX.2,    TOP_BOX.48,    0.2035592
-            31,    TOP_BOX.3,    TOP_BOX.18,    7.197040e-05 
-            32,    TOP_BOX.3,    TOP_BOX.27,    0.0301398
-            33,    TOP_BOX.3,    TOP_BOX.60,    0.2342532
-            34,    TOP_BOX.5,    TOP_BOX.6,    0.02752625
-            35,    TOP_BOX.5,    TOP_BOX.52,    0.04358493
-            36,    TOP_BOX.6,    TOP_BOX.60,    0.07413279
-            37,    TOP_BOX.7,    TOP_BOX.9,    0.2408266
-            38,    TOP_BOX.7,    TOP_BOX.27,    0.2324789
-            39,    TOP_BOX.7,    TOP_BOX.44,    0.02889038
-            40,    TOP_BOX.9,    TOP_BOX.31,    0.365739
-            41,    TOP_BOX.10,    TOP_BOX.15,    0.02651009
-            42,    TOP_BOX.10,    TOP_BOX.17,    0.7891322
-            43,    TOP_BOX.10,    TOP_BOX.20,    0.07139613
-            44,    TOP_BOX.10,    TOP_BOX.56,    0.3713558
-            45,    TOP_BOX.12,    TOP_BOX.14,    0.05726858
-            46,    TOP_BOX.12,    TOP_BOX.33,    0.02353125
-            47,    TOP_BOX.12,    TOP_BOX.53,    0.1364222
-            48,    TOP_BOX.14,    TOP_BOX.15,    0.04197597
-            49,    TOP_BOX.14,    TOP_BOX.62,    0.1216959
-            50,    TOP_BOX.15,    TOP_BOX.47,    1.337636
-            51,    TOP_BOX.15,    TOP_BOX.53,    0.6294747
-            52,    TOP_BOX.16,    TOP_BOX.17,    0.08627037
-            53,    TOP_BOX.16,    TOP_BOX.20,    0.1546071
-            54,    TOP_BOX.16,    TOP_BOX.32,    0.1103604
-            55,    TOP_BOX.16,    TOP_BOX.70,    0.1813314
-            56,    TOP_BOX.17,    TOP_BOX.47,    0.03203305
-            57,    TOP_BOX.17,    TOP_BOX.72,    0.5570339
-            58,    TOP_BOX.18,    TOP_BOX.48,    0.5064368
-            59,    TOP_BOX.18,    TOP_BOX.57,    5.394882e-05 
-            60,    TOP_BOX.20,    TOP_BOX.54,    0.04566636
-            61,    TOP_BOX.20,    TOP_BOX.57,    0.0001312965
-            62,    TOP_BOX.21,    TOP_BOX.33,    0.03139186
-            63,    TOP_BOX.21,    TOP_BOX.52,    0.1843878
-            64,    TOP_BOX.27,    TOP_BOX.31,    0.2944611
-            65,    TOP_BOX.27,    TOP_BOX.42,    0.007273459
-            66,    TOP_BOX.29,    TOP_BOX.37,    0.1185175
-            67,    TOP_BOX.29,    TOP_BOX.44,    0.02802445
-            68,    TOP_BOX.29,    TOP_BOX.54,    0.3522374
-            69,    TOP_BOX.29,    TOP_BOX.71,    0.1589455
-            70,    TOP_BOX.31,    TOP_BOX.60,    0.09483382
-            71,    TOP_BOX.32,    TOP_BOX.54,    0.1943443
-            72,    TOP_BOX.32,    TOP_BOX.67,    0.07348106
-            73,    TOP_BOX.32,    TOP_BOX.71,    0.4256205
-            74,    TOP_BOX.33,    TOP_BOX.41,    0.2977497
-            75,    TOP_BOX.37,    TOP_BOX.50,    0.020969
-            76,    TOP_BOX.37,    TOP_BOX.69,    0.1189293
-            77,    TOP_BOX.41,    TOP_BOX.48,    0.188045
-            78,    TOP_BOX.41,    TOP_BOX.53,    0.2586467
-            79,    TOP_BOX.42,    TOP_BOX.44,    3.643313
-            80,    TOP_BOX.42,    TOP_BOX.54,    0.007055452
-            81,    TOP_BOX.44,    TOP_BOX.50,    1.225868
-            82,    TOP_BOX.47,    TOP_BOX.62,    0.05072099
-            83,    TOP_BOX.47,    TOP_BOX.66,    0.9442126
-            84,    TOP_BOX.48,    TOP_BOX.56,    0.1525874
-            85,    TOP_BOX.53,    TOP_BOX.56,    0.08615798
-            86,    TOP_BOX.56,    TOP_BOX.57,    0.2320379
-            87,    TOP_BOX.59,    TOP_BOX.62,    0.06121168
-            88,    TOP_BOX.59,    TOP_BOX.66,    0.02973301
-            89,    TOP_BOX.66,    TOP_BOX.72,    0.018778
-            90,    TOP_BOX.67,    TOP_BOX.69,    0.2495018
-            91,    TOP_BOX.67,    TOP_BOX.70,    0.06469401
-            92,    TOP_BOX.69,    TOP_BOX.71,    0.07901164
-            93,    TOP_BOX.70,    TOP_BOX.72,    0.05057231
+            10,    BOT_BOX.31,    TOP_BOX.10,    0.07348106
+            11,    BOT_BOX.52,    BOT_BOX.59,    0.0306782
+            12,    BOT_BOX.52,    TOP_BOX.9,    0.0782223
+            13,    BOT_BOX.59,    TOP_BOX.7,    0.8406848
+            14,    BOT_BOX.59,    TOP_BOX.50,    0.02299629
+            15,    BOT_BOX.62,    STACK_PCB.31,    0.05057231
+            16,    BOT_BOX.62,    TOP_BOX.6,    0.5570339
+            17,    STACK_PCB.4,    STACK_PCB.59,    0.05057231
+            18,    STACK_PCB.4,    STACK_PCB.63,    0.018778
+            19,    STACK_PCB.4,    TOP_BOX.47,    0.5570339
+            20,    STACK_PCB.8,    STACK_PCB.14,    0.1189293
+            21,    STACK_PCB.8,    STACK_PCB.63,    0.02973301
+            22,    STACK_PCB.8,    TOP_BOX.16,    0.06121168
+            23,    STACK_PCB.12,    STACK_PCB.14,    0.05596664
+            24,    STACK_PCB.12,    STACK_PCB.34,    0.02299629
+            25,    STACK_PCB.12,    TOP_BOX.12,    0.3851827
+            26,    STACK_PCB.14,    TOP_BOX.14,    0.1185175
+            27,    STACK_PCB.18,    STACK_PCB.34,    0.0306782
+            28,    STACK_PCB.18,    TOP_BOX.21,    0.0782223
+            29,    STACK_PCB.31,    TOP_BOX.60,    0.1813314
+            30,    STACK_PCB.34,    TOP_BOX.33,    0.8406848
+            31,    STACK_PCB.59,    TOP_BOX.40,    0.06469401
+            32,    STACK_PCB.59,    TOP_BOX.62,    0.1813314
+            33,    STACK_PCB.63,    TOP_BOX.17,    0.9442126
+            34,    TOP_BOX.1,    TOP_BOX.2,    0.01749683
+            35,    TOP_BOX.1,    TOP_BOX.5,    2.026722
+            36,    TOP_BOX.1,    TOP_BOX.21,    0.0277044
+            37,    TOP_BOX.1,    TOP_BOX.41,    0.3450475
+            38,    TOP_BOX.2,    TOP_BOX.3,    0.04712188
+            39,    TOP_BOX.2,    TOP_BOX.6,    1.195655
+            40,    TOP_BOX.2,    TOP_BOX.48,    0.2035592
+            41,    TOP_BOX.3,    TOP_BOX.18,    7.197040e-05 
+            42,    TOP_BOX.3,    TOP_BOX.31,    0.0301398
+            43,    TOP_BOX.3,    TOP_BOX.60,    0.2342532
+            44,    TOP_BOX.5,    TOP_BOX.6,    0.02752625
+            45,    TOP_BOX.5,    TOP_BOX.52,    0.04358493
+            46,    TOP_BOX.6,    TOP_BOX.60,    0.07413279
+            47,    TOP_BOX.7,    TOP_BOX.9,    0.04100051
+            48,    TOP_BOX.7,    TOP_BOX.27,    2.498539
+            49,    TOP_BOX.7,    TOP_BOX.44,    0.03073387
+            50,    TOP_BOX.9,    TOP_BOX.11,    0.2408266
+            51,    TOP_BOX.9,    TOP_BOX.31,    0.2324789
+            52,    TOP_BOX.10,    TOP_BOX.11,    0.365739
+            53,    TOP_BOX.10,    TOP_BOX.31,    0.2944611
+            54,    TOP_BOX.10,    TOP_BOX.60,    0.09483382
+            55,    TOP_BOX.12,    TOP_BOX.14,    0.05726858
+            56,    TOP_BOX.12,    TOP_BOX.33,    0.02353125
+            57,    TOP_BOX.12,    TOP_BOX.53,    0.1364222
+            58,    TOP_BOX.14,    TOP_BOX.15,    0.04197597
+            59,    TOP_BOX.14,    TOP_BOX.16,    0.1216959
+            60,    TOP_BOX.15,    TOP_BOX.17,    1.337636
+            61,    TOP_BOX.15,    TOP_BOX.53,    0.6294747
+            62,    TOP_BOX.15,    TOP_BOX.64,    0.02651009
+            63,    TOP_BOX.16,    TOP_BOX.17,    0.05072099
+            64,    TOP_BOX.17,    TOP_BOX.47,    0.03203305
+            65,    TOP_BOX.18,    TOP_BOX.48,    0.5064368
+            66,    TOP_BOX.18,    TOP_BOX.57,    5.394882e-05 
+            67,    TOP_BOX.19,    TOP_BOX.29,    0.1589455
+            68,    TOP_BOX.19,    TOP_BOX.32,    0.4256205
+            69,    TOP_BOX.19,    TOP_BOX.61,    0.07901164
+            70,    TOP_BOX.20,    TOP_BOX.54,    0.04566636
+            71,    TOP_BOX.20,    TOP_BOX.57,    0.0001312965
+            72,    TOP_BOX.20,    TOP_BOX.62,    0.1546071
+            73,    TOP_BOX.20,    TOP_BOX.64,    0.07139613
+            74,    TOP_BOX.21,    TOP_BOX.33,    0.03139186
+            75,    TOP_BOX.21,    TOP_BOX.52,    0.1843878
+            76,    TOP_BOX.27,    TOP_BOX.31,    0.01032231
+            77,    TOP_BOX.27,    TOP_BOX.42,    0.007737577
+            78,    TOP_BOX.29,    TOP_BOX.37,    0.1185175
+            79,    TOP_BOX.29,    TOP_BOX.44,    0.07479777
+            80,    TOP_BOX.29,    TOP_BOX.54,    0.3522374
+            81,    TOP_BOX.32,    TOP_BOX.40,    0.07348106
+            82,    TOP_BOX.32,    TOP_BOX.54,    0.1943443
+            83,    TOP_BOX.32,    TOP_BOX.62,    0.1103604
+            84,    TOP_BOX.33,    TOP_BOX.41,    0.2977497
+            85,    TOP_BOX.37,    TOP_BOX.50,    0.05596664
+            86,    TOP_BOX.37,    TOP_BOX.61,    0.1189293
+            87,    TOP_BOX.40,    TOP_BOX.61,    0.2495018
+            88,    TOP_BOX.41,    TOP_BOX.48,    0.188045
+            89,    TOP_BOX.41,    TOP_BOX.53,    0.2586467
+            90,    TOP_BOX.42,    TOP_BOX.44,    1.144774
+            91,    TOP_BOX.42,    TOP_BOX.54,    0.01883113
+            92,    TOP_BOX.44,    TOP_BOX.50,    0.3851827
+            93,    TOP_BOX.47,    TOP_BOX.62,    0.08627037
+            94,    TOP_BOX.47,    TOP_BOX.64,    0.7891322
+            95,    TOP_BOX.48,    TOP_BOX.56,    0.1525874
+            96,    TOP_BOX.53,    TOP_BOX.56,    0.08615798
+            97,    TOP_BOX.56,    TOP_BOX.57,    0.2320379
+            98,    TOP_BOX.56,    TOP_BOX.64,    0.3713558
 HEADER SUBROUTINE
       SUBROUTINE TDHTR
 C     This routine is to hold heaters at their midpoint temps

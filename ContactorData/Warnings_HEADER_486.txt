@@ -1,8 +1,0 @@
-Top Area	From: ZMAX-FD Brick[HEADER]::3AB	HEADER.1	 0.0% complete
-Top Area	From: ZMAX-FD Brick[HEADER]::3AB	STACK_PCB.11	 0.0% complete
-Top Area	From: ZMAX-FD Brick[HEADER]::3AB	HEADER.3	 0.0% complete
-Top Area	From: ZMAX-FD Brick[HEADER]::3AB	STACK_PCB.22	 0.0% complete
-Overall Area only 0.% complete
-
-Some connections were excluded due to merged nodes. 100.% excluded
-Total connected Area = 0. .vs. Total = 0.0006676962
